@@ -29,7 +29,7 @@ namespace collisions with others' applications.
 
 Every night, if you run 'make -s' here, it'll update the translations and jurisdiction info.
 
-CREDITS
+### CREDITS
 
 http://www.html2dom.com/html2dom.js gave me html2dom.js.  The author writes at http://www.phpied.com/html2dom/:
 "I’m not familiar with the all license options, so I don’t even bother. Everything on posted this site is public domain"
