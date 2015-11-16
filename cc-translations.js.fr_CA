@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brésil"; } 
+ if (s == "Canada") { return "Canada"; } 
+ if (s == "Italy") { return "Italie"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Serbie"; } 
+ if (s == "Malta") { return "Malte"; } 
+ if (s == "France") { return "France"; } 
+ if (s == "Peru") { return "Pérou"; } 
+ if (s == "Argentina") { return "Argentine"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "New Zealand"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "République Tchèque"; } 
+ if (s == "Israel") { return "Israël"; } 
+ if (s == "Australia") { return "Australie"; } 
+ if (s == "Korea") { return "Corée"; } 
+ if (s == "Singapore") { return "Singapour"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Afrique du Sud"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
+ if (s == "Slovenia") { return "Slovénie"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "L'offrant autorise les autres à reproduire, distribuer et communiquer cette création au public. En échange, les personnes qui acceptent ce contrat n'ont pas le droit d'utiliser cette création à des fins commerciales - à moins qu'ils n'obtiennent l'autorisation du donneur de licence."; } 
+ if (s == "Noncommercial") { return "Pas d'Utilisation Commerciale"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "Belgique"; } 
+ if (s == "Germany") { return "Allemagne"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Pologne"; } 
+ if (s == "Spain") { return "Espagne"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Cette ${work_type} est mise à disposition sous un <a rel=\"license\" href=\"${license_url}\">contrat Creative Commons</a>."; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "Pays-Bas"; } 
+ if (s == "UK: England & Wales") { return "Royaume-Uni"; } 
+ if (s == "Chile") { return "Chili"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "Danemark"; } 
+ if (s == "Philippines") { return "Philippines"; } 
+ if (s == "Finland") { return "Finlande"; } 
+ if (s == "Macedonia") { return "Macédonie"; } 
+ if (s == "United States") { return "Etats-Unis"; } 
+ if (s == "Sweden") { return "Suède"; } 
+ if (s == "No license chosen") { return "No license chosen"; } 
+ if (s == "Croatia") { return "Croatie"; } 
+ if (s == "Luxembourg") { return "Luxembourg"; } 
+ if (s == "Japan") { return "Japon"; } 
+ if (s == "Switzerland") { return "Suisse"; } 
+ if (s == "UK: Scotland") { return "Royaume-Uni : Ecosse"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Taiwan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Si vous souhaitez obtenir un contrat soumis au droit d'auteur d'un pays particulier, merci de sélectionner la juridiction appropriée."; } 
+ if (s == "Bulgaria") { return "Bulgarie"; } 
+ if (s == "Romania") { return "Roumanie"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Portugal") { return "Portugal"; } 
+ if (s == "Mexico") { return "Mexique"; } 
+ if (s == "work") { return "création"; } 
+ if (s == "India") { return "Inde"; } 
+ if (s == "China Mainland") { return "Chine"; } 
+ if (s == "Malaysia") { return "Malaisie"; } 
+ if (s == "Austria") { return "Autriche"; } 
+ if (s == "Colombia") { return "Colombie"; } 
+ if (s == "Greece") { return "Greece"; } 
+ if (s == "Hungary") { return "Hongrie"; } 
+ if (s == "Share Alike") { return "Partage des Conditions Initiales à l'Identique"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "L'offrant autorise les autres à distribuer des créations dérivées uniquement sous un contrat identique à celui qui gouverne la création de l'offrant."; } 
+alert("Falling off the end.");
+return s;
+		}

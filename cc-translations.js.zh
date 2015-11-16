@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "巴西"; } 
+ if (s == "Canada") { return "加拿大"; } 
+ if (s == "Italy") { return "意大利"; } 
+ if (s == "Creative Commons") { return "知识共享组织"; } 
+ if (s == "Serbia") { return "塞尔维亚"; } 
+ if (s == "Malta") { return "马耳他"; } 
+ if (s == "France") { return "法国"; } 
+ if (s == "Peru") { return "秘鲁"; } 
+ if (s == "Argentina") { return "阿根廷"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "新西兰"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "捷克共和国"; } 
+ if (s == "Israel") { return "以色列"; } 
+ if (s == "Australia") { return "澳大利亚"; } 
+ if (s == "Korea") { return "韩国"; } 
+ if (s == "Singapore") { return "新加坡"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "南非"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "我们已经把你选择的许可协议更新到了最新版本。"; } 
+ if (s == "Slovenia") { return "斯洛文尼亚"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "许可人允许他人复制、发行、展览、表演、放映、广播或者通过信息网络向公众传播本作品。但是，除非取得许可人同意，被许可人不得将本作品用于商业目的。"; } 
+ if (s == "Noncommercial") { return "非商业性使用"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "比利时"; } 
+ if (s == "Germany") { return "德国"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "香港"; } 
+ if (s == "Poland") { return "波兰"; } 
+ if (s == "Spain") { return "西班牙"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "本${work_type}采用<a rel=\"license\" href=\"${license_url}\">知识共享${license_name}许可协议</a>进行许可。"; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "荷兰"; } 
+ if (s == "UK: England & Wales") { return "英国：英格兰和威尔士"; } 
+ if (s == "Chile") { return "智利"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "丹麦"; } 
+ if (s == "Philippines") { return "菲律宾"; } 
+ if (s == "Finland") { return "芬兰"; } 
+ if (s == "Macedonia") { return "马其顿"; } 
+ if (s == "United States") { return "美国"; } 
+ if (s == "Sweden") { return "瑞典"; } 
+ if (s == "No license chosen") { return "No license chosen"; } 
+ if (s == "Croatia") { return "克罗地亚"; } 
+ if (s == "Luxembourg") { return "卢森堡"; } 
+ if (s == "Japan") { return "日本"; } 
+ if (s == "Switzerland") { return "瑞士"; } 
+ if (s == "UK: Scotland") { return "英国：苏格兰"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "台湾"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "如果您想获取适用特定司法管辖区域著作权法的许可协议，请选择恰当的司法管辖区域。"; } 
+ if (s == "Bulgaria") { return "保加利亚"; } 
+ if (s == "Romania") { return "罗马尼亚"; } 
+ if (s == "Licensor permits others to make derivative works") { return "许可人允许他人进行演绎创作"; } 
+ if (s == "Portugal") { return "葡萄牙"; } 
+ if (s == "Mexico") { return "墨西哥"; } 
+ if (s == "work") { return "作品"; } 
+ if (s == "India") { return "印度"; } 
+ if (s == "China Mainland") { return "中国大陆"; } 
+ if (s == "Malaysia") { return "马来西亚"; } 
+ if (s == "Austria") { return "奥地利"; } 
+ if (s == "Colombia") { return "哥伦比亚"; } 
+ if (s == "Greece") { return "希腊"; } 
+ if (s == "Hungary") { return "匈牙利"; } 
+ if (s == "Share Alike") { return "相同方式共享"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "许可人只允许他人采用与自己的作品所使用的协议相同的许可协议，来发行演绎作品。"; } 
+alert("Falling off the end.");
+return s;
+		}

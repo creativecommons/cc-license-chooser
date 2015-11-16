@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brazília"; } 
+ if (s == "Canada") { return "Kanada"; } 
+ if (s == "Italy") { return "Olaszország"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "Malta"; } 
+ if (s == "France") { return "Franciaország"; } 
+ if (s == "Peru") { return "Peru"; } 
+ if (s == "Argentina") { return "Argentína"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "New Zealand"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Cseh Köztársaság"; } 
+ if (s == "Israel") { return "Izrael"; } 
+ if (s == "Australia") { return "Ausztrália"; } 
+ if (s == "Korea") { return "Dél-Korea"; } 
+ if (s == "Singapore") { return "Singapore"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Dél-Afrika"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
+ if (s == "Slovenia") { return "Szlovénia"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "A jogosult engedélyezi mások számára a mű másolását, terjesztését, bemutatását és előadását. A felhasználók kereskedelmi célokra nem használhatják fel a művet, kivéve, ha erre külön engedélyt kapnak a jogosulttól."; } 
+ if (s == "Noncommercial") { return "Ne add el!"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "Belgium"; } 
+ if (s == "Germany") { return "Németország"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Lengyelország"; } 
+ if (s == "Spain") { return "Spanyolország"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Ez a ${work_type} a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} Licenc feltételeinek megfelelően szabadon felhasználható</a>."; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "Hollandia"; } 
+ if (s == "UK: England & Wales") { return "UK: Anglia és Wales"; } 
+ if (s == "Chile") { return "Chile"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "Dánia"; } 
+ if (s == "Philippines") { return "Fülöp-szigetek"; } 
+ if (s == "Finland") { return "Finnország"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "Egyesült Államok"; } 
+ if (s == "Sweden") { return "Svédország"; } 
+ if (s == "No license chosen") { return "No license chosen"; } 
+ if (s == "Croatia") { return "Horvátország"; } 
+ if (s == "Luxembourg") { return "Luxembourg"; } 
+ if (s == "Japan") { return "Japán"; } 
+ if (s == "Switzerland") { return "Svájc"; } 
+ if (s == "UK: Scotland") { return "UK: Skócia"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Tajvan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Ha olyan licencet szeretnél, amelyiket kifejezetten egyik vagy másik ország jogrendjéhez igazítottak, válaszd ki a megfelelő jogi környezetet!"; } 
+ if (s == "Bulgaria") { return "Bulgária"; } 
+ if (s == "Romania") { return "Romania"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Portugal") { return "Portugália"; } 
+ if (s == "Mexico") { return "Mexikó"; } 
+ if (s == "work") { return "Mű"; } 
+ if (s == "India") { return "India"; } 
+ if (s == "China Mainland") { return "Kína"; } 
+ if (s == "Malaysia") { return "Malajzia"; } 
+ if (s == "Austria") { return "Ausztria"; } 
+ if (s == "Colombia") { return "Colombia"; } 
+ if (s == "Greece") { return "Greece"; } 
+ if (s == "Hungary") { return "Magyarország"; } 
+ if (s == "Share Alike") { return "Így add tovább!"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "A jogosult csak a jelenlegi licenccel megegyező licenc alatt engedélyezi származékos (feldolgozott) művek terjesztését."; } 
+alert("Falling off the end.");
+return s;
+		}

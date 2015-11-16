@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "ブラジル"; } 
+ if (s == "Canada") { return "カナダ"; } 
+ if (s == "Italy") { return "イタリア"; } 
+ if (s == "Creative Commons") { return "クリエイティブ・コモンズ"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "マルタ"; } 
+ if (s == "France") { return "フランス"; } 
+ if (s == "Peru") { return "ペルー"; } 
+ if (s == "Argentina") { return "アルゼンチン"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "ニュージーランド"; } 
+ if (s == "Ecuador") { return "エクアドル"; } 
+ if (s == "Czech Republic") { return "チェコ共和国"; } 
+ if (s == "Israel") { return "イスラエル"; } 
+ if (s == "Australia") { return "オーストリア"; } 
+ if (s == "Korea") { return "韓国"; } 
+ if (s == "Singapore") { return "シンガポール"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "南アフリカ"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "あなたのライセンスを最新バージョンにアップデートしました。"; } 
+ if (s == "Slovenia") { return "スロベニア"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "ライセンスの許諾者は、他の人々がこの著作物を複製、頒布、展示、実演することを許諾します。そのかわり、ライセンスの受諾者は、ライセンスの許諾者から別途承諾を受けない限り、この著作物を営利目的で利用してはなりません。"; } 
+ if (s == "Noncommercial") { return "非営利"; } 
+ if (s == "Puerto Rico") { return "プエルトリコ"; } 
+ if (s == "Belgium") { return "ベルギー"; } 
+ if (s == "Germany") { return "ドイツ"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "あなたのライセンスをあなたの属する管轄で最新のバージョンにアップデートしました。"; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "ポーランド"; } 
+ if (s == "Spain") { return "スペイン"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "この${work_type}は、<a rel=\"license\" href=\"${license_url}\">クリエイティブ・コモンズ・ライセンス</a>の下でライセンスされています。"; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "オランダ"; } 
+ if (s == "UK: England & Wales") { return "イングランド＆ウェールズ（英）"; } 
+ if (s == "Chile") { return "チリ"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "デンマーク"; } 
+ if (s == "Philippines") { return "フィリピン"; } 
+ if (s == "Finland") { return "フィンランド"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "アメリカ合衆国"; } 
+ if (s == "Sweden") { return "スエーデン"; } 
+ if (s == "No license chosen") { return "ライセンスが選択されていません。"; } 
+ if (s == "Croatia") { return "クロアチア"; } 
+ if (s == "Luxembourg") { return "ルクセンブルグ"; } 
+ if (s == "Japan") { return "日本"; } 
+ if (s == "Switzerland") { return "スイス"; } 
+ if (s == "UK: Scotland") { return "スコットランド（英）"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "台湾（中華民国）"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "あなたの作品を日本の著作権法の下で保護してほしい場合には、ライセンスの日本法版を選択してください。"; } 
+ if (s == "Bulgaria") { return "ブルガリア"; } 
+ if (s == "Romania") { return "ルーマニア"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Portugal") { return "ポルトガル"; } 
+ if (s == "Mexico") { return "メキシコ"; } 
+ if (s == "work") { return "作品"; } 
+ if (s == "India") { return "インド"; } 
+ if (s == "China Mainland") { return "中華人民共和国"; } 
+ if (s == "Malaysia") { return "マレーシア"; } 
+ if (s == "Austria") { return "オーストリア"; } 
+ if (s == "Colombia") { return "コロンビア"; } 
+ if (s == "Greece") { return "ギリシャ"; } 
+ if (s == "Hungary") { return "ハンガリー"; } 
+ if (s == "Share Alike") { return "継承"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "ライセンスの許諾者は、この作品がライセンスされているのと同じライセンス条件の下でのみ、二次的著作物を頒布することを他の人々に許諾します。"; } 
+alert("Falling off the end.");
+return s;
+		}

@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "ברזיל"; } 
+ if (s == "Canada") { return "קנדה"; } 
+ if (s == "Italy") { return "איטליה"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "סרביה"; } 
+ if (s == "Malta") { return "מאלטה"; } 
+ if (s == "France") { return "צרפת"; } 
+ if (s == "Peru") { return "פרו"; } 
+ if (s == "Argentina") { return "ארגנטינה"; } 
+ if (s == "Norway") { return "נורווגיה"; } 
+ if (s == "New Zealand") { return "ניו-זילנד"; } 
+ if (s == "Ecuador") { return "אקוודור"; } 
+ if (s == "Czech Republic") { return "צ'כיה"; } 
+ if (s == "Israel") { return "ישראל"; } 
+ if (s == "Australia") { return "אוסטרליה"; } 
+ if (s == "Korea") { return "קוריאה"; } 
+ if (s == "Singapore") { return "סינגפור"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "דרום אפריקה"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
+ if (s == "Slovenia") { return "סלובניה"; } 
+ if (s == "Guatemala") { return "גואטמלה"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "מעניק הרישיון מרשה לאחרים להעתיק, להפיץולהעביר את היצירה. בתמורה, המשתמשים אינם רשאים להשתמש ביצירה למטרות מסחריות — אלא אם קיבלו את הסכמת נותן הרשיון."; } 
+ if (s == "Noncommercial") { return "שימוש לא מסחרי"; } 
+ if (s == "Puerto Rico") { return "פוארטו ריקו"; } 
+ if (s == "Belgium") { return "בלגיה"; } 
+ if (s == "Germany") { return "גרמניה"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "הונג קונג"; } 
+ if (s == "Poland") { return "פולין"; } 
+ if (s == "Spain") { return "ספרד"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "<span dir=\"rtl\">${work_type} זו מופצת תחת <a rel=\"license\" href=\"${license_url}\"> רישיון ${license_name} של Creative Commons</a>.</span>"; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "הולנד"; } 
+ if (s == "UK: England & Wales") { return "אנגליה"; } 
+ if (s == "Chile") { return "צ'ילה"; } 
+ if (s == "Unported") { return "לא מותאם"; } 
+ if (s == "Denmark") { return "דנמרק"; } 
+ if (s == "Philippines") { return "פיליפינים"; } 
+ if (s == "Finland") { return "פינלנד"; } 
+ if (s == "Macedonia") { return "מקדוניה"; } 
+ if (s == "United States") { return "ארה\"ב"; } 
+ if (s == "Sweden") { return "שוודיה"; } 
+ if (s == "No license chosen") { return "לא נבחר רישיון"; } 
+ if (s == "Croatia") { return "קרואטיה"; } 
+ if (s == "Luxembourg") { return "לוקסמבורג"; } 
+ if (s == "Japan") { return "יפן"; } 
+ if (s == "Switzerland") { return "שוויץ"; } 
+ if (s == "UK: Scotland") { return "סקוטלנד"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "טאיוואן"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "אם ברצונך לבחור ברישיון המותאם לדיני זכויות היוצרים של תחום שיפוט מסויים (מדינה מסויימת), יש לבחור את תחום השיפוט המתאים."; } 
+ if (s == "Bulgaria") { return "בולגריה"; } 
+ if (s == "Romania") { return "רומניה"; } 
+ if (s == "Licensor permits others to make derivative works") { return "נותן הרישיון מתיר לאחרים ליצור יצירות נגזרות"; } 
+ if (s == "Portugal") { return "פורטוגל"; } 
+ if (s == "Mexico") { return "מקסיקו"; } 
+ if (s == "work") { return "יצירה"; } 
+ if (s == "India") { return "הודו"; } 
+ if (s == "China Mainland") { return "סין"; } 
+ if (s == "Malaysia") { return "מלזיה"; } 
+ if (s == "Austria") { return "אוסטריה"; } 
+ if (s == "Colombia") { return "קולומביה"; } 
+ if (s == "Greece") { return "יוון"; } 
+ if (s == "Hungary") { return "הונגריה"; } 
+ if (s == "Share Alike") { return "שיתוף זהה"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "מעניק הרישיון מאפשר לאחרים להפיץ יצירות נגזרות המבוססות על יצירתו רק תחת רישיון זהה לרישיון תחתיו מוצעת יצירתו."; } 
+alert("Falling off the end.");
+return s;
+		}

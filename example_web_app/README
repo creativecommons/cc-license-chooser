@@ -1,0 +1,78 @@
+LicenseChooser.js 0.97 by Creative Commons
+
+This code is an example of how to integrate with the Creative Commons 
+LicenseChooser.js. If you just want to see how to use it, read index.html.
+
+For more info see http://wiki.creativecommons.org/LicenseChooser.js 
+(which is a web page, not a JavaScript file)
+
+== WARNING ==
+
+This is just a preview!  YOU SHOULD NOT RELY ON IT!
+
+It's not even a betta, nor in beta.  It's a glimpse into the 
+ever-changing future.  No warranty is provided; this software may eat 
+your cat, spill your milk, and prepare your breakfast.  Or it may not.
+
+Having said that, please try it and let us know how you like it.  If no 
+one says anything, then this might become the future!
+
+== What is LicenseChooser.js ==
+
+LicenseChooser.js is the name of a project. It includes a JavaScript 
+file hosted on creativecommons.org that displays a user interface for 
+selecting a Creative Commons license.  We wrote it so that if you didn't 
+want to write your own interface, you could just call ours.
+
+We already use it in our WordPress extension, WpLicense.
+
+For an example of how to use it, STOP READING and load index.html in 
+your favorite web browser.
+
+== Jurisdictions ==
+
+JsWidget comes with support for different jurisdictions.  If a user of 
+it wants to select a license customized for a particular country's 
+copyright law, the interface will handle that properly and will 
+automatically update as the international CC licenses are localized or 
+updated.
+
+== Languages ==
+
+In this preview edition, there is only full support for US English, but 
+there is partial translation support.  You can select a language with 
+the ?locale= option to complete.js.  If you leave the ?locale= off, then 
+the server will attempt to negotiate a language with the client with the 
+Accept-Language header as per 
+http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4 .
+
+Our language codes for ?locale= are fairly standard; when I find a 
+reference for where en_US and fr come from, I'll make a note of it here.
+
+== Style ==
+
+We provide a sample style file that makes it look nice.  You may want to 
+customize these so the form has the colors and styles your users expect.
+
+We expect you to store this style file on your server, although if you 
+need to refer to one on our servers, there is an example on the wiki 
+page.
+
+== Re-use ==
+
+See COPYING for information on copying/reusing this work.  Basically, do 
+whatever you want.
+
+If you want to see how things work behind the scenes, look through 
+http://code.creativecommons.org/svnroot/jswidget/. You are also welcome 
+to host a copy yourself, though if you do, you would want to update the 
+jurisdiction and translation information frequently.
+
+== Questions and bugs ==
+
+Ask us questions about this!  Email our development mailing list 
+cc-devel@lists.ibiblio.org or find us on IRC. See 
+http://wiki.creativecommons.org/Developer to see other ways to get in 
+touch. (That page links to our bug tracker.)
+
+-- Asheesh Laroia <asheesh@creativecommons.org> 2009-04-28.

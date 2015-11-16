@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brazil"; } 
+ if (s == "Canada") { return "Canada"; } 
+ if (s == "Italy") { return "Italy"; } 
+ if (s == "Creative Commons") { return "크리에이티브 커먼즈"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "Malta"; } 
+ if (s == "France") { return "France"; } 
+ if (s == "Peru") { return "Peru"; } 
+ if (s == "Argentina") { return "Argentina"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "New Zealand"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Czech Republic"; } 
+ if (s == "Israel") { return "Israel"; } 
+ if (s == "Australia") { return "Australia"; } 
+ if (s == "Korea") { return "대한민국"; } 
+ if (s == "Singapore") { return "Singapore"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "South Africa"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "당신의 라이선스 버젼을 최신의 것으로 업데이트 했습니다. "; } 
+ if (s == "Slovenia") { return "Slovenia"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "이 저작물을 복제, 배포, 전시, 공연 및 공중송신하는 것을 허락합니다. 단 이용허락자로부터 별도의 승낙을 받지 않는 한 이 저작물을 영리 목적으로 이용할 수 없습니다."; } 
+ if (s == "Noncommercial") { return "비영리"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "Belgium"; } 
+ if (s == "Germany") { return "Germany"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "귀하의 라이선스 버전은 해당 국가의 가장 최선 버전으로 업데이트 되었습니다."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Poland"; } 
+ if (s == "Spain") { return "Spain"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "이 ${work_type}은 <a rel=\"license\" href=\"${license_url}\">크리에이티브 커먼즈 ${license_name} 라이선스</a>에 따라 이용할 수 있습니다."; } 
+ if (s == "Remix") { return "리믹스"; } 
+ if (s == "Netherlands") { return "Netherlands"; } 
+ if (s == "UK: England & Wales") { return "UK: England & Wales"; } 
+ if (s == "Chile") { return "Chile"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "Denmark"; } 
+ if (s == "Philippines") { return "Philippines"; } 
+ if (s == "Finland") { return "Finland"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "United States"; } 
+ if (s == "Sweden") { return "Sweden"; } 
+ if (s == "No license chosen") { return "라이선스가 선택되지 않았습니다."; } 
+ if (s == "Croatia") { return "Croatia"; } 
+ if (s == "Luxembourg") { return "Luxembourg"; } 
+ if (s == "Japan") { return "Japan"; } 
+ if (s == "Switzerland") { return "Switzerland"; } 
+ if (s == "UK: Scotland") { return "UK: Scotland"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Taiwan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "이용허락관계의 해석 및 법적용을 특정 국가의 저작권법에 따르도록 하고 싶으면, 해당되는 국가를 선택하세요."; } 
+ if (s == "Bulgaria") { return "Bulgaria"; } 
+ if (s == "Romania") { return "Romania"; } 
+ if (s == "Licensor permits others to make derivative works") { return "저작권자는 이차적저작물의 작성을 허락합니다. "; } 
+ if (s == "Portugal") { return "Portugal"; } 
+ if (s == "Mexico") { return "Mexico"; } 
+ if (s == "work") { return "저작물"; } 
+ if (s == "India") { return "India"; } 
+ if (s == "China Mainland") { return "China Mainland"; } 
+ if (s == "Malaysia") { return "Malaysia"; } 
+ if (s == "Austria") { return "Austria"; } 
+ if (s == "Colombia") { return "Colombia"; } 
+ if (s == "Greece") { return "Greece"; } 
+ if (s == "Hungary") { return "Hungary"; } 
+ if (s == "Share Alike") { return "동일조건변경허락"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "이 저작물과 동일한 또는 호환되는 라이선스를 적용해야만 이차적 저작물을 배포할 수 있습니다."; } 
+alert("Falling off the end.");
+return s;
+		}

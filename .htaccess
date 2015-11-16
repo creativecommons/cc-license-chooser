@@ -1,0 +1,13 @@
+<Files complete.js>
+	SetHandler php5-script
+    ExpiresDefault now
+</Files>
+<Files template.html>
+	Order deny,allow
+	Deny from all
+</Files>
+Options MultiViews FollowSymlinks
+AddHandler type-map var
+ExpiresActive On
+ExpiresDefault A604800
+AddCharset UTF-8 .js.var

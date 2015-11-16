@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brasilia"; } 
+ if (s == "Canada") { return "Kanada"; } 
+ if (s == "Italy") { return "Italia"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "Malta"; } 
+ if (s == "France") { return "Ranska"; } 
+ if (s == "Peru") { return "Peru"; } 
+ if (s == "Argentina") { return "Argentiina"; } 
+ if (s == "Norway") { return "Norja"; } 
+ if (s == "New Zealand") { return "Uusi-Seelanti"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Tsekki"; } 
+ if (s == "Israel") { return "Israel"; } 
+ if (s == "Australia") { return "Australia"; } 
+ if (s == "Korea") { return "Korea"; } 
+ if (s == "Singapore") { return "Singapore"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Etelä-Afrikka"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "Olemme päivittäneet käyttämäsi lisenssiversion uusimpaan saatavilla olevaan versioon."; } 
+ if (s == "Slovenia") { return "Slovenia"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Lisenssin antaja sallii teoksen kopioinnin, näyttämisen ja esittämisen. Lisenssin saaja ei saa käyttää teosta kaupallisiin tarkoituksiin ilman lisenssin antajalta saatua erillistä lupaa."; } 
+ if (s == "Noncommercial") { return "Epäkaupallinen"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "Belgia"; } 
+ if (s == "Germany") { return "Saksa"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "Olemme päivittäneet käyttämäsi lisenssin oikeusjärjestyksesi uusimpaan versioon."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Puola"; } 
+ if (s == "Spain") { return "Espanja"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Tämän ${work_type}teoksen käyttöoikeutta koskee <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name}-lisenssi</a>."; } 
+ if (s == "Remix") { return "Sämpläys"; } 
+ if (s == "Netherlands") { return "Hollanti"; } 
+ if (s == "UK: England & Wales") { return "Englanti ja Wales"; } 
+ if (s == "Chile") { return "Chile"; } 
+ if (s == "Unported") { return "Muokkaamaton"; } 
+ if (s == "Denmark") { return "Tanska"; } 
+ if (s == "Philippines") { return "Filippiinit"; } 
+ if (s == "Finland") { return "Suomi"; } 
+ if (s == "Macedonia") { return "Makedonia"; } 
+ if (s == "United States") { return "Yhdysvallat"; } 
+ if (s == "Sweden") { return "Ruotsi"; } 
+ if (s == "No license chosen") { return "Lisenssiä ei ole valittu"; } 
+ if (s == "Croatia") { return "Kroatia"; } 
+ if (s == "Luxembourg") { return "Luxemburg"; } 
+ if (s == "Japan") { return "Japani"; } 
+ if (s == "Switzerland") { return "Sveitsi"; } 
+ if (s == "UK: Scotland") { return "Isobritania: Scotland"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Taiwan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Mikäli haluat suojata teostasi Suomen tekijänoikeuslain mukaisesti, käytä suomalaista versiota lisenssistä."; } 
+ if (s == "Bulgaria") { return "Bulgaria"; } 
+ if (s == "Romania") { return "Romania"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Lisenssi sallii muuttaa teosta"; } 
+ if (s == "Portugal") { return "Portugali"; } 
+ if (s == "Mexico") { return "Meksiko"; } 
+ if (s == "work") { return "teos"; } 
+ if (s == "India") { return "Intia"; } 
+ if (s == "China Mainland") { return "Kiina"; } 
+ if (s == "Malaysia") { return "Malesia"; } 
+ if (s == "Austria") { return "Itävalta"; } 
+ if (s == "Colombia") { return "Kolumbia"; } 
+ if (s == "Greece") { return "Kreikka"; } 
+ if (s == "Hungary") { return "Unkari"; } 
+ if (s == "Share Alike") { return "Tarttuva"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "Lisenssin antaja sallii muutettujen teosten levittämisen ainoastaan samanlaisella lisenssillä kuin alkuperäinen Teos on lisenssoitu."; } 
+alert("Falling off the end.");
+return s;
+		}

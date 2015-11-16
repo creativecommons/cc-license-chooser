@@ -1,0 +1,4245 @@
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2009-04-23 14:23-0700\n"
+"PO-Revision-Date: 2009-04-23 14:23-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: el <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.0b-cc-2009-03-17\n"
+
+# To perform, display, and distribute copies of this whole work for
+# noncommercial purposes (e.g., file-sharing or noncommercial webcasting).
+#. To perform, display, and distribute copies of this whole work for
+#. noncommercial purposes (e.g., file-sharing or noncommercial webcasting).
+#: c/engine/licenses/sampling_templates/deed.pt:31
+msgid "deed.free_copy_distribute_noncommercial"
+msgstr ""
+"Να ερμηνεύετε, να παρουσιάζετε στο κοινό και να διανέμετε αντίγραφα από "
+"ολόκληρο το έργο για μη εμπορικούς σκοπούς (π.χ., ανταλλαγή αρχείων ή μη "
+"εμπορικό webcasting)"
+
+# <h1>Public Domain Dedication - Email Confirmation</h1>
+# <p>
+# An email has been sent to you at <b>${email}</b>. You should receive it
+# within a few minutes.
+# </p>
+# This email includes a confirmation of your public domain
+# dedication. It should include the title of your work
+# ("<b>${title}</b>"), and the copyright holder of the work
+# ("<b>${copyright_holder}</b>").
+# The email will also include a link with an embedded confirmation
+# code. This confirmation code enables us to verify that you are indeed
+# the person eligible to receive email at <b>${email}</b>. Clicking
+# through on this confirmation link will constitute an "overt act of
+# relinquishment" by which you will actually be placing your work in the
+# public domain.
+# <b>Until you click the confirmation link, your work will not be
+# dedicated to the public domain.</b>
+# If for some reason you haven't received this email within 30-45 minutes,
+# please <a href="mailto:pd@creativecommons.org">let us know</a>.
+# After clicking on the confirmation link, you'll find out how to mark your
+# content with a public domain dedication and publicize your work.
+#. <h1>Public Domain Dedication - Email Confirmation</h1>
+#. <p>
+#. An email has been sent to you at <b>${email}</b>. You should receive it
+#. within a few minutes.
+#. </p>
+#. This email includes a confirmation of your public domain
+#. dedication. It should include the title of your work
+#. ("<b>${title}</b>"), and the copyright holder of the work
+#. ("<b>${copyright_holder}</b>").
+#. The email will also include a link with an embedded confirmation
+#. code. This confirmation code enables us to verify that you are indeed
+#. the person eligible to receive email at <b>${email}</b>. Clicking
+#. through on this confirmation link will constitute an "overt act of
+#. relinquishment" by which you will actually be placing your work in the
+#. public domain.
+#. <b>Until you click the confirmation link, your work will not be
+#. dedicated to the public domain.</b>
+#. If for some reason you haven't received this email within 30-45 minutes,
+#. please <a href="mailto:pd@creativecommons.org">let us know</a>.
+#. After clicking on the confirmation link, you'll find out how to mark your
+#. content with a public domain dedication and publicize your work.
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:37
+msgid "license.pd_awaiting_confirmation"
+msgstr ""
+"<h1>Αφοσίωση στο κοινό - Επιβεβαίωση Email</h1>\n"
+"\n"
+"<p>\n"
+"Σας εστάλη email  <b>${email}</b>. Θα πρέπει να το παραλάβετε\n"
+"σε μερικά δευτερόλεπτα.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Το email περιλαμβάνει επιβεβαίωση για την προσφορά για τα κοινά\n"
+". Θα πρέπει να περιλαμβάνει τον τίτλο του έργου\n"
+"(\"<b>${title}</b>\"),και το δικαιούχο του δικαιώματος πνευματικής "
+"ιδιοκτησίας\n"
+"(\"<b>${copyright_holder}</b>\").\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Το email θα πρέπει επίσης να περιλαμβάνει σύνδεσμο με τον ενσωματωμένο "
+"κώδικα επιβεβαίωσης\n"
+". Αυτός ο κώδικας επιβεβαίωσης μας δίνει τη δυνατότητα να εξακριβώσουμε "
+"αν είσαι πραγματικά \n"
+"το άτομο που πρέπει να λάβει αυτό το email <b>${email}</b>. Πατώντας \n"
+"επιβεβαίωση ο σύνδεσμος αυτός θα αποτελεί μία απροκάλυπτη "
+"επιβεβαίωση\"overt act of\n"
+"relinquishment\" με την οποία θα μπορείτε πραγματικά να προσφέρετε έργα"
+"  \n"
+"στα κοινά.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"<b>Μέχρι να πατήσετε επιβεβαίωση, το έργο σας δε θα είναι \n"
+"προσφορά στα κοινά.</b>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Εάν για κάποιο  λόγο δε λάβει αυτό το mail μέσα σε 30-45 λεπτά, παρακαλώ "
+"<a href=\"mailto:pd@creativecommons.org\">lενημερώστε μας</a>.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Αφού πατήσετε επιβεβαίωση θα ενημερωθείτε για το πως μπορείτε να "
+"μαρκάρετε το έργο σας που έχετε προσφέρει στα κοινά και να διαφημίσετε το"
+" έργο σας.\n"
+"</p>"
+
+# Bulgaria
+#. Bulgaria
+msgid "country.bg"
+msgstr "Βουλγαρία"
+
+# Mark your content on a web page, the HTML to display your button is as
+# follows and be sure to <a href="/technology/web">follow the guidelines
+# here</a>:
+#. Mark your content on a web page, the HTML to display your button is as
+#. follows and be sure to <a href="/technology/web">follow the guidelines
+#. here</a>:
+#: c/engine/pd/templates/publicdomain-4.pt:32
+#, fuzzy
+msgid "license.mark_web"
+msgstr ""
+"Μάρκαρετε το περιεχόμενό σας σε μία ιστοσελίδα, το HTML για να εμφανίσετε"
+" το κουμπί σας είναι ως ακολούθως και σιγουρευτείτε <a "
+"href=\"/technology/web\">ότι ακολουθείτε τις οδηγίες εδώ</a>:"
+
+# copyright date
+#. copyright date
+msgid "util.copyright_date"
+msgstr "ημερομηνία κατοχύρωσης του δικαιώματος πνευματικής ιδιοκτησίας"
+
+# Jurisdiction
+#. Jurisdiction
+#: c/engine/chooser_pages/index.pt:168 c/engine/chooser_pages/sampling.pt:104
+msgid "util.Jurisdiction"
+msgstr "Δικαιοδοσία"
+
+# Brazil
+#. Brazil
+#: c/engine/chooser_pages/sampling.pt:80 c/engine/chooser_pages/sampling.pt:92
+msgid "country.br"
+msgstr "Βραζιλία"
+
+# Creative Commons License
+#. Creative Commons License
+msgid "util.Creative_Commons_License"
+msgstr "Άδεια Creative Commons"
+
+# mark content
+#. mark content
+#: c/engine/pd/templates/publicdomain-4.pt:25
+#: c/engine/chooser_pages/sampling.pt:41
+#: c/engine/macros_templates/support.pt:145
+#: c/engine/macros_templates/support.pt:152
+#: c/engine/macros_templates/support.pt:154
+msgid "license.mark_content"
+msgstr "μαρκάρετε το περιεχόμενο"
+
+# You may exercise the freedoms specified here provided that you comply with
+# the express conditions of this license. The principal conditions are:
+#. You may exercise the freedoms specified here provided that you comply with
+#. the express conditions of this license. The principal conditions are:
+#: c/engine/licenses/fsf_templates/deed.pt:48
+msgid "deed.gpl_under_conditions"
+msgstr ""
+"Μπορείτε να απολαμβάνετε τις ελευθερίες που ορίζονται εδώ εάν κι εφόσον "
+"συμφωνείτε  με τους όρους που εκφράζονται ρητώς στην άδεια. Οι βασικοί "
+"όροι είναι :"
+
+# Belgium
+#. Belgium
+msgid "country.be"
+msgstr "Βέλγιο"
+
+# This ${work_type} is dedicated to the <a rel="license"
+# href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
+#. This ${work_type} is dedicated to the <a rel="license"
+#. href="http://creativecommons.org/licenses/publicdomain/">Public Domain</a>.
+#, fuzzy
+msgid "license.work_type_dedicated"
+msgstr ""
+"Αυτό ${work_type} είναι δοσμένο στο<a rel=\"license\" "
+"href=\"http://creativecommons.org/licenses/publicdomain/\">κοινό</a>."
+
+# Allow modifications of your work?
+#. Allow modifications of your work?
+#: c/engine/chooser_pages/index.pt:77
+msgid "api.derivatives"
+msgstr "Θα επιτρέψετε τροποποιήσεις στο έργο σας?"
+
+# Your rights to exploit the work based on the limitations to copyright
+# clauses and other rights are in no way affected by the above.
+#. Your rights to exploit the work based on the limitations to copyright
+#. clauses and other rights are in no way affected by the above.
+msgid "deed.fair_use.jp"
+msgstr ""
+"Τα δικαιώματά σας να εκμεταλλεύεστε το έργο βάσει των νομίμων περιορισμών"
+" των δικαιωμάτων πνευματικής ιδιοκτησίας  και άλλων δικαιωμάτων σε καμία "
+"περίπτωση δεν επηρεάζονται από τα παραπάνω."
+
+# back to <a href="/">Creative Commons</a>
+#. back to <a href="/">Creative Commons</a>
+msgid "deed.back_to_cc"
+msgstr "πίσω στο <a href=\"/\">Creative Commons</a>"
+
+# Here's how the CC-GNU ${license_code} works: A user clicking on the Creative
+# Commons icon gets the CC-GNU ${license_code} "<a
+# href="/licenses/${license_code}/${version_title}/">Commons Deed</a>" — a
+# human readable version of the license. From that she can link to "<a
+# href="http://www.gnu.org/licenses/old-
+# licenses/${license_name_lower}.html">Legal Code</a>" — the full text of the
+# GNU ${license_code}, in English and <a
+# href="/licenses/${license_code}/${version_title}/legalcode.pt">Portuguese</a>.
+# And hidden in the tag is "Machine-Readable Code" — metadata — that will
+# enable others to find your software.
+#. Here's how the CC-GNU ${license_code} works: A user clicking on the Creative
+#. Commons icon gets the CC-GNU ${license_code} "<a
+#. href="/licenses/${license_code}/${version_title}/">Commons Deed</a>" — a
+#. human readable version of the license. From that she can link to "<a
+#. href="http://www.gnu.org/licenses/old-
+#. licenses/${license_name_lower}.html">Legal Code</a>" — the full text of the
+#. GNU ${license_code}, in English and <a
+#. href="/licenses/${license_code}/${version_title}/legalcode.pt">Portuguese</a>.
+#. And hidden in the tag is "Machine-Readable Code" — metadata — that will
+#. enable others to find your software.
+#: c/engine/chooser_pages/gpl.pt:63 c/engine/chooser_pages/lgpl.pt:66
+msgid "license.fsf_how_it_works"
+msgstr ""
+"Να πώς δουλεύει η CC-GNU ${license_code} : Ο χρήστης πατώντας πάνω στο "
+"εικονίδιο  CreativeCommons λαμβάνει τη  CC-GNU ${license_code} \"<a "
+"href=\"/licenses/${license_code}/${version_title}/\">Περιληπτικό "
+"μέρος</a>\" — μία έκδοση της άδειας εύληπτη από το μη νονομαθή απλό "
+"χρήστη. Από αυτό μπορεί να συνδεθεί \"<a "
+"href=\"http://www.gnu.org/licenses/old-"
+"licenses/${license_name_lower}.html\">Νομικό Μέρος</a>\" — το πλήρες "
+"κείμενο της άδειας GNU ${license_code}, στα Αγγλικά και <a "
+"href=\"/licenses/${license_code}/${version_title}/legalcode.pt\">Πορτογαλικά</a>."
+" Και κρυμένο μέσα στο tag\"Κώδικας που διαβάζεται από μηχανές\" — "
+"μεταδεδομένα — που θα επιτρέψει στους άλλους να εντοπίσουν  το λογισμικό "
+"σας."
+
+# You must retain the license terms and copyright notice in any source code
+# distribution and reproduce them in documentation for binary distributions.
+#. You must retain the license terms and copyright notice in any source code
+#. distribution and reproduce them in documentation for binary distributions.
+#: c/engine/licenses/mitbsd_templates/deed.pt:46
+msgid "deed.bsd_notice"
+msgstr ""
+"Θα πρέπει να διατηρήσετε τους όρους της άδειας και κάποιο λογότυπο "
+"υπόμνηση περί δικαιώματος πνευματικής ιδιοκτησίας  σε κάθε διανομή  "
+"πηγαίου κώδικα και επίσης θα πρέπει να τους αναπαράγετε σε μορφή εγγράφου"
+" για δυαδικές διανομές."
+
+# NoDerivs
+#. NoDerivs
+msgid "licenses.pretty_nd"
+msgstr "Όχι Παράγωγα Έργα"
+
+# We have updated the version of your license to the most recent one
+# available.
+#. We have updated the version of your license to the most recent one
+#. available.
+msgid "jswidget.Updated_license_version_generic"
+msgstr ""
+"Έχουμε ανανεώσει την έκδοση της άδειάς σας στην πιο πρόσφατη που είναι "
+"διαθέσιμη"
+
+# NonCommercial
+#. NonCommercial
+#: c/engine/chooser_pages/index.pt:67
+msgid "licenses.pretty_nc"
+msgstr "Μη Εμπορική Χρήση"
+
+# Catalan
+#. Catalan
+#: c/engine/macros_templates/deed.pt:103
+msgid "lang.ca"
+msgstr "Καταλανικά"
+
+# <h1>Mark Software</h1>
+# <p>Display the icon on any site you offer your software for download using
+# the following markup:</p>
+#. <h1>Mark Software</h1>
+#. <p>Display the icon on any site you offer your software for download using
+#. the following markup:</p>
+#: c/engine/chooser_pages/gpl.pt:66 c/engine/chooser_pages/lgpl.pt:69
+msgid "license.fsf_mark_software"
+msgstr ""
+"<h1>Μαρκάρετε το λογισμικό</h1>\n"
+"\n"
+"<p>Εμφανίστε το εικονίδιο σε κάθε ιστοσελίδα που παρέχετε το λογισμικό "
+"σας για download με την ακόλουθη διατύπωση:</p>"
+
+# This ${work_type} is licensed under a <a rel="license"
+# href="${license_url}">Creative Commons ${license_name} License</a>.
+#. This ${work_type} is licensed under a <a rel="license"
+#. href="${license_url}">Creative Commons ${license_name} License</a>.
+msgid "license.work_type_licensed"
+msgstr ""
+"Αυτό ${work_type} χορηγείται με άδεια <a rel=\"license\" "
+"href=\"${license_url}\">Creative Commons ${license_name} </a>."
+
+# This ${work_type} by ${work_author} is licensed under a <a rel="license"
+# href="${license_url}">Creative Commons ${license_name} License</a>.
+#. This ${work_type} by ${work_author} is licensed under a <a rel="license"
+#. href="${license_url}">Creative Commons ${license_name} License</a>.
+msgid "license.rdfa_licensed_no_title"
+msgstr ""
+"Αυτό ${work_type}αναφορά ${work_author} χορηγείται με άδεια<a "
+"rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
+"</a>."
+
+# Human-Readable<br />
+# Commons Deed
+#. Human-Readable<br />
+#. Commons Deed
+#: c/engine/chooser_pages/gpl.pt:46 c/engine/chooser_pages/lgpl.pt:47
+msgid "license.human-readable_commons_deed"
+msgstr ""
+"Εύληπτο από απλό μη νομομαθή χρήστη<br />\n"
+"Περιληπτικό Μέρος"
+
+# confirm choice
+#. confirm choice
+#: c/engine/pd/templates/publicdomain-partner.pt:22
+#: c/engine/macros_templates/support.pt:93
+#: c/engine/macros_templates/support.pt:97
+msgid "license.confirm_choice"
+msgstr "Επιβεβαιώστε επιλογή"
+
+# <div style="float:right;width:175px;border:1px solid
+# #ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;">Want to <a
+# href="/about/sampling">learn more about the sampling licenses</a> and how
+# Negativland helped us write them? Or check out an explanation <a
+# href="/about/licenses/sampling">in comic-book format</a>?</div>
+# <p>The Sampling licenses let you invite other people to use a part of your
+# work and make it new.</p>
+# <p>For example:</p>
+# <ul>
+# <li>To take a sample from your song and include it in their own.</li>
+# <li>To use a clip from your film.</li>
+# <li>To take a piece of your photograph and put it into a collage.</li>
+# </ul>
+# <p>Think of it as a way to reward people for transforming your work into
+# something it wasn't before.</p>
+# <p>On certain conditions, that is. There are two flavors of the Sampling
+# license. Pick the one that reflects your creative style:</p>
+#. <div style="float:right;width:175px;border:1px solid
+#. #ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;">Want to <a
+#. href="/about/sampling">learn more about the sampling licenses</a> and how
+#. Negativland helped us write them? Or check out an explanation <a
+#. href="/about/licenses/sampling">in comic-book format</a>?</div>
+#. <p>The Sampling licenses let you invite other people to use a part of your
+#. work and make it new.</p>
+#. <p>For example:</p>
+#. <ul>
+#. <li>To take a sample from your song and include it in their own.</li>
+#. <li>To use a clip from your film.</li>
+#. <li>To take a piece of your photograph and put it into a collage.</li>
+#. </ul>
+#. <p>Think of it as a way to reward people for transforming your work into
+#. something it wasn't before.</p>
+#. <p>On certain conditions, that is. There are two flavors of the Sampling
+#. license. Pick the one that reflects your creative style:</p>
+#: c/engine/chooser_pages/sampling.pt:54
+#, fuzzy
+msgid "license.sampling_explain"
+msgstr ""
+"<div style=\"float:right;width:175px;border:1px solid "
+"#ccc;padding:8px;margin:0px 14px 10px 14px;background:#eee;\">Θέλετε<a "
+"href=\"/about/sampling\">να μάθετε περισσότερα για τις άδειες "
+"sampling</a> και πώς η Negativland μας βοήθησε να τις συντάξουμε? Ή να "
+"δείτε μία εξήγηση <a href=\"/about/licenses/sampling\">σε φορμάτ "
+"βιβλίου-κόμικ</a>?</div>\n"
+"\n"
+"<p>Οι Sampling άδειες σας επιτρέπουν να προσκαλέσετε άλλους να "
+"χρησιμοποιήσουν μέρος του έργου σας και να το κάνουν καινούριο.</p>\n"
+"\n"
+"<p>Για παράδειγμα:</p>\n"
+"\n"
+"<ul>\n"
+"<li>Να πάρουν κάποιο δείγμα από το τραγούδι σας και να το συμπεριλάβουν "
+"στο δικό τους.</li>\n"
+"<li>Να χρησιμοποιήσουν ένα κλιπάκι από το κινηματογραφικό έργο σας.</li>\n"
+"<li>ΝΑ πα΄ρουν ένα κομμάτι της φωτογραφίας σας και να το τοποθετήσουν σε "
+"ένα κολάζ.</li>\n"
+"</ul>\n"
+"\n"
+"<p>Εκλάβετέ το σαν σαν έναν τρόπο επιβράβευσης όσων μετατρέπουν το έργο "
+"σας σε κάτι που δεν ήταν προηγουμένως.</p>\n"
+"\n"
+"<p>Υπό συγκεκριμένες συνθήκες αυτό ισχύει.Τπα΄ρχουν δύο είδη της  "
+"Sampling. Επιλέξτε αυτή που ανατποκρίνεται στο στυλ της δημιουργίας "
+"σας:</p>"
+
+# This is a record of a Public Domain Dedication.
+# On ${sysdate}, ${copyright_holder} dedicated to the public domain the
+# work "${title}." Before making the dedication, ${copyright_holder}
+# represented that ${copyright_holder} owned all copyrights in the
+# work. By making the dedication, ${copyright_holder} made an overt act
+# of relinquishment in perpetuity of all present and future rights under
+# copyright law, whether vested or contingent, in "${title}."
+# ${copyright_holder} understands that such relinquishment of all rights
+# includes the relinquishment of all rights to enforce (by lawsuit or
+# otherwise) those copyrights in the Work.
+# ${copyright_holder} recognizes that, once placed in the public domain,
+# "${title}" may be freely reproduced, distributed, transmitted, used,
+# modified, built upon, or otherwise exploited by anyone for any
+# purpose, commercial or non-commercial, and in any way, including by
+# methods that have not yet been invented or conceived.
+# For more information, please see
+# <http://creativecommons.org/licenses/publicdomain/>.
+#. This is a record of a Public Domain Dedication.
+#. On ${sysdate}, ${copyright_holder} dedicated to the public domain the
+#. work "${title}." Before making the dedication, ${copyright_holder}
+#. represented that ${copyright_holder} owned all copyrights in the
+#. work. By making the dedication, ${copyright_holder} made an overt act
+#. of relinquishment in perpetuity of all present and future rights under
+#. copyright law, whether vested or contingent, in "${title}."
+#. ${copyright_holder} understands that such relinquishment of all rights
+#. includes the relinquishment of all rights to enforce (by lawsuit or
+#. otherwise) those copyrights in the Work.
+#. ${copyright_holder} recognizes that, once placed in the public domain,
+#. "${title}" may be freely reproduced, distributed, transmitted, used,
+#. modified, built upon, or otherwise exploited by anyone for any
+#. purpose, commercial or non-commercial, and in any way, including by
+#. methods that have not yet been invented or conceived.
+#. For more information, please see
+#. <http://creativecommons.org/licenses/publicdomain/>.
+msgid "license.pd_dedication_email"
+msgstr ""
+"Αυτή είναι μία καταχώρηση μίας προσφοράς στο κοινό.\n"
+"\n"
+"Σε ${sysdate}, ${copyright_holder} έργο που είναι δοσμένο στα κοινά\n"
+" \"${title}.\"Πριν κάνετε την προσφορά, ${copyright_holder}\n"
+"αντιπροσώπευε ${copyright_holder} κατείχε όλα τα δικαιώματα πνευματικής "
+"ιδιοκτησίας\n"
+"στο έργο. Κάνοντας την προσφορά, ${copyright_holder} έκανε μία "
+"απροκάλυπτη ενέργεια\n"
+"παραχώρησης στο διηνεκές όλων των τωρινών και μελλοντικών δικαιωμάτων "
+"σύμφωνα με το νόμο περί πνευματικής ιδιοκτησίας, είτε ως κεκτημένο "
+"δικαίωμα έιτε ως απρόοπτη εξέλιξη, in \"${title}.\"\n"
+"\n"
+"${copyright_holder} αντιλαμβάνεται ότι τέτοια παραχώρηση όλων των "
+"δικαιωμάτων περιλαμβάνει και παραχώρηση  όλων των δικαιωμάτων περί "
+"επιβολής(με αγωγή\\ή αλλιώς) των δικαιωμάτων πνευματικής ιδιοκτησίας.\n"
+"\n"
+"${copyright_holder} αναγνωρίζει ότι, από τη στιγμή που θα ενταχθεί στα "
+"κοινά,\n"
+"\"${title}\" θα μπορεί να αναπαράγεται, διανέμεται, μεταδιίδεται, "
+"χρησιμοποιείται,\n"
+"τροποποιείται, να δημιουργούν πάνω σε αυτό,ή αλλιώς να γίνεται "
+"αντικείμενο εκμετάλλευσης ελεύθερα από τον καθένα για οποιονδήποτε σκοπό"
+"\n"
+", εμπορικό ή μη εμπορικό, και σε κάθε περίπτωση, και σε κάθε περίπτωση να"
+" συμπεριλμαβάνει μεθόδους που δεν έχουν ακόμα εφευρεθεί ή δεν έχουν ακόμα"
+" γίνει κατανοητοί\n"
+".\n"
+"\n"
+"Για περισσότερες πληροφορίες, παρακαλώ δείτε στο \n"
+"<http://creativecommons.org/licenses/publicdomain/>."
+
+# Bulgarian
+#. Bulgarian
+msgid "lang.bg"
+msgstr "Βουλγαρικά"
+
+# This software is licensed under the <a href="${license_url}">CC-GNU
+# ${license_code}</a>.
+#. This software is licensed under the <a href="${license_url}">CC-GNU
+#. ${license_code}</a>.
+#: c/engine/chooser_pages/gpl.pt:37 c/engine/chooser_pages/gpl.pt:79
+#: c/engine/chooser_pages/lgpl.pt:38 c/engine/chooser_pages/lgpl.pt:82
+msgid "license.fsf_software_licensed"
+msgstr ""
+"Το λογισμικό αυτό είναι υπό την <a href=\"${license_url}\">άδεια CC-GNU "
+"${license_code}</a>, έκδοση ${license_version} ή νεώτερη."
+
+# title of work
+#. title of work
+#: c/engine/pd/templates/publicdomain-2.pt:34
+#: c/engine/macros_templates/metadata.pt:46
+msgid "util.title_of_work"
+msgstr "Τίτλος έργου"
+
+# If you modify your copy or copies of the program or any portion of it, or
+# develop a program based upon it, you may distribute the resulting work
+# provided you do so under the ${license_name_full}. Any translation of the
+# ${license_name_full} must be accompanied by the ${license_name_full}.
+#. If you modify your copy or copies of the program or any portion of it, or
+#. develop a program based upon it, you may distribute the resulting work
+#. provided you do so under the ${license_name_full}. Any translation of the
+#. ${license_name_full} must be accompanied by the ${license_name_full}.
+#: c/engine/licenses/fsf_templates/deed.pt:61
+msgid "deed.gpl_sharealike"
+msgstr ""
+"Εάν τροποποιήσετε το αντίγραφο ή τα αντίγραφα του προγράμματος ή κάθε "
+"μέρους αυτού, ή αναπτύξετε πρόγραμμα που βασίζεται σε αυτό, θα μπορείτε "
+"να διανέμετε το έργο που θα προκύψει εάν κι εφόσοντο πράξετε υπό  "
+"${license_name_full}. Κάθε μετάφραση ${license_name_full} πρέπει να "
+"συνοδεύεται από ${license_name_full}."
+
+# Ireland
+#. Ireland
+msgid "country.ie"
+msgstr "Ιρλανδία"
+
+# License Your Work
+#. License Your Work
+#: c/engine/macros_templates/engine.pt:111
+msgid "license.License_Your_Work"
+msgstr "Εκχωρήστε το έργο σας"
+
+# Attribution-NonCommercial
+#. Attribution-NonCommercial
+msgid "licenses.pretty_by-nc"
+msgstr "Αναφορά-Μη Εμπορική Χρήση"
+
+# Attribution-NoDerivs
+#. Attribution-NoDerivs
+msgid "licenses.pretty_by-nd"
+msgstr "Αναφορά-Όχι Παράγωγα Έργα"
+
+# Spanish (PE)
+#. Spanish (PE)
+msgid "lang.es_PE"
+msgstr "Ισπανικά (PE)"
+
+# To sample, mash-up, or otherwise creatively transform this work for
+# commercial or noncommercial purposes.
+#. To sample, mash-up, or otherwise creatively transform this work for
+#. commercial or noncommercial purposes.
+#: c/engine/licenses/sampling_templates/deed.pt:29
+msgid "deed.free_sample"
+msgstr ""
+"Να δειγματίζετε, να ανακατεύετε, ή άλλως να μεταμορφώνετε δημιουργικά το "
+"έργο για εμπορικούς ή μη εμπορικούς σκοπούς."
+
+# Israel
+#. Israel
+msgid "country.il"
+msgstr "Ισραήλ"
+
+# Permissions beyond the scope of this license may be available at
+# ${more_perms_link}.
+#. Permissions beyond the scope of this license may be available at
+#. ${more_perms_link}.
+msgid "license.more_perms_available"
+msgstr ""
+"Παραχωρήσεις πέρα από τα πλαίσα αυτής της άδειας ενδεχομένως να είναι "
+"διαθέσιμες στο${more_perms_link}."
+
+# India
+#. India
+msgid "country.in"
+msgstr "Ινδία"
+
+# Macedonian
+#. Macedonian
+msgid "lang.mk"
+msgstr "Macedonian"
+
+# Here's how it works: A user clicking on the Creative Commons icon gets your
+# "<a href="${license_url}">Commons Deed</a>" &mdash; a human readable version
+# of the
+# license. From that she can link to "<a href="${license_url}legalcode">Legal
+# Code</a>" &mdash;  the
+# actual license you have offered your content under.
+# And hidden in the tag is "<a href="/license/work-html-popup?${url_vars}"
+# onclick="window.open('work-html-popup?${url_vars}', 'html_help',
+# 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">Machine-Readable Code</a>" &mdash; metadata &mdash; that will enable
+# others to find your
+# content. <a href="/learn/licenses/how1">An illustration of the process</a>
+# can be found in our comics.
+#. Here's how it works: A user clicking on the Creative Commons icon gets your
+#. "<a href="${license_url}">Commons Deed</a>" &mdash; a human readable version
+#. of the
+#. license. From that she can link to "<a href="${license_url}legalcode">Legal
+#. Code</a>" &mdash;  the
+#. actual license you have offered your content under.
+#. And hidden in the tag is "<a href="/license/work-html-popup?${url_vars}"
+#. onclick="window.open('work-html-popup?${url_vars}', 'html_help',
+#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">Machine-Readable Code</a>" &mdash; metadata &mdash; that will enable
+#. others to find your
+#. content. <a href="/learn/licenses/how1">An illustration of the process</a>
+#. can be found in our comics.
+msgid "license.how_it_works"
+msgstr ""
+"Εδώ θα δείτε πώς δουλεύει: Ο χρήστης πατώντας το εικονίδιο του Creative "
+"Commons βλέπει \"<a href=\"${license_url}\">Περιληπτικό Μέρος</a>\" "
+"&mdash; μια εύληπτη έκδοση για το μη νομομαθή χρήστη"
+
+# Italy
+#. Italy
+msgid "country.it"
+msgstr "Ιταλία"
+
+# Poland
+#. Poland
+msgid "country.pl"
+msgstr "Πολωνία"
+
+# Malay
+#. Malay
+msgid "lang.ms"
+msgstr "Μαλάι"
+
+# Philippines
+#. Philippines
+msgid "country.ph"
+msgstr "Φιλιππίνες"
+
+# You may not use this work to advertise for or promote anything but the work
+# you create from it.
+#. You may not use this work to advertise for or promote anything but the work
+#. you create from it.
+#: c/engine/licenses/sampling_templates/deed.pt:42
+msgid "char.na_brief"
+msgstr ""
+"Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό προκειμένου να διαφημίσετε "
+"για έργο ή να προωθήσετε οτιδήποτε άλλο πέρα από το έργο από το οποίο "
+"δημιουργείτε."
+
+# Peru
+#. Peru
+msgid "country.pe"
+msgstr "Περού"
+
+# Any of the above conditions can be waived if you get permission from the
+# rights holders to this work.
+#. Any of the above conditions can be waived if you get permission from the
+#. rights holders to this work.
+msgid "deed.permission.jp"
+msgstr ""
+"Μπορεί  οποιοσδήποτε από τους παραπάνω όρους να αποσυρθεί εάν πάρετε "
+"άδεια από το δικαιούχο επί του έργου αυτού."
+
+# Sampling
+#. Sampling
+msgid "util.Sampling"
+msgstr "Λήψη δειγμάτων"
+
+# Sampling
+#. Sampling
+msgid "licenses.pretty_sampling"
+msgstr "Λήψη δειγμάτων"
+
+# This page is available in the following languages:
+#. This page is available in the following languages:
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "util.page_other_languages"
+msgstr "Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:"
+
+# This page is available in the following languages:
+#. This page is available in the following languages:
+#: c/engine/macros_templates/support.pt:30
+#: c/engine/macros_templates/support.pt:56
+msgid "deed.view_in"
+msgstr "Η σελίδα αυτή είναι διαθέσιμη στις ακόλουθες γλώσσες:"
+
+# English (GB)
+#. English (GB)
+msgid "lang.en_GB"
+msgstr "Αγγλικά (GB)"
+
+# Apart from the remix rights granted under this license, nothing in this
+# license impairs or restricts the author's moral rights.
+#. Apart from the remix rights granted under this license, nothing in this
+#. license impairs or restricts the author's moral rights.
+#: c/engine/licenses/standard_templates/deed.pt:69
+#, fuzzy
+msgid "deed.moralrights-remix.us"
+msgstr ""
+"Πέρα από τα δικαιώματα διασκευής που παρέχονται με αυτήν την άδεια, "
+"τίποτα σε αυτήν την άδεια δεν αποδυναμώνει ή περιορίζει το ηθικό δικαίωμα"
+" του δημιουργού."
+
+# Polish
+#. Polish
+msgid "lang.pl"
+msgstr "Πολωνικά"
+
+# confirm
+#. confirm
+#: c/engine/pd/templates/publicdomain-3.pt:87
+msgid "util.confirm"
+msgstr "επιβεβαιώστε"
+
+# Do you want to:
+#. Do you want to:
+msgid "util.Do_you_want_to"
+msgstr "Επιθυμείτε να:"
+
+# <a href="/jargon/copyright_date" class="jargon"
+# onClick="window.open('/jargon/copyright_date', 'jargon_term_lookup',
+# 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
+# return false;">year of copyright</a>
+#. <a href="/jargon/copyright_date" class="jargon"
+#. onClick="window.open('/jargon/copyright_date', 'jargon_term_lookup',
+#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
+#. return false;">year of copyright</a>
+msgid "util.year_of_copyright"
+msgstr ""
+"<a href=\"/jargon/copyright_date\" class=\"jargon\" "
+"onClick=\"window.open('/jargon/copyright_date', 'jargon_term_lookup', "
+"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
+" return false;\">χρονολογία κατοχύρωσης των δικαιωμάτων πνευματικής "
+"ιδιοκτησίας</a>"
+
+# choose license
+#. choose license
+#: c/engine/chooser_pages/sampling.pt:32
+#: c/engine/macros_templates/support.pt:82
+#: c/engine/macros_templates/support.pt:86 c/engine/chooser_pages/index.pt:29
+msgid "license.choose_license"
+msgstr "Επιλέξτε άδεια"
+
+# The freedom to redistribute copies so you can help your neighbor.
+#. The freedom to redistribute copies so you can help your neighbor.
+#: c/engine/licenses/fsf_templates/deed.pt:38
+msgid "deed.gpl_free_redistribute"
+msgstr ""
+"Η ελευθερία να διανέμετε αντίγραφα έτσι ώστε να μπορείτε να βοηθάτε το "
+"διπλανό σας."
+
+# Mark an mp3, <a href="/technology/mp3">follow these guidelines</a>.
+#. Mark an mp3, <a href="/technology/mp3">follow these guidelines</a>.
+#: c/engine/pd/templates/publicdomain-4.pt:47
+msgid "license.mark_mp3"
+msgstr ""
+"Προκειμένου να μαρκάρετε ένα mp3, <a href=\"/technology/mp3\">ακολουθήστε"
+" τις οδηγίες</a>."
+
+# Under the following conditions:
+#. Under the following conditions:
+#: c/engine/licenses/devnations_templates/deed.pt:40
+#: c/engine/licenses/mitbsd_templates/deed.pt:33
+#: c/engine/licenses/sampling_templates/deed.pt:39
+#: c/engine/licenses/standard_templates/deed.pt:45
+msgid "deed.under_conditions"
+msgstr "Υπό τις ακόλουθες προϋποθέσεις:"
+
+# Machine-Readable<br />
+# Digital Code
+#. Machine-Readable<br />
+#. Digital Code
+#: c/engine/chooser_pages/gpl.pt:48 c/engine/chooser_pages/lgpl.pt:49
+msgid "license.machine-readable_digital_code"
+msgstr ""
+"Αναγνωστέος από Μηχανές<br />\n"
+"Ψηφιακός Κώδικας"
+
+# <a href="/jargon/copyright" class="jargon"
+# onClick="window.open('/jargon/copyright', 'jargon_term_lookup',
+# 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
+# return false;">copyright</a> holder's name
+#. <a href="/jargon/copyright" class="jargon"
+#. onClick="window.open('/jargon/copyright', 'jargon_term_lookup',
+#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
+#. return false;">copyright</a> holder's name
+msgid "util.copyright_holders_name"
+msgstr ""
+"<a href=\"/jargon/copyright\" class=\"jargon\" "
+"onClick=\"window.open('/jargon/copyright', 'jargon_term_lookup', "
+"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
+" return false;\">πνευματική ιδιοκτησία</a> όνομα  δικαιούχου"
+
+# attribute to url
+#. attribute to url
+#: c/engine/macros_templates/metadata.pt:58
+#, fuzzy
+msgid "util.attribute_to_url"
+msgstr "αναφορά στο url"
+
+# View an explanation of all our licenses.
+#. View an explanation of all our licenses.
+#: c/engine/chooser_pages/index.pt:195
+msgid "license.view_explanation"
+msgstr "Δείτε επεξήγηση όλων των αδειών μας."
+
+# Copyright. A set of limited monopoly rights that governments grant to
+# encourage the production of creative works. A copyright includes the rights
+# to copy, distribute, transmit (including broadcast), market, and make
+# derivative works out of a creative work. It also includes the right to sue
+# to enforce these rights, and to authorize others to exercise them. Copyright
+# does not apply to facts or ideas, but to the original expression of those
+# facts or ideas.
+#. Copyright. A set of limited monopoly rights that governments grant to
+#. encourage the production of creative works. A copyright includes the rights
+#. to copy, distribute, transmit (including broadcast), market, and make
+#. derivative works out of a creative work. It also includes the right to sue
+#. to enforce these rights, and to authorize others to exercise them. Copyright
+#. does not apply to facts or ideas, but to the original expression of those
+#. facts or ideas.
+msgid "jargon.copyright_description"
+msgstr ""
+"Δικαίωμα πνευματικής ιδιοκτησίας. Ένα πακέτο περιορισμένων δικαιωμάτων "
+"μονοπωλίου, τα οποία χορηγούν οι κυβερνήσεις προκειμένου να ενθαρρύνουν "
+"την παραγωγή των δημιουργικών έργων. Το δικαίωμα πνευματικής ιδιοκτησίας "
+"περιλαμβάνει τις εξουσίες να επιτρέπετε ή να απαγορεύετε την εγγραφή και "
+"την άμεση ή έμμεση προσωρινή ή μόνιμη αναπαργωγή των έργων σας με "
+"οποιοδήποτε μέσο και μορφή εν όλω ή εν μέρει, τη διανομή, τη μετάδοση "
+"(συμπεριλαμβανομένης της ραδιοτηλεοπτικής μετάδοσης) και τη δημιουργία "
+"παραγώγων έργων από τη δημιουργία σας. Επιπλέον περιλαμβάνει το δικαίωμα "
+"να αξιώνετε ποινικές και αστικές κυρώσεις, προκειμένου να επιβάλλετε τα "
+"δικαιώματα αυτά και να εξουσιοδοτείτε άλλους να τα ασκούν. Το δικαίωμα "
+"πνευματικής ιδιοκτησίας δεν εφαρμόζεται σε πραγματικά γεγονότα ή ιδέες "
+"αλλά στη γνήσια έκφραση αυτών των γεγονότων ή ιδεών."
+
+# You may exercise the freedoms specified here provided that you comply with
+# the express conditions of this license. The LGPL is intended for software
+# libraries, rather than executable programs. The principal conditions are:
+#. You may exercise the freedoms specified here provided that you comply with
+#. the express conditions of this license. The LGPL is intended for software
+#. libraries, rather than executable programs. The principal conditions are:
+#: c/engine/licenses/fsf_templates/deed.pt:50
+msgid "deed.lgpl_under_conditions"
+msgstr ""
+"Μπορείτε να απολαμβάνετε τις ελευθερίες που ορίζονται  εδώ, αρκεί να να "
+"τηρείτε τους όρους που ορίζονται ρητώς στην άδεια αυτή. Η άδεια LGPL "
+"προορίζεται για προγράμματα υπολογιστή και  βιβλιοθήκες παρά για "
+"εκτελέσιμα προγράμματα. Οι βασικές προϋποθέσεις είναι:"
+
+# Now that you've chosen a Creative Commons license, you must mark your work
+# in the appropriate way.
+#. Now that you've chosen a Creative Commons license, you must mark your work
+#. in the appropriate way.
+msgid "license.mark_license"
+msgstr ""
+"Τώρα που επιλέξατε μία άδεια Creative Commons θα πρέπει να μαρκάρετε το "
+"έργο σας με τον ανάλογο τρόπο."
+
+# Luxembourg
+#. Luxembourg
+msgid "country.lu"
+msgstr "Λουξεμβούργο"
+
+# Tell us the format of your work:
+#. Tell us the format of your work:
+#: c/engine/macros_templates/metadata.pt:23
+msgid "license.tell_format"
+msgstr "Πείτε μας το format του έργου σας:"
+
+# Chile
+#. Chile
+msgid "country.cl"
+msgstr "Χιλή"
+
+# Northern Sotho
+#. Northern Sotho
+msgid "lang.nso"
+msgstr "Βόρειο Σόθο"
+
+# CC-GNU LGPL
+#. CC-GNU LGPL
+#: c/engine/chooser_pages/index.pt:222
+msgid "util.CC_GNU_LGPL"
+msgstr "CC-GNU LGPL"
+
+# <strong>Sampling</strong>: People can take and transform
+# <strong>pieces</strong> of your work for any purpose other than advertising,
+# which is prohibited. Copying and distribution of the <strong>entire
+# work</strong> is also prohibited.
+#. <strong>Sampling</strong>: People can take and transform
+#. <strong>pieces</strong> of your work for any purpose other than advertising,
+#. which is prohibited. Copying and distribution of the <strong>entire
+#. work</strong> is also prohibited.
+msgid "license.sampling_a_sampling"
+msgstr ""
+"<strong>Δειγματοληψία</strong>:Το κοινό μπορεί να παίρνει και να "
+"τροποποιεί <strong>κομμάτια</strong> του έργου σας για κάθε σκοπό εκτός "
+"από διαφημιστικούς σκοπούς που απαγορεύονται. Απαγορεύεται επίσης η "
+"αναπαραγωγή και διανομή <strong>ολόκληρου του έργου</strong>."
+
+# No web site?
+#. No web site?
+#: c/engine/chooser_pages/results.pt:92
+msgid "license.no_web_site"
+msgstr "Δεν έχετε ιστοσελίδα;"
+
+# Serbia
+#. Serbia
+msgid "country.rs"
+msgstr "Σερβία"
+
+# Korea
+#. Korea
+msgid "country.kr"
+msgstr "Κορέα"
+
+# Yes, as long as others share alike (<a
+# href="/characteristic/sa?lang=${lang}"
+# onclick="window.open('/characteristic/sa?lang=${lang}',
+# 'characteristic_help',
+# 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">more info</a> <a href="/characteristic/sa?lang=${lang}"
+# false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+# information" border="0" /></a>)
+#. Yes, as long as others share alike (<a
+#. href="/characteristic/sa?lang=${lang}"
+#. onclick="window.open('/characteristic/sa?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">more info</a> <a href="/characteristic/sa?lang=${lang}"
+#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+#. information" border="0" /></a>)
+#: c/engine/chooser_pages/partner/index.pt:69
+msgid "license.a6"
+msgstr ""
+"Ναι, εφόσον και οι άλλοι ασκούν παρόμοια διανομή (<a "
+"href=\"/characteristic/sa?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">περισσότερες πληροφορίες</a> <a "
+"href=\"/characteristic/sa?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/sa?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
+"alt=\"more information\" border=\"0\" /></a>)"
+
+# Korean
+#. Korean
+msgid "lang.ko"
+msgstr "Κορεάτικα"
+
+# <div style="text-align:center"><a href="/licenses/disclaimer-popup"
+# onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
+# 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">Disclaimer</a> <a href="/licenses/disclaimer-popup"
+# false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer"
+# border="0"></a></div>
+#. <div style="text-align:center"><a href="/licenses/disclaimer-popup"
+#. onclick="window.open('/licenses/disclaimer-popup', 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">Disclaimer</a> <a href="/licenses/disclaimer-popup"
+#. false;"><img src="/images/popup.gif" width="15" height="13" alt="disclaimer"
+#. border="0"></a></div>
+msgid "deed.gpl_disclaimer"
+msgstr ""
+"<div style=\"text-align:center\"><a href=\"/licenses/disclaimer-popup\" "
+"onclick=\"window.open('/licenses/disclaimer-popup', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">Αποποίηση ευθυνών</a> <a href=\"/licenses/disclaimer-popup\" "
+"onclick=\"window.open('/licenses/disclaimer-popup', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
+"alt=\"disclaimer\" border=\"0\"></a></div>"
+
+# Sorry, no license matches your criteria.
+#. Sorry, no license matches your criteria.
+msgid "license.no_license"
+msgstr "Λυπούμαστε. Καμμία άδεια δεν ταιριάζει με τα κριτήριά σας."
+
+# Italian
+#. Italian
+msgid "lang.it"
+msgstr "Ιταλικά"
+
+# Romania
+#. Romania
+msgid "country.ro"
+msgstr "Ρουμανία"
+
+# What You Can Do Here
+#. What You Can Do Here
+#: c/engine/chooser_pages/index.pt:191
+msgid "license.what_you"
+msgstr "Τί μπορείτε να κάνετε εδώ"
+
+# If you have not officially registered for a copyright on your work the
+# default date is the date you created the work, or completed it.
+#. If you have not officially registered for a copyright on your work the
+#. default date is the date you created the work, or completed it.
+msgid "jargon.copyright_date_description"
+msgstr ""
+"Εάν δεν έχετε κατοχυρώσει επισήμως τα δικαιώματα πνευματικής ιδιοκτησίας "
+"στο έργο σας, η εξ ορισμού μέρα κατοχύρωσης είναι η ημέρα δημιουργίας ή "
+"ολοκλήρωσης του έργου. "
+
+# Attribution-NoDerivs-NonCommercial
+#. Attribution-NoDerivs-NonCommercial
+msgid "licenses.pretty_by-nd-nc"
+msgstr "Αναφορά-Όχι Παράγωγα Έργα-Όχι Εμπορική Χρήση"
+
+# Galician
+#. Galician
+#: c/engine/macros_templates/deed.pt:110
+msgid "lang.gl"
+msgstr "Γαλικιανά"
+
+# You may now <a href="publicdomain-2?${url_vars}">proceed and enrich the
+# public domain with your work</a>.
+#. You may now <a href="publicdomain-2?${url_vars}">proceed and enrich the
+#. public domain with your work</a>.
+msgid "license.proceed_pd"
+msgstr ""
+"Μπορείτε τώρα <a href=\"publicdomain-2?${url_vars}\">να προχωρήσετε και "
+"να εμπλουτίσετε τα κοινά με το έργο σας</a>."
+
+# your email
+#. your email
+#: c/engine/pd/templates/publicdomain-2.pt:29
+msgid "util.your_email"
+msgstr "το email σας"
+
+# Yes
+#. Yes
+#: c/engine/chooser_pages/index.pt:46 c/engine/chooser_pages/index.pt:81
+#: c/engine/chooser_pages/partner/index.pt:54
+#: c/engine/chooser_pages/partner/index.pt:65
+msgid "util.Yes"
+msgstr "Ναι"
+
+# to copy, distribute, display, perform, present, publicly transmit, and
+# recite the work
+#. to copy, distribute, display, perform, present, publicly transmit, and
+#. recite the work
+msgid "deed.free_copy_distribute.jp"
+msgstr ""
+"Να επιτρέπετε ή να απαγορεύετε την εγγραφή και την άμεση ή έμμεση "
+"προσωρινή ή μόνιμη αναπαργωγή των έργων σας με οποιοδήποτε μέσο και μορφή"
+" εν όλω ή εν μέρει, τη διανομή, την παρουσίαση στο κοινό των έργων σας, "
+"τη δημόσια εκτέλεση, τη μετάδοση ή αναμετάδοση των έργων σας στο κοινό με"
+" τη ραδιοφωνία και την τηλεόραση, με ηλεκτρομαγνητικά κύματα ή με καλώδια"
+" ή με άλλους υλικούς αγωγούς ή με οποιονδήποτε άλλο τρόπο παραλλήλως προς"
+" την επιφάνεια της γης ή μέσω δορυφόρων."
+
+# <p>Your choice suggests you want to dedicate your work to the public domain,
+# the commons of information and expression where nothing is owned and all is
+# permitted.</p>
+# <p>The Public Domain Dedication is not a license. By using it, you
+# do not simply carve out exceptions to your copyright; you grant your entire
+# copyright to the public without condition. This grant is permanent and
+# irreversible.</p>
+#. <p>Your choice suggests you want to dedicate your work to the public domain,
+#. the commons of information and expression where nothing is owned and all is
+#. permitted.</p>
+#. <p>The Public Domain Dedication is not a license. By using it, you
+#. do not simply carve out exceptions to your copyright; you grant your entire
+#. copyright to the public without condition. This grant is permanent and
+#. irreversible.</p>
+#: c/engine/pd/templates/publicdomain-partner.pt:24
+msgid "license.pd_choice"
+msgstr ""
+"<p>Η επιλογή σας δείχνει ότι επιθυμείτε να παραχωρήσετε το έργο σας στα "
+"κοινά (δημόσιος τομέας), στις κοινές πληροφορίες και στην κοινή έκφραση "
+"όπου τίποτα δεν ανήκει σε κανέναν και όλα επιτρέπονται.</p>\n"
+"\n"
+"<p>Η παραχώρηση στα κοινά (δημόσιος τομέας) δεν αποτελεί άδεια. "
+"Επιλέγοντάς  την δε θέτετε απλά περιορισμούς στα δικαιώματά σας "
+"πνευματικής ιδιοκτησίας. Παραχωρείτε όλα σας τα δικαιώματα πνευματικής "
+"ιδιοκτησίας στα κοινά χωρίς κανέναν όρο. Η παραχώρηση αυτή είναι μόνιμη "
+"και δεν ανακαλείται.</p>"
+
+# Audio
+#. Audio
+#: c/engine/macros_templates/metadata.pt:30
+msgid "util.Audio"
+msgstr "Ακουστικά"
+
+# Your fair dealing and other rights are in no way affected by the above.
+#. Your fair dealing and other rights are in no way affected by the above.
+#: c/engine/macros_templates/deed.pt:92
+#, fuzzy
+msgid "deed.fair_use"
+msgstr ""
+"Οι χρήσεις που απορρέουν από τους νόμιμους περιορισμούς του περιουσιακού "
+"δικαιώματος, καθώς και άλλα δικαιώματά που έχετε, σε καμία περίπτωση δεν "
+"επηρεάζονται από τα παραπάνω"
+
+# Netherlands
+#. Netherlands
+msgid "country.nl"
+msgstr "Ολλανδία"
+
+# In order to:
+#. In order to:
+#: c/engine/pd/templates/publicdomain-4.pt:29
+msgid "license.in_order_to"
+msgstr "Προκειμένου να:"
+
+# If you copy or distribute the program, you must accompany it with the
+# complete corresponding machine-readable source code or with a written offer,
+# valid for at least three years, to furnish the complete corresponding
+# machine-readable source code.
+#. If you copy or distribute the program, you must accompany it with the
+#. complete corresponding machine-readable source code or with a written offer,
+#. valid for at least three years, to furnish the complete corresponding
+#. machine-readable source code.
+#: c/engine/licenses/fsf_templates/deed.pt:67
+msgid "deed.gpl_source"
+msgstr ""
+"Εάν αναπαράγετε ή διανείμετε το πρόγραμμα, θα πρέπει να το συνοδεύσετε με"
+" ολοκληρωμένο τον ανάλογο πηγαίο κώδικα σε ψηφιακή μορφή ή με μία γραπτή "
+"προσφορά με ισχύ για τουλάχιστον τρία χρόνια με την οποία θα παρέχετε "
+"ολόκληρο τον αντίστοιχο πηγαίο κώδικα σε ψηφιακή μορφή."
+
+# Creative Commons
+#. Creative Commons
+#: c/engine/macros_templates/partner.pt:29
+msgid "util.Creative_Commons"
+msgstr "Creative Commons"
+
+# UK: England & Wales
+#. UK: England & Wales
+msgid "country.uk"
+msgstr "Η.Β: Αγγλία & Ουαλία"
+
+# Nigeria
+#. Nigeria
+msgid "country.ng"
+msgstr "Νιγηρία"
+
+# Licensor permits others to make derivative works
+#. Licensor permits others to make derivative works
+msgid "jswidget.Licensor_permits_others_to_make_derivative_works"
+msgstr ""
+"Ο χορηγών την άδεια επιτρέπει στους άλλους το δικαίωμα να κάνουν παράγωγα"
+" έργα"
+
+# United States
+#. United States
+msgid "country.us"
+msgstr "Ηνωμένες Πολιτείες"
+
+# Select the contents of the box above and copy it. Or, have it <a
+# href="/license/work-html-popup?${url_vars}" onclick="window.open('work-html-
+# popup?${url_vars}', 'html_help',
+# 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">emailed to yourself.</a>
+#. Select the contents of the box above and copy it. Or, have it <a
+#. href="/license/work-html-popup?${url_vars}" onclick="window.open('work-html-
+#. popup?${url_vars}', 'html_help',
+#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">emailed to yourself.</a>
+#: c/engine/chooser_pages/results.pt:70
+msgid "license.select_text"
+msgstr ""
+"Επιλέξτε τα περιεχόμενα από το παραπάνω κουτί και αντιγράψτε τα. Ή, <a "
+"href=\"/license/work-html-popup?${url_vars}\" onclick=\"window.open"
+"('work-html-popup?${url_vars}', 'html_help', "
+"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">στείλτε email στον εαυτό σας.</a>"
+
+# <strong>Require attribution?</strong> (<a
+# href="/characteristic/by?lang=${lang}"
+# onclick="window.open('/characteristic/by?lang=${lang}',
+# 'characteristic_help',
+# 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">more info</a> <a href="/characteristic/by?lang=${lang}"
+# false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+# information" border="0" /></a>)
+#. <strong>Require attribution?</strong> (<a
+#. href="/characteristic/by?lang=${lang}"
+#. onclick="window.open('/characteristic/by?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">more info</a> <a href="/characteristic/by?lang=${lang}"
+#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+#. information" border="0" /></a>)
+msgid "license.q1"
+msgstr ""
+"<strong>Απαιτείτε Αναφορά?</strong> (<a "
+"href=\"/characteristic/by?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">περισσότερες πληροφορίες</a> <a "
+"href=\"/characteristic/by?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
+"alt=\"more information\" border=\"0\" /></a>)"
+
+# <strong>Allow commercial uses of your work?</strong> (<a
+# href="/characteristic/nc?lang=${lang}"
+# onclick="window.open('/characteristic/nc?lang=${lang}',
+# 'characteristic_help',
+# 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">more info</a> <a href="/characteristic/nc?lang=${lang}"
+# false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+# information" border="0" /></a>)
+#. <strong>Allow commercial uses of your work?</strong> (<a
+#. href="/characteristic/nc?lang=${lang}"
+#. onclick="window.open('/characteristic/nc?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">more info</a> <a href="/characteristic/nc?lang=${lang}"
+#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+#. information" border="0" /></a>)
+#: c/engine/chooser_pages/partner/index.pt:50
+msgid "license.q2"
+msgstr ""
+"<strong>Θα επιτρέψετε εμπορικές χρήσεις του έργου σας?</strong> (<a "
+"href=\"/characteristic/nc?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">περισσότερες πληροφορίες</a> <a "
+"href=\"/characteristic/nc?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/nc?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
+"alt=\"more information\" border=\"0\" /></a>)"
+
+# <strong>Allow modifications of your work?</strong> (<a
+# href="/characteristic/nd?lang=${lang}"
+# onclick="window.open('/characteristic/nd?lang=${lang}',
+# 'characteristic_help',
+# 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">more info</a> <a href="/characteristic/nd?lang=${lang}"
+# false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+# information" border="0" /></a>)
+#. <strong>Allow modifications of your work?</strong> (<a
+#. href="/characteristic/nd?lang=${lang}"
+#. onclick="window.open('/characteristic/nd?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">more info</a> <a href="/characteristic/nd?lang=${lang}"
+#. false;"><img src="/images/popup.gif" width="15" height="13" alt="more
+#. information" border="0" /></a>)
+#: c/engine/chooser_pages/partner/index.pt:61
+msgid "license.q3"
+msgstr ""
+"<strong>Θα επιτρέψετε τροποποιήσεις στο έργο σας?</strong> (<a "
+"href=\"/characteristic/nd?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">περισσότερες πληροφορίες</a> <a "
+"href=\"/characteristic/nd?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/nd?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\"><img src=\"/images/popup.gif\" width=\"15\" height=\"13\" "
+"alt=\"περισσότερες πληροφορίες\" border=\"0\" /></a>)"
+
+# Simply copy the text, then paste it into your web documents containing
+# information about your works. <a href="/learn/technology/usingmarkup"
+# target="_blank">More information about adding HTML to your documents
+# here</a>.
+#. Simply copy the text, then paste it into your web documents containing
+#. information about your works. <a href="/learn/technology/usingmarkup"
+#. target="_blank">More information about adding HTML to your documents
+#. here</a>.
+#: c/engine/chooser_pages/htmlpopup.pt:24
+msgid "license.html_directions"
+msgstr ""
+"Απλώς αντιγράψτε το κείμενο και στη συνέχεια επικολλήστε το στα web "
+"αρχεία σας που περιέχουν πληροφορίες για το έργο σας. <a "
+"href=\"/learn/technology/usingmarkup\" target=\"_blank\">Περισσότερες "
+"πληροφορίες για  το πώς βάζετε HTML στα αρχεία σας εδώ</a>."
+
+# Select a License
+#. Select a License
+#: c/engine/chooser_pages/index.pt:178
+#: c/engine/chooser_pages/partner/index.pt:114
+msgid "license.Select_a_License"
+msgstr "Επιλέξτε μία άδεια"
+
+# ${work_title} by ${work_author} is licensed under a <a rel="license"
+# href="${license_url}">Creative Commons ${license_name} License</a>.
+#. ${work_title} by ${work_author} is licensed under a <a rel="license"
+#. href="${license_url}">Creative Commons ${license_name} License</a>.
+msgid "license.rdfa_licensed"
+msgstr ""
+"${work_title} αναφορά ${work_author} διέπεται από άδεια <a "
+"rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} "
+"</a>."
+
+# description
+#. description
+msgid "util.description"
+msgstr "περιγραφή"
+
+# You have selected the <a target="cc_other"
+# href="${license_deed_url}"><b>${license_pretty_name} License</b></a>.<br>
+# This license is permanently located at<br>
+# <b><tt>${license_url}</tt></b>.
+#. You have selected the <a target="cc_other"
+#. href="${license_deed_url}"><b>${license_pretty_name} License</b></a>.<br>
+#. This license is permanently located at<br>
+#. <b><tt>${license_url}</tt></b>.
+#: c/engine/chooser_pages/partner/results.pt:29
+msgid "license.partner_selected"
+msgstr ""
+"Έχετε επιλέξει την <a target=\"cc_other\" "
+"href=\"${license_deed_url}\"><b>${licence_pretty_name} Άδεια</b></a>.<br>"
+"\n"
+"Αυτή η άδεια βρίσκεται προσωρινά<br>\n"
+"<b><tt>${license_url}</tt></b>."
+
+# For any reuse, you must make clear to others the license terms of this work.
+#. For any reuse, you must make clear to others the license terms of this work.
+#: c/engine/licenses/sampling_templates/deed.pt:45
+msgid "deed.notice_withoutdistribution"
+msgstr ""
+"Για κάθε επαναχρησιμοποίηση του έργου σας θα πρέπει να αποσαφηνίσετε "
+"στους άλλους τους όρους της άδειας γι αυτό το έργο."
+
+# Dutch
+#. Dutch
+#: c/engine/macros_templates/deed.pt:124
+msgid "lang.nl"
+msgstr "Ολλανδικά"
+
+# weblog
+#. weblog
+msgid "util.weblog"
+msgstr "weblog"
+
+# Spain
+#. Spain
+msgid "country.es"
+msgstr "Ισπανία"
+
+# Mark a document not on the web, <a href="non-web-popup?${url_vars}"
+# onclick="window.open('non-web-popup?${url_vars}', 'html_help',
+# 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">add this text</a> to your work.
+#. Mark a document not on the web, <a href="non-web-popup?${url_vars}"
+#. onclick="window.open('non-web-popup?${url_vars}', 'html_help',
+#. 'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">add this text</a> to your work.
+#: c/engine/pd/templates/publicdomain-4.pt:49
+#: c/engine/chooser_pages/results.pt:127
+msgid "license.mark_nonweb"
+msgstr ""
+"Μαρκάρετε ένα αρχείο στο διαδίκτυο, <a href=\"non-web-popup?${url_vars}\""
+" onclick=\"window.open('non-web-popup?${url_vars}', 'html_help', "
+"'width=400,height=350,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">προσθέστε αυτό το κείμενο</a> στο έργο σας."
+
+# The licensor permits others to copy, distribute and transmit the work. In
+# return, licensees may not use the work for commercial purposes — unless they
+# get the licensor's permission.
+#. The licensor permits others to copy, distribute and transmit the work. In
+#. return, licensees may not use the work for commercial purposes — unless they
+#. get the licensor's permission.
+msgid "char.nc_description"
+msgstr ""
+"Ο χορηγών την άδεια επιτρέπει στους άλλους να αναπαράγουν, να διανέμουν "
+"και να μεταδίδουν το έργο. Σε αντάλλαγμα οι χρήστες δε μπορούν να "
+"χρησιμοποιήσουν το έργο για εμπορικούς σκοπούς, εκτός εάν πάρουν τη "
+"συναίνεση του χορηγούντος την άδεια."
+
+# Spanish (MX)
+#. Spanish (MX)
+msgid "lang.es_MX"
+msgstr "Ισπανικά (MX)"
+
+# publish
+#. publish
+msgid "util.publish"
+msgstr "δημοσιεύστε"
+
+# This is a human-readable summary of the <a href="legalcode"
+# class="fulltext">Legal Code (the full license)</a>.
+#. This is a human-readable summary of the <a href="legalcode"
+#. class="fulltext">Legal Code (the full license)</a>.
+#: c/engine/macros_templates/deed.pt:153
+msgid "deed.human_summary"
+msgstr ""
+"Αυτό είναι μία εύληπτη στο μη νομομαθή χρήστη περίληψη του <a "
+"href=\"legalcode\" class=\"fulltext\">Νομικού Μέρους (η πλήρης "
+"άδεια)</a>."
+
+# proceed
+#. proceed
+#: c/engine/pd/templates/publicdomain-2.pt:46
+msgid "util.proceed"
+msgstr "συνέχεια"
+
+# GNU Lesser General Public License
+#. GNU Lesser General Public License
+msgid "license.LGPL_name_full"
+msgstr "GNU Lesser General Public License"
+
+# more
+#. more
+msgid "util.more"
+msgstr "επιπλέον"
+
+# English (US)
+#. English (US)
+msgid "lang.en_US"
+msgstr "Αγγλικά (US)"
+
+# attribute to name
+#. attribute to name
+#: c/engine/macros_templates/metadata.pt:52
+#, fuzzy
+msgid "util.attribute_to_name"
+msgstr "αναφορά στο όνομα"
+
+# The Sampling Flavor determines how much freedom licensees have. Sampling
+# only allows pieces to be used and prohibits sharing of the entire work.
+# Sampling Plus allows licensees to take and transform pieces of the work, as
+# well as share the entire work for non-commercial purposes.  Noncommercial
+# Sampling Plus further restricts the Sampling Plus license by only
+# authorizing non-commercial derivatives to be created from the pieces of your
+# work.
+#. The Sampling Flavor determines how much freedom licensees have. Sampling
+#. only allows pieces to be used and prohibits sharing of the entire work.
+#. Sampling Plus allows licensees to take and transform pieces of the work, as
+#. well as share the entire work for non-commercial purposes.  Noncommercial
+#. Sampling Plus further restricts the Sampling Plus license by only
+#. authorizing non-commercial derivatives to be created from the pieces of your
+#. work.
+msgid "api.sampling_flavor_help"
+msgstr ""
+"Η Sampling έκδοση ορίζει την ελευθερία που έχουν οι χρήστες. Η Sampling "
+"έκδοση επιτρέπει μόνο τη χρήση ορισμένων κομματιών και απαγορεύει να "
+"μοιραστείτε ολόκληρο το έργο. Η άδεια Sampling Plus επιτρέπει στους "
+"χρήστες να παίρνουν και να τροποποιούν κομμάτια του έργου, καθώς επίσης "
+"και να μοιράζεστε ολόκληρο το έργο για μη εμπορικούς σκοπούς. Η  άδεια "
+"Sampling Plus για μη εμπορικό σκοπό περιορίζει περαιτέρω την άδεια "
+"Sampling Plus με το να παρέχει την εξουσία να δημιουργούνται από τα "
+"κομμάτια του έργου σας μόνο  μη εμπορικά παράγωγα έργα."
+
+# English
+#. English
+#: c/engine/macros_templates/deed.pt:117
+msgid "lang.en"
+msgstr "Αγγλικά"
+
+# Esperanto
+#. Esperanto
+msgid "lang.eo"
+msgstr "Εσπεράντο"
+
+# This is a draft license published for public review. Do not use this license
+# until this notice has been removed. Direct comments on this draft license to
+# licenses@creativecommons.org.
+#. This is a draft license published for public review. Do not use this license
+#. until this notice has been removed. Direct comments on this draft license to
+#. licenses@creativecommons.org.
+msgid "licenses.draft_notice"
+msgstr ""
+"Αυτό είναι ένα σχέδιο άδειας που εκδίδεται για δημόσια διαβούλευση. Μη "
+"χρησιμοποιείτε αυτήν την άδεια μέχρι να απομακρυνθεί αυτή η ειδοποίηση. "
+"Απευθύνετε σχόλια επί του σχεδίου της άδειας αυτής στην "
+"licenses@creativecommons.org."
+
+# If you desire a license governed by the Copyright Law of a specific
+# jurisdiction, please select the appropriate jurisdiction.
+#. If you desire a license governed by the Copyright Law of a specific
+#. jurisdiction, please select the appropriate jurisdiction.
+#: c/engine/chooser_pages/index.pt:170 c/engine/chooser_pages/sampling.pt:106
+msgid "license.jurisdiction_help"
+msgstr ""
+"Εάν επιθυμείτε μία άδεια να διέπεται από το Νόμο Πνευματικής Ιδιοκτησίας "
+"μίας συγκεκριμένης δικαιοδοσίας, παρακαλώ επιλέξτε την αντίστοιχη "
+"δικαιοδοσία"
+
+# The freedom to run the program for any purpose.
+#. The freedom to run the program for any purpose.
+#: c/engine/licenses/fsf_templates/deed.pt:34
+msgid "deed.gpl_free_run"
+msgstr "Η ελευθερία να εκτελέσετε το πρόγραμμα για κάθε σκοπό."
+
+# Jurisdiction of your license
+#. Jurisdiction of your license
+#: c/engine/chooser_pages/index.pt:128 c/engine/chooser_pages/sampling.pt:72
+#: c/engine/chooser_pages/partner/index.pt:79
+msgid "license.jurisdiction_question"
+msgstr "Δικαιοδοσία της άδειάς σας."
+
+# copyright holder
+#. copyright holder
+#: c/engine/pd/templates/publicdomain-2.pt:39
+msgid "util.copyright_holder"
+msgstr "Δικαιούχος"
+
+# <p>If you <strong>want</strong> to invite people to make
+# <strong>any</strong> commercial re-use of your work &mdash; transformative
+# or not &mdash; you should consider either the <a href="/license/results-
+# one?license%5fcode=by%2dsa">Attribution-ShareAlike</a> license or simply the
+# <a href="/license/results-one?license%5fcode=by">Attribution</a>
+# license.</p>
+#. <p>If you <strong>want</strong> to invite people to make
+#. <strong>any</strong> commercial re-use of your work &mdash; transformative
+#. or not &mdash; you should consider either the <a href="/license/results-
+#. one?license%5fcode=by%2dsa">Attribution-ShareAlike</a> license or simply the
+#. <a href="/license/results-one?license%5fcode=by">Attribution</a>
+#. license.</p>
+#: c/engine/chooser_pages/sampling.pt:118
+#, python-format
+msgid "license.sampling_alternatives"
+msgstr ""
+"<p>Εάν εσείς <strong>επιθυμείτε</strong> να προσκαλέσετε το κοινό να "
+"κάνει<strong>οποιαδήποτε</strong> εμπορική επαναχρησιμοποίηση του έργου "
+"σας&mdash; τροποποιητική ή όχι &mdash; θα πρέπει να σκεφτείτε είτε να <a "
+"href=\"/license/results-one?license%5fcode=by%2dsa\">Αναφορά-Παρόμοια "
+"Διανομή</a> εκχωρήσετε ή απλώς <a href=\"/license/results-"
+"one?license%5fcode=by\">Αναφορά</a> άδεια.</p>"
+
+# Swedish
+#. Swedish
+msgid "lang.sv"
+msgstr "Σουηδικά"
+
+# The HTML to display your button is as follows:
+#. The HTML to display your button is as follows:
+#: c/engine/chooser_pages/htmlpopup.pt:15
+msgid "license.html_display"
+msgstr "Το HTML προκειμένου να εμφανιστεί το κουμπί σας έιναι το ακόλουθο:"
+
+# Basque
+#. Basque
+#: c/engine/macros_templates/deed.pt:109
+msgid "lang.eu"
+msgstr "Βασκικά"
+
+# English (CA)
+#. English (CA)
+msgid "lang.en_CA"
+msgstr "Αγγλικά (CA)"
+
+# Spanish
+#. Spanish
+#: c/engine/macros_templates/deed.pt:104
+msgid "lang.es"
+msgstr "Ισπανικά"
+
+# Attribution
+#. Attribution
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "char.by_title"
+msgstr "Αναφορά"
+
+# Attribution
+#. Attribution
+#: c/engine/templates/by.pt:8 c/engine/templates/by.pt:23
+#: c/engine/licenses/devnations_templates/deed.pt:47
+msgid "licenses.pretty_by"
+msgstr "Αναφορά"
+
+# <strong>Noncommercial Sampling Plus</strong>: People can take and transform
+# <strong>pieces</strong> of your work for <strong>noncommercial</strong>
+# purposes only. <strong>Noncommercial</strong> copying and distribution (like
+# file-sharing) of the <strong>entire work</strong> are also allowed.
+#. <strong>Noncommercial Sampling Plus</strong>: People can take and transform
+#. <strong>pieces</strong> of your work for <strong>noncommercial</strong>
+#. purposes only. <strong>Noncommercial</strong> copying and distribution (like
+#. file-sharing) of the <strong>entire work</strong> are also allowed.
+#: c/engine/chooser_pages/sampling.pt:65
+msgid "license.sampling_a_nc-sampling+"
+msgstr ""
+"<strong>Μη Εμπορική Sampling Plus</strong>: Ο καθένας μπορεί να πάρει και"
+" να τροποποιήσει <strong>κομμάτια</strong> του έργου σας<strong>για μη "
+"εμπορικούς</strong> σκοπούς μόνο. <strong>Μη εμπορική</strong> "
+"αναπαραγωγή και διανομή (όπως ανταλλαγή αρχείων) ολόκληρου <strong>του "
+"έργου</strong> επίσης επιτρέπεται."
+
+# You have selected the Creative Commons ${license_pretty_name}
+# License${country_name}. <a href="${license_url}">See how the license will
+# look</a> to your site's visitors.
+#. You have selected the Creative Commons ${license_pretty_name}
+#. License${country_name}. <a href="${license_url}">See how the license will
+#. look</a> to your site's visitors.
+#: c/engine/chooser_pages/results.pt:21
+msgid "license.selected"
+msgstr ""
+"Έχετε επιλέξει άδεια Creative Commons ${license_pretty_name} License. <a "
+"href=\"${license_url}\">Δείτε πώς θα φαίνεται η άδεια</a> στους "
+"επισκέπτες της ιστοσελίδας σας."
+
+# Video
+#. Video
+#: c/engine/macros_templates/metadata.pt:32
+msgid "util.Video"
+msgstr "Βίντεο"
+
+# ${work_title} is licensed under a <a rel="license"
+# href="${license_url}">Creative Commons ${license_name} License</a>.
+#. ${work_title} is licensed under a <a rel="license"
+#. href="${license_url}">Creative Commons ${license_name} License</a>.
+msgid "license.rdfa_licensed_no_attrib"
+msgstr ""
+"${work_title}είναι υπό άδεια <a rel=\"license\" "
+"href=\"${license_url}\">Creative Commons ${license_name} Άδεια</a>."
+
+# Hungary
+#. Hungary
+msgid "country.hu"
+msgstr "Ουγγαρία"
+
+# Croatia
+#. Croatia
+msgid "country.hr"
+msgstr "Κροατία"
+
+# For more information about the Free Software Foundation, visit their <a
+# href="http://www.fsf.org">web page</a>.
+#. For more information about the Free Software Foundation, visit their <a
+#. href="http://www.fsf.org">web page</a>.
+#: c/engine/chooser_pages/gpl.pt:118 c/engine/chooser_pages/lgpl.pt:121
+msgid "license.fsf_more_info"
+msgstr ""
+"Για περισσότερες πληροφορίες για το Free Software Foundation, "
+"επισκεφτείτε <a href=\"http://www.fsf.org\">ιστοσελίδα</a>."
+
+# Get your Sampling License
+#. Get your Sampling License
+#: c/engine/chooser_pages/sampling.pt:111
+msgid "license.sampling_get"
+msgstr "Πάρτε τη Sampling Άδεια"
+
+# ${license_name_full}, <a href="http://www.gnu.org/">Free Software
+# Foundation</a>
+#. ${license_name_full}, <a href="http://www.gnu.org/">Free Software
+#. Foundation</a>
+#: c/engine/licenses/fsf_templates/deed.pt:16
+msgid "deed.gpl_title"
+msgstr ""
+"${license_name_full}, <a href=\"http://www.gnu.org/\">Free Software "
+"Foundation</a>"
+
+# This work is licensed under a <a href="${license_url}">Creative Commons
+# Developing Nations license</a>.
+#. This work is licensed under a <a href="${license_url}">Creative Commons
+#. Developing Nations license</a>.
+msgid "license.devnations_licensed"
+msgstr ""
+"Αυτό το έργο διέπεται από την <a href=\"${license_url}\">Creative Commons"
+" Αναπτυσσόμενα Έθνη άδεια</a>."
+
+# With a Creative Commons license, <strong>you keep your copyright</strong>
+# but allow people to <a href="/learn/licenses/fullrights">copy and distribute
+# your work</a> provided they <a href="/characteristic/by?lang=${lang}"
+# onclick="window.open('/characteristic/by?lang=${lang}',
+# 'characteristic_help',
+# 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">give you credit</a> — and only on the conditions you specify here.
+# For those new to Creative Commons licensing, we've prepared <a
+# href="/about/think">a list of things to think about</a>. If you want to
+# offer your work with no conditions, choose the <a
+# href="publicdomain-2">public domain</a>.
+#. With a Creative Commons license, <strong>you keep your copyright</strong>
+#. but allow people to <a href="/learn/licenses/fullrights">copy and distribute
+#. your work</a> provided they <a href="/characteristic/by?lang=${lang}"
+#. onclick="window.open('/characteristic/by?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">give you credit</a> — and only on the conditions you specify here.
+#. For those new to Creative Commons licensing, we've prepared <a
+#. href="/about/think">a list of things to think about</a>. If you want to
+#. offer your work with no conditions, choose the <a
+#. href="publicdomain-2">public domain</a>.
+#: c/engine/chooser_pages/index.pt:32
+#, fuzzy
+msgid "license.what"
+msgstr ""
+"Με μία άδεια Creative Commons, <strong>διατηρείτε τα δικαιώματά σας "
+"πνευματικής ιδιοκτησίας</strong> και ταυτόχρονα δίνετε τη δυνατότητα στο "
+"κοινό  <a href=\"/learn/licenses/fullrights\">να αναπαράγει και να "
+"διανέμει το έργο σας</a> αρκεί να <a "
+"href=\"/characteristic/by?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">σας αναφέρουν</a> — και μόνο υπό τους όρους που διευκρινίζετε "
+"εδώ. Για όσους είναι νέοι στις εκχωρήσεις με άδειες Creative Commons, "
+"έχουμε ετοιμάσει <a href=\"/about/think\">μία λίστα με πράγματα τα οποία "
+"πρέπει να λάβουν υπόψιν τους</a>. Εάν θέλετε να προσφέρετε το έργο σας "
+"χωρίς όρους επιλέξτε <a href=\"publicdomain-2\">τα κοινά</a>."
+
+# You must give the original author and the performer credit.
+#. You must give the original author and the performer credit.
+msgid "char.by_brief.jp"
+msgstr "Θα πρέπει να αναφέρετε τον αρχικό δημιουργό και τον ερμηνευτή."
+
+# Learn about other places you can host your licensed files. These sites work
+# with your Creative Commons license.
+#. Learn about other places you can host your licensed files. These sites work
+#. with your Creative Commons license.
+#: c/engine/chooser_pages/results.pt:94
+msgid "license.learn_host"
+msgstr ""
+"Ενημερωθείτε για άλλα σημεία στα οποία θα μπορείτε να φιλοξενήσετε τα "
+"εκχωρημένα αρχεία σας. Οι ιστοσελίδες αυτές ενεργοποιούνται μαζί με την "
+"άδεια Creative Commons που έχετε επιλέξει."
+
+# Spanish (CO)
+#. Spanish (CO)
+msgid "lang.es_CO"
+msgstr "Ισπανικά (CO)"
+
+# Get HTML and email it to yourself
+#. Get HTML and email it to yourself
+#: c/engine/pd/templates/publicdomain-4.pt:42 c/engine/chooser_pages/gpl.pt:110
+#: c/engine/chooser_pages/lgpl.pt:113
+msgid "license.get_html_email"
+msgstr "Φτιάξτε HTML και στείλτε το με email στον εαυτό σας."
+
+# Interactive
+#. Interactive
+#: c/engine/macros_templates/metadata.pt:38
+msgid "util.Interactive"
+msgstr "Διαδραστικό"
+
+# Enter your email address to get the HTML by email:
+#. Enter your email address to get the HTML by email:
+#: c/engine/chooser_pages/htmlpopup.pt:27
+msgid "license.html_email"
+msgstr ""
+"Εισάγετε τη διεύθυνση του ηλεκτρονικού σας ταχυδρομείου προκειμένου να "
+"λάβετε το HTML με email:"
+
+# Next step:
+#. Next step:
+msgid "util.Next_step"
+msgstr "Επόμενο βήμα:"
+
+# Or Choose:
+#. Or Choose:
+#: c/engine/chooser_pages/index.pt:198
+msgid "license.or_choose"
+msgstr "Ή Επιλέξτε:"
+
+# Attribution-NonCommercial-NoDerivs
+#. Attribution-NonCommercial-NoDerivs
+msgid "licenses.pretty_by-nc-nd"
+msgstr "Αναφορά-Μη Εμπορική Χρήση-Όχι Παράγωγα Έργα"
+
+# <p>
+# The Commons Deed is not a license. It is simply a handy reference for
+# understanding the Legal Code (the full license) &mdash; it is a human-
+# readable expression of some of its key terms. Think of it as the user-
+# friendly interface to the Legal Code beneath. This Deed itself has no legal
+# value, and its contents do not appear in the actual license.
+# </p>
+# Creative Commons is not a law firm and does not provide legal services.
+# Distributing of, displaying of, or linking to this Commons Deed does not
+# create an attorney-client relationship.
+#. <p>
+#. The Commons Deed is not a license. It is simply a handy reference for
+#. understanding the Legal Code (the full license) &mdash; it is a human-
+#. readable expression of some of its key terms. Think of it as the user-
+#. friendly interface to the Legal Code beneath. This Deed itself has no legal
+#. value, and its contents do not appear in the actual license.
+#. </p>
+#. Creative Commons is not a law firm and does not provide legal services.
+#. Distributing of, displaying of, or linking to this Commons Deed does not
+#. create an attorney-client relationship.
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:19
+msgid "deed.disclaimer"
+msgstr ""
+"<p>\n"
+"Το Περιληπτικό Μέρος δεν είναι άδεια. Είναι απλά μία εύληπτη επεξήγηση "
+"προκειμένου να κατανοήσετε το νομικό μέρος (την πλήρη άδεια) &mdash; "
+"Πρόκειται για   έκφραση σε απλή γλώσσα κάποιων από των βασικών όρων της "
+"άδειας. Σκεφτείτε το σαν το φιλικό προς το χρήστη σύνδεσμο με το Νομικό "
+"Μέρος παρακάτω. Το μέρος αυτό από μόνο του δεν έχει καμία νομική ισχύ και"
+" τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Το νομικό πρόσωπο Creative Commons δεν είναι δικηγορική εταιρία και δεν "
+"παρέχει νομικές υπηρεσίε. Διανομή, εμφάνιση ή σύνδεση με το Περιληπτικό "
+"Μέρος δε δημιουργεί σχέση δικηγόρου-πελάτη.\n"
+"</p>"
+
+# Here is the license you've chosen
+#. Here is the license you've chosen
+#: c/engine/chooser_pages/results.pt:15
+msgid "license.here_chosen"
+msgstr "Εδώ είναι η άδεια που έχετε επιλέξει"
+
+# Learn how to distribute your work using this license
+#. Learn how to distribute your work using this license
+#: c/engine/macros_templates/deed.pt:161
+msgid "deed.learn"
+msgstr ""
+"Ενημερωθείτε για το πώς μπορείτε να διανέμετε το έργο σας χρησιμοποιώντας"
+" αυτήν την άδεια"
+
+# Send
+#. Send
+#: c/engine/chooser_pages/htmlpopup.pt:41
+msgid "util.Send"
+msgstr "Αποστολή"
+
+# The freedom to improve the program and release your improvements to the
+# public, so that the whole community benefits.
+#. The freedom to improve the program and release your improvements to the
+#. public, so that the whole community benefits.
+#: c/engine/licenses/fsf_templates/deed.pt:40
+msgid "deed.gpl_free_improve"
+msgstr ""
+"Η ελευθερία να βελτιώσετε το πρόγραμμα και να κυκλοφορήσετε τις "
+"βελτιώσεις σας στο κοινό, έτσι ώστε να επωφεληθεί ολόκληρη η κοινότητα"
+
+# Chinese (Taiwan)
+#. Chinese (Taiwan)
+msgid "lang.zh_TW"
+msgstr "Κινέζικα (Ταϊβάν)"
+
+# A work another is derived from.
+#. A work another is derived from.
+#: c/engine/macros_templates/metadata.pt:84
+msgid "jargon.source_work_description"
+msgstr "Έργο από το οποίο προέκυψε άλλο."
+
+# Zulu
+#. Zulu
+msgid "lang.zu"
+msgstr "Ζουλού"
+
+# <h1>Creative Commons GNU ${license_code}</h1>
+# <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
+# Commons Deed to the Free Software Foundation's ${license_name_full}. The
+# license is the official FSF ${license_code}, and includes a Portuguese
+# translation.</p>
+# <p>To signal to others that you are using a Creative Commons license, you
+# can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
+# The result will look like this:</p>
+#. <h1>Creative Commons GNU ${license_code}</h1>
+#. <p>The CC-GNU ${license_code} adds the Creative Commons' metadata and
+#. Commons Deed to the Free Software Foundation's ${license_name_full}. The
+#. license is the official FSF ${license_code}, and includes a Portuguese
+#. translation.</p>
+#. <p>To signal to others that you are using a Creative Commons license, you
+#. can use a Creative Commons logo, which links to the CC-GNU ${license_code}.
+#. The result will look like this:</p>
+#: c/engine/chooser_pages/gpl.pt:25 c/engine/chooser_pages/lgpl.pt:26
+msgid "license.fsf_explain"
+msgstr ""
+"<h1>Creative Commons GNU ${license_code}</h1>\n"
+"\n"
+"<p>The CC-GNU ${license_code} προσθέτει τα Creative Commons' μεταδεδομένα"
+" και το Περιληπτικό Μέρος στο  Free Software Foundation's "
+"${license_name_full}. Η άδεια είναι το επίσημο FSF ${license_code}, και "
+"περιλαμβάνει μία Πορτογαλική έκδοση.</p>\n"
+"\n"
+"<p>Προκειμένου να δείξετε στο κοινό ότι χρησιμοποιείτε άδεια Creative  "
+"Commons, μπορείτε να χρησιμοποιήσετε ένα λογότυπο  Creative Commons, το "
+"οποίο σας συνδέει με τη  CC-GNU ${license_code}. Το αποτέλεσμα θα "
+"φαίνεται ως εξής:</p>"
+
+# The licensor permits others to distribute derivative works only under a
+# license identical to the one that governs the licensor's work.
+#. The licensor permits others to distribute derivative works only under a
+#. license identical to the one that governs the licensor's work.
+#: c/engine/chooser_pages/index.pt:124
+msgid "char.sa_description"
+msgstr ""
+"Ο χορηγών την άδεια επιτρέπει στο κοινό να διανέμει παράγωγα έργα μόνο με"
+" μία άδεια ακριβώς ίδια με αυτή που διέπει το έργο του."
+
+# Image
+#. Image
+#: c/engine/macros_templates/metadata.pt:34
+msgid "util.Image"
+msgstr "Εικόνα"
+
+# Other
+#. Other
+#: c/engine/macros_templates/metadata.pt:28
+msgid "util.Other"
+msgstr "Άλλο"
+
+# You may now <a href="${processed_exit_url}">proceed</a>
+#. You may now <a href="${processed_exit_url}">proceed</a>
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+#: c/engine/chooser_pages/partner/results.pt:35
+msgid "license.you_may_proceed"
+msgstr "Τώρα μπορείτε <a href=\"${processed_exit_url}\">να συνεχίσετε</a>"
+
+# Noncommercial
+#. Noncommercial
+msgid "char.nc_title"
+msgstr "Μη Εμπορική Χρήση"
+
+# Public Domain
+#. Public Domain
+#: c/engine/chooser_pages/index.pt:204
+msgid "licenses.pretty_publicdomain"
+msgstr "Κοινά"
+
+# Public Domain
+#. Public Domain
+#: c/engine/chooser_pages/index.pt:204
+msgid "util.Public_Domain"
+msgstr "Κοινά"
+
+# Chinese
+#. Chinese
+msgid "lang.zh"
+msgstr "Κινέζικα"
+
+# Chinese
+#. Chinese
+msgid "lang.zh_CN"
+msgstr "Κινέζικα"
+
+# Have your own website?
+#. Have your own website?
+#: c/engine/chooser_pages/results.pt:59
+msgid "license.have_your_own_website"
+msgstr "Έχετε δική σας ιστοσελίδα?"
+
+# <h1>Review Choice</h1>
+# <p>Congratulations, you have selected the Creative Commons <a
+# href="${license_url}">${license_pretty_name} License${country_name}</a>.
+# </p>
+# <p>To signal to others that you are using a Creative Commons license, you
+# can use a Creative Commons logo. The result will look like this:</p>
+#. <h1>Review Choice</h1>
+#. <p>Congratulations, you have selected the Creative Commons <a
+#. href="${license_url}">${license_pretty_name} License${country_name}</a>.
+#. </p>
+#. <p>To signal to others that you are using a Creative Commons license, you
+#. can use a Creative Commons logo. The result will look like this:</p>
+msgid "license.review_choice_directions"
+msgstr ""
+"<h1>Επανεξετάστε την επιλογή σας</h1>\n"
+"\n"
+"<p>Συγχαρητήρια, έχετε επιλέξει τις άδειες Creative Commons<a "
+"href=\"${license_url}\">${license_pretty_name} "
+"License${country_name}</a>. </p>\n"
+"\n"
+"<p>Προκειμένου να δείξετε στο κοινό ότι χρησιμοποιείτε άδεια Creative "
+"Commons χρησιμοποιήστε ένα λογότυπο Creative Commons. Το αποτέλεσμα θα "
+"φαίνεται ως εξής:</p>"
+
+# Japanese
+#. Japanese
+msgid "lang.ja"
+msgstr "Ιαπωνικά"
+
+# Choose Your Sampling License Options
+#. Choose Your Sampling License Options
+#: c/engine/chooser_pages/sampling.pt:53
+msgid "license.sampling_title"
+msgstr "Επιλέξτε μία από τις επιλογές της Sampling License "
+
+# Japan
+#. Japan
+msgid "country.jp"
+msgstr "Ιαπωνία"
+
+# to make commercial use of the work
+#. to make commercial use of the work
+msgid "deed.free_commercial"
+msgstr "προκειμένου να κάνετε εμπορική χρήση του έργου"
+
+# more info
+#. more info
+#: c/engine/chooser_pages/index.pt:47 c/engine/chooser_pages/index.pt:50
+#: c/engine/chooser_pages/index.pt:82 c/engine/chooser_pages/index.pt:89
+#: c/engine/chooser_pages/index.pt:97 c/engine/chooser_pages/index.pt:130
+#: c/engine/chooser_pages/sampling.pt:74
+msgid "util.more_info"
+msgstr "περισσότερες πληροφορίες"
+
+# Select a jurisdiction
+#. Select a jurisdiction
+msgid "nav.select_a_jurisdiction"
+msgstr "Επιλέξτε δικαιοδοσία"
+
+# <strong>Sampling Plus</strong>: People can take and transform
+# <strong>pieces</strong> of your work for any purpose other than advertising,
+# which is prohibited. <strong>Noncommercial</strong> copying and distribution
+# (like file-sharing) of the <strong>entire work</strong> are also allowed.
+# Hence, "<strong>plus</strong>".
+#. <strong>Sampling Plus</strong>: People can take and transform
+#. <strong>pieces</strong> of your work for any purpose other than advertising,
+#. which is prohibited. <strong>Noncommercial</strong> copying and distribution
+#. (like file-sharing) of the <strong>entire work</strong> are also allowed.
+#. Hence, "<strong>plus</strong>".
+#: c/engine/chooser_pages/sampling.pt:61
+msgid "license.sampling_a_sampling+"
+msgstr ""
+"<strong>Sampling Plus</strong>: Το κοινό μπορεί να πάρει και να "
+"τροποποιήσει <strong>κομμάτια</strong> για οποιονδήποτε σκοπό εκτός απο "
+"διαφήμιση, η οποία απαγορεύεται. <strong>Μη Εμπορική Χρήση</strong> "
+"αναπαραγωγή και διανομή (όπως αναταλλαγή αρχείων)  <strong>ολόκληρου του "
+"έργου</strong> επίσης επιτρέπεται. Έτσι, \"<strong>plus</strong>\"."
+
+# This is a human-readable summary of the Legal Code (the full license)
+# available in the following languages:
+#. This is a human-readable summary of the Legal Code (the full license)
+#. available in the following languages:
+#: c/engine/macros_templates/deed.pt:98
+msgid "deed.human_summary_multilanguage"
+msgstr ""
+"Αυτή είναι μία εύληπτη περίληψη για τον απλό, μη νομομαθή χρήστη του "
+"Νομικού Μέρους (πλήρης άδεια), η οποία είναι διαθέσιμη στις ακόλουθες "
+"γλώσσες."
+
+# Jordan
+#. Jordan
+msgid "country.jo"
+msgstr "Ιορδανία"
+
+# Catalonia
+#. Catalonia
+msgid "country.es-ca"
+msgstr "Καταλονία"
+
+# Highlight Text to Copy
+#. Highlight Text to Copy
+#: c/engine/pd/templates/publicdomain-4.pt:41 c/engine/chooser_pages/gpl.pt:107
+#: c/engine/chooser_pages/lgpl.pt:110 c/engine/chooser_pages/nonweb_popup.pt:31
+#: c/engine/chooser_pages/htmlpopup.pt:20
+msgid "util.Highlight_Text"
+msgstr "Σημειώστε το κείμενο προς αναπαραγωγή"
+
+# You may not alter, transform, or build upon this work.
+#. You may not alter, transform, or build upon this work.
+msgid "char.nd_brief"
+msgstr ""
+"Δε μπορείτε να αλλοιώσετε, να τροποιήσετε ή να δημιουργήσετε πάνω στο "
+"έργο αυτό."
+
+# Generic
+#. Generic
+#: c/engine/chooser_pages/sampling.pt:78 c/engine/chooser_pages/sampling.pt:90
+#: c/engine/chooser_pages/partner/index.pt:83
+#: c/engine/chooser_pages/partner/index.pt:86
+msgid "util.Generic"
+msgstr "Γενερικός"
+
+# Spanish (AR)
+#. Spanish (AR)
+msgid "lang.es_AR"
+msgstr "Ισπανικά (AΡ)"
+
+# source work
+#. source work
+#: c/engine/macros_templates/metadata.pt:66
+#: c/engine/macros_templates/metadata.pt:82
+msgid "util.source_work"
+msgstr "Σύνδεσμος αρχικού έργου"
+
+# Note: The sampling license isn't just for music. It can apply to all types
+# of copyrighted work: images, film, etc.
+#. Note: The sampling license isn't just for music. It can apply to all types
+#. of copyrighted work: images, film, etc.
+#: c/engine/chooser_pages/sampling.pt:115
+msgid "license.sampling_note"
+msgstr ""
+"Σημείωση: Η sampling άδεια δεν είανι αποκλειστικά και μόνο για μουσική. "
+"Μπορεί να εφαρμοστεί σε όλα τα έργα που προστατεύονται από το νόμο περί "
+"πνευματικής ιδιοκτησίας: εικόνες, κινηματογραφικά έργα κτλ."
+
+# Australia
+#. Australia
+msgid "country.au"
+msgstr "Αυστραλία"
+
+# Austria
+#. Austria
+msgid "country.at"
+msgstr "Αυστρία"
+
+# This work is hereby released into the Public Domain. To view a copy of the
+# public domain dedication, visit
+# http://creativecommons.org/licenses/publicdomain/ or send a letter to
+# Creative Commons, 171 Second Street, Suite 300, San Francisco, California,
+# 94105, USA.
+#. This work is hereby released into the Public Domain. To view a copy of the
+#. public domain dedication, visit
+#. http://creativecommons.org/licenses/publicdomain/ or send a letter to
+#. Creative Commons, 171 Second Street, Suite 300, San Francisco, California,
+#. 94105, USA.
+#: c/engine/chooser_pages/nonweb_popup.pt:19
+#, fuzzy
+msgid "license.non_web_pd"
+msgstr ""
+"Δια του παρόντος το έργο αυτό είναι ελεύθερα προσιτό στο κοινό. "
+"Προκειμένου να δείτε ένα αντίγραφο της προσφοράς του έργου στα κοινά "
+"επισκεφτείτε το http://creativecommons.org/licenses/publicdomain/ ή "
+"στείλτε γράμμα στο  Creative Commons, 171 Second Street, Suite 300, San "
+"Francisco, California, 94105, USA."
+
+# Argentina
+#. Argentina
+msgid "country.ar"
+msgstr "Αργεντινή"
+
+# A <a href="${current_version_url}">new version</a> of this license is
+# available. You should use it for new works, and you may want to relicense
+# existing works under it. No works are <em>automatically</em> put under the
+# new license, however.
+#. A <a href="${current_version_url}">new version</a> of this license is
+#. available. You should use it for new works, and you may want to relicense
+#. existing works under it. No works are <em>automatically</em> put under the
+#. new license, however.
+#: c/engine/licenses/standard_templates/deed.pt:77
+msgid "deed.superseded"
+msgstr ""
+"Μία <a href=\"${current_version_url}\">νέα έκδοση</a> αυτής της άδειας "
+"είναι διαθέσιμη. Θα πρέπει να τη χρησιμποιήσετε για νέα έργα, και "
+"ενδεχομένως για υπάρχοντα έργα που διέποντα από αυτή. Κανένα έργο <em>δεν"
+" υπεισέρχεται αυτόματα</em>παρόλα αυτά σε μία νέα άδεια."
+
+# Sampling Plus
+#. Sampling Plus
+#: c/engine/chooser_pages/index.pt:209
+msgid "licenses.pretty_sampling+"
+msgstr "Sampling Plus"
+
+# Allow commercial uses of your work?
+#. Allow commercial uses of your work?
+#: c/engine/chooser_pages/index.pt:42
+msgid "api.commercial"
+msgstr "Θα επιτρέψετε εμπορικές χρήσεις του έργου σας?"
+
+# enter information
+#. enter information
+#: c/engine/macros_templates/support.pt:103
+#: c/engine/macros_templates/support.pt:107
+msgid "license.enter_information"
+msgstr "εισάγετε πληροφορίες"
+
+# Allow Remixing
+#. Allow Remixing
+msgid "jswidget.Allow_Remixing"
+msgstr "Επιτρέψτε Διασκευή"
+
+# Hide these fields (All fields are optional)
+#. Hide these fields (All fields are optional)
+#: c/engine/macros_templates/metadata.pt:16
+msgid "license.hide_optional_fields"
+msgstr "Απόκρυψη των πεδίων (Όλα τα πεδία έιναι προαιρετικά)"
+
+# Portugal
+#. Portugal
+msgid "country.pt"
+msgstr "Πορτογαλία"
+
+# GNU General Public License
+#. GNU General Public License
+msgid "license.GPL_name_full"
+msgstr "GNU General Public License"
+
+# The freedom to study how the program works and adapt it to your needs.
+#. The freedom to study how the program works and adapt it to your needs.
+#: c/engine/licenses/fsf_templates/deed.pt:36
+msgid "deed.gpl_free_study"
+msgstr ""
+"Η ελευθερία να μελετήσετε πώς λειτουργεί το πρόγραμμα και να το "
+"προσαρμόσετε στις ανάγκες σας"
+
+# Afrikaans
+#. Afrikaans
+msgid "lang.af"
+msgstr "Αφρικάν"
+
+# The copyright notice and license shall be included in all copies or
+# substantial portions of the software.
+#. The copyright notice and license shall be included in all copies or
+#. substantial portions of the software.
+#: c/engine/licenses/mitbsd_templates/deed.pt:54
+msgid "deed.mit_notice"
+msgstr ""
+"Το λογότυπο υπόμνηση για τα δικαιώματα πνευματικής ιδιοκτησίας και η "
+"άδεια θα πρέπει να συμπεριλαμβάνεται σε όλα τα αντίγραφα ή σε ουσιωδώς "
+"μεγάλα κομμάτια του αντίστοιχου λογισμικού"
+
+# Remix
+#. Remix
+msgid "jswidget.Remix"
+msgstr "Διασκευή"
+
+# You may not use this work for commercial purposes.
+#. You may not use this work for commercial purposes.
+msgid "char.nc_brief"
+msgstr "Δε μπορείτε να χρησιμοποιήσετε το έργο αυτό για εμπορικούς σκοπούς."
+
+# more permissions URL
+#. more permissions URL
+#: c/engine/macros_templates/metadata.pt:72
+msgid "util.more_permissions_url"
+msgstr "Σύνδεσμος για άλλες άδειες"
+
+# Nothing in this license impairs or restricts the author's moral rights.
+#. Nothing in this license impairs or restricts the author's moral rights.
+#: c/engine/licenses/standard_templates/deed.pt:64
+#, fuzzy
+msgid "deed.moralrights"
+msgstr ""
+"Τίποτα στην άδεια αυτή δεν αποδυναμώνει ή περιορίζει το ηθικό δικαίωμα "
+"του δημιουργού."
+
+# Slovak Republic
+#. Slovak Republic
+msgid "country.sk"
+msgstr "Δημοκρατία της Σλοβακίας"
+
+# Copy the text below to your Web site to let your visitors know what license
+# applies to your works.
+#. Copy the text below to your Web site to let your visitors know what license
+#. applies to your works.
+#: c/engine/chooser_pages/results.pt:61
+msgid "license.copy_text"
+msgstr ""
+"Αντιγράψτε το παρακάτω κείμενο στην ιστοσελίδα σας, προκειμένου να "
+"ενημερώνετε τους επισκέπτες σας ποιά άδεια εφαρμόζεται στα έργα σας."
+
+# Hebrew
+#. Hebrew
+msgid "lang.he"
+msgstr "Εβραϊκά"
+
+# learn how to mark your content
+#. learn how to mark your content
+msgid "license.learn_mark"
+msgstr "ενημερωθείτε πώς μπορείτε να μαρκάρετε το περιεχόμενό σας"
+
+# Singapore
+#. Singapore
+msgid "country.sg"
+msgstr "Σιγκαπούρη"
+
+# Sweden
+#. Sweden
+msgid "country.se"
+msgstr "Σουηδία"
+
+# Germany
+#. Germany
+#: c/engine/chooser_pages/sampling.pt:82 c/engine/chooser_pages/sampling.pt:94
+msgid "country.de"
+msgstr "Γερμανία"
+
+# Hungarian
+#. Hungarian
+msgid "lang.hu"
+msgstr "Ουγγρικά"
+
+# Denmark
+#. Denmark
+msgid "country.dk"
+msgstr "Δανία"
+
+# Close window
+#. Close window
+#: c/engine/chooser_pages/nonweb_popup.pt:37
+#: c/engine/chooser_pages/htmlpopup.pt:46
+#: c/engine/chooser_templates/emailhtml.pt:19 c/engine/templates/by.pt:31
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:21
+msgid "util.Close_window"
+msgstr "Κλείσιμο παραθύρου"
+
+# Slovenia
+#. Slovenia
+msgid "country.si"
+msgstr "Σλοβενία"
+
+# Croatian
+#. Croatian
+msgid "lang.hr"
+msgstr "Κροατικά"
+
+# UK: Scotland
+#. UK: Scotland
+msgid "country.scotland"
+msgstr "UK: Scotland"
+
+# Ukraine
+#. Ukraine
+msgid "country.ua"
+msgstr "Ουκρανία"
+
+# This license is <a href="/retiredlicenses">retired</a>. Do not use for new
+# works.
+#. This license is <a href="/retiredlicenses">retired</a>. Do not use for new
+#. works.
+#: c/engine/licenses/fsf_templates/deed.pt:24
+#: c/engine/licenses/devnations_templates/deed.pt:25
+#: c/engine/licenses/sampling_templates/deed.pt:23
+#: c/engine/licenses/standard_templates/deed.pt:31
+msgid "deed.retired"
+msgstr ""
+"Αυτή η άδεια <a href=\"/retiredlicenses\">έχει αποσυρθεί</a>. Μην τη "
+"χρησιμοποιείτε για νέα έργα."
+
+# Canada
+#. Canada
+msgid "country.ca"
+msgstr "Καναδάς"
+
+# Colombia
+#. Colombia
+msgid "country.co"
+msgstr "Κολομβία"
+
+# China Mainland
+#. China Mainland
+msgid "country.cn"
+msgstr "Κίνα"
+
+# GPL
+#. GPL
+msgid "licenses.pretty_GPL"
+msgstr "GPL"
+
+# <p>
+# The Commons Deed is not a license. It is simply a handy reference for
+# understanding the Legal Code (the full License) — it is a human-readable
+# expression of some of its key terms. This Deed itself has no legal value,
+# and its contents do not appear in the actual License.  The actual terms of
+# the license is set forth by the Legal Code.  <a href="legalcode"
+# class="fulltext">Please click here to see the full License</a>.
+# </p>
+# Creative Commons and Creative Commons Japan are not law firms, and
+# distributing of or displaying of, or linking to the Commons Deed does not
+# constitute an offer of legal advice or any other legal services. Creative
+# Commons and Creative Commons Japan are not a party to the License underlying
+# this Commons Deed, and disclaim liablity for damages resulting from any use
+# of the Commons Deed and the underlying License.
+# The Product licensed under Creative Commons License is provided by the
+# person who applied the License.  Creative Commons and Creative Commons Japan
+# make no warranties regarding the title of the licensor.  Please read <a
+# href="http://creativecommons.jp/faq/">here</a> for information regarding the
+# application of licenses and exploitation of the Product licensed under
+# Creative Commons licenses.
+#. <p>
+#. The Commons Deed is not a license. It is simply a handy reference for
+#. understanding the Legal Code (the full License) — it is a human-readable
+#. expression of some of its key terms. This Deed itself has no legal value,
+#. and its contents do not appear in the actual License.  The actual terms of
+#. the license is set forth by the Legal Code.  <a href="legalcode"
+#. class="fulltext">Please click here to see the full License</a>.
+#. </p>
+#. Creative Commons and Creative Commons Japan are not law firms, and
+#. distributing of or displaying of, or linking to the Commons Deed does not
+#. constitute an offer of legal advice or any other legal services. Creative
+#. Commons and Creative Commons Japan are not a party to the License underlying
+#. this Commons Deed, and disclaim liablity for damages resulting from any use
+#. of the Commons Deed and the underlying License.
+#. The Product licensed under Creative Commons License is provided by the
+#. person who applied the License.  Creative Commons and Creative Commons Japan
+#. make no warranties regarding the title of the licensor.  Please read <a
+#. href="http://creativecommons.jp/faq/">here</a> for information regarding the
+#. application of licenses and exploitation of the Product licensed under
+#. Creative Commons licenses.
+#: c/engine/macros_templates/deed.pt:76
+msgid "deed.disclaimer.jp"
+msgstr ""
+"<p>\n"
+"Το περιληπτικό μέρος δεν αποτελεί άδεια. Πρόκειται απλά για μία εύληπτη "
+"αναφορά προκειμένου να κατανοήσετε το νομικό μέρος &mdash; είναι μία "
+"εύληπτη έκδοση για τον απλό μη νομομαθή χρήστη των βασικών εννοιών της "
+"άδειας. Το Περιληπτικό Μέρος από μόνο του δεν έχει καμία νομική ισχύ, και"
+" τα περιεχόμενά του δεν εμφανίζονται στην πραγματική άδεια.  Οι "
+"πραγματικοί όροι της άδειας εμφανίζονται στο Νομικό Μέρος.  <a "
+"href=\"legalcode\" class=\"fulltext\">Παρακαλώ πατήστε εδώ προκειμένου να"
+" δείτε ολόκληρη την άδεια</a>.  \n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Το νομικό πρόσωπο Creative Commons και το Creative Commons Ελλάδος δεν "
+"είναι δικηγορικές εταιρίες, και η διανομή, η εμφάνιση και η σύνδεση με το"
+" Περιληπτικό Μέρος δεν αποτελεί παροχή νομικής συμβουλής ούτε  παροχή "
+"οποιωνδήποτε νομικών υπηρεσιών. Το νομικό πρόσωπο Creative Commons και το"
+" Creative Commons Ελλάδας δεν είναι συμβαλλόμενοι στην άδεια που "
+"υπόκειται αυτού του Περλιπτικού Μέρους  και αποποιούνται οποιαδήποτε "
+"ευθύνη για ζημιές που θα προκύψουν από οποιαδήποτε χρήση του Περιληπτικού"
+" Μέρους και της υποκείμενης άδειας.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Το Προϊόν που διέπεται από άδεια Creative Commons παραχωρείται από το "
+"άτομο που εφάρμοσε την άδεια.  Το νομικό πρόσωπο Creative Commons και το "
+"Creative Commons Ελλάδας δεν παρέχουν εγγυήσεις σχετικά με τον τίτλο του "
+"χορηγούντος την άδεια.  Παρακαλώ  διαβάστε<a "
+"href=\"http://creativecommons.jp/faq/\">εδώ</a> για πληροφορίες σχετικά "
+"με την εφαρμογή των αδειών και την εκμετάλλευση του Προϊόντος που "
+"διέπεται από άδειες Creative Commons.\n"
+"</p>"
+
+# Switzerland
+#. Switzerland
+msgid "country.ch"
+msgstr "Ελβετία"
+
+# Posting your licensed images at Flickr
+#. Posting your licensed images at Flickr
+#: c/engine/chooser_pages/results.pt:105
+#, fuzzy
+msgid "license.publish_flickr"
+msgstr "Στείλτε τις εικόνες σας που διέπονται από τις άδειες στο Flickr"
+
+# We have updated the version of your license to the most recent one available
+# in your jurisdiction.
+#. We have updated the version of your license to the most recent one available
+#. in your jurisdiction.
+msgid "jswidget.Updated_license_jurisdiction"
+msgstr ""
+"Έχουμε ενημερώσει την έκδοση της άδειάς σας σύμφωνα με την πιο πρόσφατη "
+"που είναι διαθέσιμη στη δικαιοδοσία σας."
+
+# Czech Republic
+#. Czech Republic
+msgid "country.cz"
+msgstr "Δημοκρατία της Τσεχίας"
+
+# NoDerivs-NonCommercial
+#. NoDerivs-NonCommercial
+msgid "licenses.pretty_nd-nc"
+msgstr "Όχι Παράγωγα Έργα - Μη Εμπορική Χρήση"
+
+# Attribution-NonCommercial-ShareAlike
+#. Attribution-NonCommercial-ShareAlike
+msgid "licenses.pretty_by-nc-sa"
+msgstr "Αναφορά - Μη Εμπορική Χρήση - Παρόμοια Διανομή"
+
+# France
+#. France
+msgid "country.fr"
+msgstr "Γαλλία"
+
+# creator's name
+#. creator's name
+msgid "util.creators_name"
+msgstr "όνομα του δημιουργού"
+
+# South Africa
+#. South Africa
+msgid "country.za"
+msgstr "Νότια Αφρική"
+
+# Serbian
+#. Serbian
+msgid "lang.sr"
+msgstr "Σερβικά"
+
+# Sotho
+#. Sotho
+msgid "lang.st"
+msgstr "Sotho"
+
+# <a href="/jargon/source_work" class="jargon"
+# onClick="window.open('/jargon/source_work', 'jargon_term_lookup',
+# 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
+# return false;">source work</a> URL
+#. <a href="/jargon/source_work" class="jargon"
+#. onClick="window.open('/jargon/source_work', 'jargon_term_lookup',
+#. 'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');
+#. return false;">source work</a> URL
+msgid "util.source_work_url"
+msgstr ""
+"<a href=\"/jargon/source_work\" class=\"jargon\" "
+"onClick=\"window.open('/jargon/source_work', 'jargon_term_lookup', "
+"'width=300,height=400,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');"
+" return false;\">αρχικό έργο </a> URL"
+
+# Final step:
+#. Final step:
+msgid "license.Final_step"
+msgstr "Τελικό βήμα:"
+
+# You must conspicuously and appropriately publish on each copy distributed an
+# appropriate copyright notice and disclaimer of warranty and keep intact all
+# the notices that refer to this License and to the absence of any warranty;
+# and give any other recipients of the Program a copy of the
+# ${license_name_full} along with the Program. Any translation of the
+# ${license_name_full} must be accompanied by the ${license_name_full}.
+#. You must conspicuously and appropriately publish on each copy distributed an
+#. appropriate copyright notice and disclaimer of warranty and keep intact all
+#. the notices that refer to this License and to the absence of any warranty;
+#. and give any other recipients of the Program a copy of the
+#. ${license_name_full} along with the Program. Any translation of the
+#. ${license_name_full} must be accompanied by the ${license_name_full}.
+#: c/engine/licenses/fsf_templates/deed.pt:55
+msgid "deed.gpl_notice"
+msgstr ""
+"Μαζί με κάθε κάθε αντίγραφο που δημοσιεύετε, θα πρέπει αναλόγως και "
+"ευκρινώς  να έχετε ένα λογότυπο-υπόμνηση δικαιώματος πνευματικής "
+"ιδιοκτησίας και αποποίηση οποιασδήποτε εγγυήσεως και παράλληλα θα πρέπει "
+"να διατηρήσετε ανέπαφες όλες τις σημειώσεις που αναφέρονται σε αυτήν την "
+"άδεια και στην απουσία οποιασδήποτε εγγυήσεως και θα πρέπει να δώσετε σε "
+"οποιονδήποτε άλλον παραλήπτη του προγράμματος ένα αντίγραφο   "
+"${license_name_full} μαζί με το πρόγραμμα.Οποιαδήποτε "
+"μετάφραση${license_name_full} θα πρέπει να συνοδεύεται από την "
+"${license_name_full}."
+
+# <strong>to Share</strong> — to copy, distribute and transmit the work
+#. <strong>to Share</strong> — to copy, distribute and transmit the work
+#: c/engine/licenses/devnations_templates/deed.pt:30
+#: c/engine/licenses/mitbsd_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:38
+msgid "deed.free_copy_distribute"
+msgstr ""
+"<strong>η διανομή</strong>: Η αναπαραγωγή, διανομή, παρουσίαση στο κοινό "
+"του Έργου"
+
+# No Derivative Works
+#. No Derivative Works
+#: c/engine/chooser_pages/index.pt:115
+msgid "char.nd_title"
+msgstr "Όχι Παράγωγα Έργα"
+
+# For any reuse or distribution, you must make clear to others the license
+# terms of this work. The best way to do this is with a link to this web page.
+#. For any reuse or distribution, you must make clear to others the license
+#. terms of this work. The best way to do this is with a link to this web page.
+#: c/engine/licenses/devnations_templates/deed.pt:50
+#: c/engine/licenses/sampling_templates/deed.pt:43
+#: c/engine/licenses/standard_templates/deed.pt:56
+msgid "deed.notice"
+msgstr ""
+"Για κάθε επαναχρησιμοποίηση ή διανομή, πρέπει να καταστήσετε σαφείς στους"
+" άλλους τους όρους της άδειας αυτού του Έργου. Ο καλύτερος τρόπος για να "
+"πράξετε αυτό είναι να δημιουργήσετε ένα σύνδεσμο με το διαδικτυακό τόπο "
+"της παρούσας άδειας."
+
+# Slovenian
+#. Slovenian
+msgid "lang.sl"
+msgstr "Σλοβένικα"
+
+# copyright
+#. copyright
+msgid "util.copyright"
+msgstr "δικαιώματα πνευματικής ιδιοκτησίας"
+
+# This work is licensed under the Creative Commons ${license_name} License. To
+# view a copy of this license, visit ${license_url} or send a letter to
+# Creative Commons, 171 Second Street, Suite 300, San Francisco, California,
+# 94105, USA.
+#. This work is licensed under the Creative Commons ${license_name} License. To
+#. view a copy of this license, visit ${license_url} or send a letter to
+#. Creative Commons, 171 Second Street, Suite 300, San Francisco, California,
+#. 94105, USA.
+#: c/engine/chooser_pages/nonweb_popup.pt:27
+msgid "license.non_web_statement"
+msgstr ""
+"Το έργο αυτό διέπεται από άδεια Creative Commons ${license_name}. "
+"Προκειμένου να δείτε ένα αντίγραφο της άδειας αυτής, επισκεφτείτε "
+"${license_url} ή στείλτε γράμμα στο Creative Commons, 171 Second Street, "
+"Suite 300, San Francisco, California, 94105, USA."
+
+# <strong>No Endorsement</strong>. The name of the author may not be used to
+# endorse or promote products derived from this software without specific
+# prior written permission.
+#. <strong>No Endorsement</strong>. The name of the author may not be used to
+#. endorse or promote products derived from this software without specific
+#. prior written permission.
+#: c/engine/licenses/mitbsd_templates/deed.pt:40
+msgid "deed.no_endorsement"
+msgstr ""
+"<strong>Όχι επίσημη έγκριση</strong>. Το όνομα του δημιουργού δε μπορεί "
+"να χρησιμοποιηθεί προκειμένου να εγκριθούν ή να προωθηθούν προϊόντα που "
+"παρήχθησαν από αυτό το πρόγραμμα υπολογιστή χωρίς προηγούμενη ρητή "
+"έγκριση."
+
+# Prohibit Commercial Use
+#. Prohibit Commercial Use
+msgid "jswidget.Prohibit_Commercial_Use"
+msgstr "Απαγορεύεται η Εμπορική Χρήση"
+
+# What to do next
+#. What to do next
+#: c/engine/chooser_pages/results.pt:56
+msgid "license.what_to_do_next"
+msgstr "Ποιό είναι το επόμενο βήμα"
+
+# Add your license information to a RSS feed, use <a
+# href="http://web.resource.org/rss/1.0/modules/cc/">the RSS 1.0 module</a>,
+# or <a href="http://backend.userland.com/creativeCommonsRssModule">the RSS
+# 2.0 module</a>.
+#. Add your license information to a RSS feed, use <a
+#. href="http://web.resource.org/rss/1.0/modules/cc/">the RSS 1.0 module</a>,
+#. or <a href="http://backend.userland.com/creativeCommonsRssModule">the RSS
+#. 2.0 module</a>.
+#: c/engine/pd/templates/publicdomain-4.pt:52
+msgid "license.mark_rss"
+msgstr ""
+"Τοποθετήστε τις πληροφορίες σας σε ένα RSS feed, χρησιμοποιήστε ένα <a "
+"href=\"http://web.resource.org/rss/1.0/modules/cc/\">the RSS 1.0 "
+"module</a>, ή <a "
+"href=\"http://backend.userland.com/creativeCommonsRssModule\">το RSS "
+"έκδοση 2.0 </a>."
+
+# Spanish (CL)
+#. Spanish (CL)
+msgid "lang.es_CL"
+msgstr "Ισπανικά (ΚΛ)"
+
+# review choice
+#. review choice
+#: c/engine/chooser_pages/sampling.pt:36
+#: c/engine/macros_templates/support.pt:127
+#: c/engine/macros_templates/support.pt:134
+#: c/engine/macros_templates/support.pt:136
+msgid "license.review_choice"
+msgstr "επανεξετάστε την επιλογή σας"
+
+# If you modify your copy or copies of the library or any portion of it, you
+# may distribute the resulting library provided you do so under the GNU Lesser
+# General Public License.  However, programs that  link to the library may be
+# licensed under terms of your choice, so long as the library itself can be
+# changed.  Any translation of the GNU Lesser General Public License must be
+# accompanied by the GNU Lesser General Public License.
+#. If you modify your copy or copies of the library or any portion of it, you
+#. may distribute the resulting library provided you do so under the GNU Lesser
+#. General Public License.  However, programs that  link to the library may be
+#. licensed under terms of your choice, so long as the library itself can be
+#. changed.  Any translation of the GNU Lesser General Public License must be
+#. accompanied by the GNU Lesser General Public License.
+msgid "deed.lgpl_sharealike"
+msgstr ""
+"Εάν τροποιήσετε το αντίγραφό ή τα αντίγραφά σας από τη βιβλιοθήκη ή "
+"οποιοδήποτε κομμάτι από αυτή, μπορείτε να διανείμετε τη βιβλιοθήκη που θα"
+" προκύψει, εάν κι εφόσον το πράξετε υπό την άδεια GNU LesserGeneral "
+"Public License. Παρόλα αυτά, προγράμματα τα οποία συνδέονται με τη "
+"βιβλιοθήκη, μπορούν να εκχωρηθούν με όρους της επιλογής σας στο βαθμό που"
+" η βιβλιοθήκη από μόνη της Θα μπορεί να αλλάξει. Οποιαδήποτε μετάφραση "
+"της GNU Lesser General Public License θα πρέπει να συνοδεύεται από την "
+"GNU Lesser General Public License."
+
+# Share Music
+#. Share Music
+msgid "util.Share_Music"
+msgstr "Διανομή Μουσικής"
+
+# Share Alike
+#. Share Alike
+#: c/engine/chooser_pages/index.pt:122
+msgid "char.sa_title"
+msgstr "Παρόμοια διανομή"
+
+# Creative Commons helps you publish your work online while letting others
+# know exactly what they can and can't do with your work. When you choose a
+# license, we provide you with tools and tutorials that let you add license
+# information to your own site, or to one of several free hosting services
+# that have incorporated Creative Commons.
+#. Creative Commons helps you publish your work online while letting others
+#. know exactly what they can and can't do with your work. When you choose a
+#. license, we provide you with tools and tutorials that let you add license
+#. information to your own site, or to one of several free hosting services
+#. that have incorporated Creative Commons.
+#: c/engine/chooser_pages/index.pt:193
+msgid "license.explain"
+msgstr ""
+"Το νομικό πρόσωπο Creative Commons σας βοηθάει να δημοσιεύσετε το έργο "
+"σας online και παράλληλα ενημερώνει το κοινό τί χρήσεις ακριβώς μπορεί να"
+" κάνει ή δε μπορεί να κάνει με το έργο σας. Όταν επιλέγετε μία άδεια σας "
+"παρέχουμε τα κατάλληλα εργαλεία και τα ανάλογα εκπαιδευτικά μαθήματα "
+"(οδηγίες) που σας επιτρέπουν να προσθέσετε πληροφορίες σχετικά με την "
+"άδεια στη δική σας ιστοσελίδα ή σε καποιον από τους δωρεάν παρόχους που "
+"περιέχουν υλικό Creative Commons."
+
+# Now that you've chosen the public domain dedication, you must mark your work
+# in the appropriate way.
+#. Now that you've chosen the public domain dedication, you must mark your work
+#. in the appropriate way.
+#: c/engine/pd/templates/publicdomain-4.pt:27
+#, fuzzy
+msgid "license.mark_pd"
+msgstr ""
+"Τώρα που επιλέξατε την προσφορά στα κοινά, θα πρέπει να μαρκάρετε το έργο"
+" σας αναλόγως."
+
+# Try again!
+#. Try again!
+msgid "util.Try_again"
+msgstr "Προσπαθήστε ξανά!"
+
+# Founder's Copyright
+#. Founder's Copyright
+#: c/engine/chooser_pages/index.pt:214
+msgid "util.Founders_Copyright"
+msgstr "Founder's Copyright"
+
+# NonCommercial-ShareAlike
+#. NonCommercial-ShareAlike
+msgid "licenses.pretty_nc-sa"
+msgstr "Μη Εμπορική Χρήση - Παρόμοια Διανομή"
+
+# After publishing your license, please consider <a
+# href="http://creativecommons.org/support/">supporting Creative Commons</a>.
+#. After publishing your license, please consider <a
+#. href="http://creativecommons.org/support/">supporting Creative Commons</a>.
+#: c/engine/chooser_pages/results.pt:78
+msgid "license.after_support_cc"
+msgstr ""
+"Μετά τη δημοσίευση της άδειάς σας παρακαλώ σκεφτείτε <a "
+"href=\"http://creativecommons.org/support/\">να υποστηρίξετε τα Creative "
+"Commons</a>."
+
+# You must attribute the
+# work in the manner specified by the author or licensor.
+#. You must attribute the
+#. work in the manner specified by the author or licensor.
+#: c/engine/templates/by.pt:25
+msgid "char.by_description"
+msgstr ""
+"Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει "
+"οριστεί από το δημιουργό ή το χορηγών την άδεια"
+
+# Text
+#. Text
+#: c/engine/macros_templates/metadata.pt:36
+msgid "util.Text"
+msgstr "Κείμενο"
+
+# You must attribute the work in the manner specified by the author or
+# licensor (but not in any way that suggests that they endorse you or your use
+# of the work).
+#. You must attribute the work in the manner specified by the author or
+#. licensor (but not in any way that suggests that they endorse you or your use
+#. of the work).
+#: c/engine/licenses/devnations_templates/deed.pt:48
+#: c/engine/licenses/sampling_templates/deed.pt:41
+msgid "char.by_brief"
+msgstr ""
+"Θα πρέπει να κάνετε την αναφορά στο έργο με τον τρόπο όπως αυτός έχει "
+"οριστεί από το δημιουργό ή το χορηγούντα την άδεια (χωρίς όμως να "
+"εννοείται με οποιονδήποτε τρόπο ότι εγκρίνουν εσάς ή τη χρήση του έργου "
+"από εσάς)."
+
+# If you copy or distribute the library, you must accompany it with the
+# complete corresponding machine-readable source code or with a written offer,
+# valid for at least three years, to furnish the complete corresponding
+# machine-readable source code.  You need not provide source code to programs
+# which link to the library.
+#. If you copy or distribute the library, you must accompany it with the
+#. complete corresponding machine-readable source code or with a written offer,
+#. valid for at least three years, to furnish the complete corresponding
+#. machine-readable source code.  You need not provide source code to programs
+#. which link to the library.
+msgid "deed.lgpl_source"
+msgstr ""
+"Εάν αναπαράγετε ή διανείμετε τη βιβλιοθήκη θα πρέπει αυτή να συνοδεύεται "
+"με ολόκληρο τον αντίστοιχο πηγαίο κώδικα σε ψηφιακή μορφή ή με μία γραπτή"
+" προσφορά με ισχύ τουλάχιστον τριών ετών ότι θα παρέχετε ολόκληρο τον "
+"αντίστοιχο πηγαίο κώδικα σε ψηφιακή μορφή. Δε χρειάζεται να παρέχετε "
+"πηγαίο κώδικα προγραμμάτων που χρησιμοποιούν τη βιβλιοθιήκη."
+
+# Need more help? <a href="/education/publish-website">Read our tutorial</a>.
+#. Need more help? <a href="/education/publish-website">Read our tutorial</a>.
+#: c/engine/chooser_pages/results.pt:76
+#, fuzzy
+msgid "license.read_tutorial"
+msgstr ""
+"Χρειάζεστε βοήθεια? <a href=\"/education/publish-website\">Διαβάστε το "
+"εκπαιδευτικό  μας κείμενο</a>."
+
+# Finland
+#. Finland
+msgid "country.fi"
+msgstr "Φιναλνδία"
+
+# <p>You've made a work you're proud of. Now it's time to get creative with
+# how you make it available.</p>
+# <p>Creative Commons licenses help you share your work while keeping
+# your copyright. Other people can copy and distribute your work provided they
+# <a href="/characteristic/by?lang=${lang}"
+# onclick="window.open('/characteristic/by?lang=${lang}',
+# 'characteristic_help',
+# 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+# false;">give you credit</a> — and only on the conditions you specify here.
+# This page helps you choose those conditions. If you want to offer your work
+# with no conditions, choose the <a href="${results_pd_url}">public
+# domain</a>.</p>
+#. <p>You've made a work you're proud of. Now it's time to get creative with
+#. how you make it available.</p>
+#. <p>Creative Commons licenses help you share your work while keeping
+#. your copyright. Other people can copy and distribute your work provided they
+#. <a href="/characteristic/by?lang=${lang}"
+#. onclick="window.open('/characteristic/by?lang=${lang}',
+#. 'characteristic_help',
+#. 'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return
+#. false;">give you credit</a> — and only on the conditions you specify here.
+#. This page helps you choose those conditions. If you want to offer your work
+#. with no conditions, choose the <a href="${results_pd_url}">public
+#. domain</a>.</p>
+#: c/engine/chooser_pages/partner/index.pt:25
+#, fuzzy
+msgid "license.partner_what"
+msgstr ""
+"<p>Δημιοργήσατε ένα έργο για το οποίο είστε περήφανος. Τώρα ήρθε η ώρα να"
+" γίνετε δημιουργικός με τον τρόπο που θα το κάνετε προσιτό στο κοινό "
+".</p>\n"
+"\n"
+"<p>Οι άδειες Creative Commonsσας βοηθούν να διανέμετε το έργο σας "
+"διατηρώντας παράλληλα  \n"
+"τα δικαιώματά σας πνευματικής ιδιοκτησίας. Το κοινό θα μπορεί να "
+"αναπαράγει και να διανέμει το έργο σας εάν κι εφόσον <a "
+"href=\"/characteristic/by?lang=${lang}\" "
+"onclick=\"window.open('/characteristic/by?lang=${lang}', "
+"'characteristic_help', "
+"'width=375,height=300,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=yes,menubar=no,status=yes');return"
+" false;\">σας αναφέρουν</a> — και μόνο υπό τους όρους που θέτετε εδώ. Η "
+"σελίδα αυτή σας βοηθά να επιλέξετε τους όρους αυτούς. Εάν επιθυμείτε να "
+"προσφέρετε το έργο σας χωρίς όρους επιλέξτε τα<a "
+"href=\"${results_pd_url}\">κοινά</a>.</p>"
+
+# No
+#. No
+#: c/engine/chooser_pages/index.pt:49 c/engine/chooser_pages/index.pt:96
+#: c/engine/chooser_pages/partner/index.pt:56
+#: c/engine/chooser_pages/partner/index.pt:73
+msgid "util.No"
+msgstr "Όχι"
+
+# find
+#. find
+msgid "util.find"
+msgstr "βρείτε"
+
+# What flavor of Sampling license?
+#. What flavor of Sampling license?
+msgid "api.sampling_flavor"
+msgstr "Ποιά έκδοση της άδειας Sampling ?"
+
+# No license chosen
+#. No license chosen
+msgid "jswidget.no_license_chosen"
+msgstr "Δεν έχει επιλεγεί καμία άδεια"
+
+# Finnish
+#. Finnish
+msgid "lang.fi"
+msgstr "Φινλανδικά "
+
+# With a Creative Commons license, you keep your copyright but allow people to
+# copy and distribute your work provided they give you credit — and only on
+# the conditions you specify here.', 'If you desire a license governed by the
+# Copyright Law of a specific jurisdiction, please select the appropriate
+# jurisdiction.
+#. With a Creative Commons license, you keep your copyright but allow people to
+#. copy and distribute your work provided they give you credit — and only on
+#. the conditions you specify here.', 'If you desire a license governed by the
+#. Copyright Law of a specific jurisdiction, please select the appropriate
+#. jurisdiction.
+msgid "jswidget.short"
+msgstr ""
+"Με μία άδεια Creative Commons, διατηρείτε τα δικαίωματα πνευματικής "
+"ιδιοκτησίας αλλά επιτρέπετε στον κόσμο να αναπαράγει και να διανέμει το "
+"έργο σας αρκεί να αναφέρουν το όνομά σας &mdash; και μόνο σύμφωνα με τους"
+" όρους που θέτετε εσείς εδώ. Εάν επιθυμείτε μία άδεια που διέπεται από το"
+" δίκαιο της πνευματικής ιδιοκτησίας μίας συγκερκριμένης δικαιοδοσίας, "
+"παρακαλώ επιλέξτε τη δικαιοδοσία που επιθυμείτε."
+
+# Click to include more information about your work.
+#. Click to include more information about your work.
+#: c/engine/macros_templates/metadata.pt:15
+msgid "license.include_more"
+msgstr ""
+"Πατήστε εδώ προκειμένου να συμπεριλάβετε περισσότερες πληροφορίες για το "
+"έργο σας."
+
+# <p>
+# The information concerning your choice has been emailed to you at
+# <strong>${email}</strong>.
+# </p>
+# <p>Place the link or the HTML on your website, right next to the work you
+# intend to license.  </p>
+#. <p>
+#. The information concerning your choice has been emailed to you at
+#. <strong>${email}</strong>.
+#. </p>
+#. <p>Place the link or the HTML on your website, right next to the work you
+#. intend to license.  </p>
+#: c/engine/chooser_templates/emailhtml.pt:16
+msgid "license.link_emailed"
+msgstr ""
+"<p>\n"
+"Οι πληροφορίες που αφορούν την επιλογή σας σας έχουν αποσταλεί με "
+"email<strong>${email}</strong>.\n"
+"</p>\n"
+"\n"
+"<p>Τοποθετήστε το σύνδεσμο ή το HTML στην ιστοσελίδα σας ακριβώς δίπλα "
+"στο έργο που σκοπεύετε να εκχωρήσετε.  </p>"
+
+# French
+#. French
+#: c/engine/macros_templates/deed.pt:118 c/engine/macros_templates/deed.pt:123
+msgid "lang.fr"
+msgstr "Γαλλικά"
+
+# CC-GNU GPL
+#. CC-GNU GPL
+#: c/engine/chooser_pages/index.pt:218
+msgid "util.CC_GNU_GPL"
+msgstr "CC-GNU GPL"
+
+# Or, you can <a href="./">return to the questions</a>.
+#. Or, you can <a href="./">return to the questions</a>.
+msgid "license.or_return"
+msgstr "Ή μπορείτε να  <a href=\"./\">επιστρέψετε στις ερωτήσεις</a>."
+
+# If you alter, transform, or build upon this work, you may distribute the
+# resulting work only under the same, similar or a compatible license.
+#. If you alter, transform, or build upon this work, you may distribute the
+#. resulting work only under the same, similar or a compatible license.
+msgid "char.sa_bysa30_brief"
+msgstr ""
+"Εάν αλλοιώσετε, τροποιήσετε ή δημιουργήσετε πάνω στο έργο αυτό, μπορείτε "
+"να διανείμετε το έργο που θα προκύψει μόνο υπό τους όρους της ίδιας, "
+"όμοιας ή συμβατής άδειας."
+
+# Macedonia
+#. Macedonia
+msgid "country.mk"
+msgstr "Macedonia"
+
+# ShareAlike
+#. ShareAlike
+msgid "licenses.pretty_sa"
+msgstr "Παρόμοια Διανομή"
+
+# Adding a Creative Commons license to your blog (Blogger, Movable Type, and
+# Typepad)
+#. Adding a Creative Commons license to your blog (Blogger, Movable Type, and
+#. Typepad)
+#: c/engine/chooser_pages/results.pt:111
+#, fuzzy
+msgid "license.publish_blog"
+msgstr ""
+"Προσθέστε μία άδεια Creative Commons στο ιστολόγιό σας (Blogger, Movable "
+"Type, ή Typepad)"
+
+# Portugese
+#. Portugese
+msgid "lang.pt"
+msgstr "Πορτογαλικά"
+
+# Portugese
+#. Portugese
+msgid "lang.pt_BR"
+msgstr "Πορτογαλικά"
+
+# Any of the above conditions can be waived if you get permission from the
+# copyright holder.
+#. Any of the above conditions can be waived if you get permission from the
+#. copyright holder.
+#: c/engine/licenses/fsf_templates/deed.pt:75
+#: c/engine/licenses/devnations_templates/deed.pt:51
+#: c/engine/licenses/mitbsd_templates/deed.pt:60
+#: c/engine/licenses/standard_templates/deed.pt:60
+#, fuzzy
+msgid "deed.permission"
+msgstr ""
+"Κάθε ένας από τους παραπάνω όρους μπορεί να παρακαμφθεί εάν πάρετε άδεια "
+"από το δικαιούχο των δικαιωμάτων πνευματικής ιδιοκτησίας"
+
+# Malaysia
+#. Malaysia
+msgid "country.my"
+msgstr "Μαλαισία"
+
+# Mexico
+#. Mexico
+msgid "country.mx"
+msgstr "Μεξικό"
+
+# Taiwan
+#. Taiwan
+#: c/engine/chooser_pages/sampling.pt:84 c/engine/chooser_pages/sampling.pt:96
+msgid "country.tw"
+msgstr "Ταϊβάν"
+
+# Disclaimer
+#. Disclaimer
+#: c/engine/macros_templates/deed.pt:81
+#: c/engine/licenses/catalog_pages/disclaimer-popup.pt:15
+msgid "util.Disclaimer"
+msgstr "Αποποίηση"
+
+# Attribution-ShareAlike
+#. Attribution-ShareAlike
+msgid "licenses.pretty_by-sa"
+msgstr "Αναφορά - Παρόμοια Διανομή"
+
+# back to licenses
+#. back to licenses
+msgid "license.back_to_licenses"
+msgstr "επιστροφή στις άδειες"
+
+# Malta
+#. Malta
+msgid "country.mt"
+msgstr "Μάλτα"
+
+# work
+#. work
+msgid "util.work"
+msgstr "έργο"
+
+# The ${license_name_full} is a <a href="http://www.gnu.org/philosophy/free-
+# sw.html">Free Software</a> license. Like any Free Software license, it
+# grants to you the four following freedoms:
+#. The ${license_name_full} is a <a href="http://www.gnu.org/philosophy/free-
+#. sw.html">Free Software</a> license. Like any Free Software license, it
+#. grants to you the four following freedoms:
+#: c/engine/licenses/fsf_templates/deed.pt:29
+msgid "deed.gpl_freedoms"
+msgstr ""
+"Η ${license_name_full} είναι μία άδεια <a "
+"href=\"http://www.gnu.org/philosophy/free-sw.html\">Ελεύθερου "
+"Λογισμικού</a>. Όπως κάθε άδεια ελεύθερου λογισμικού, σας παρέχει τις "
+"ακόλουθες τέσσερις ελευθερίες."
+
+# The licensor permits others to copy, distribute and transmit only unaltered
+# copies of the work — not derivative works based on it.
+#. The licensor permits others to copy, distribute and transmit only unaltered
+#. copies of the work — not derivative works based on it.
+#: c/engine/chooser_pages/index.pt:117
+msgid "char.nd_description"
+msgstr ""
+"Ο χορηγών την άδεια επιτρέπει στους άλλους να αναπαράγουν, να διανέμουν "
+"και να μεταδίδουν μόνο αναλλοίωτα αντίγραφα του έργου-όχι παράγωγα έργα "
+"που βασίζονται σε αυτό"
+
+# Learn how to publicize and share your work
+#. Learn how to publicize and share your work
+msgid "license.learn_publicize"
+msgstr ""
+"Ενημερωθείτε για το πως μπορείτε να δημοσιεύσετε και να διανέμετε το έργο"
+" σας"
+
+# This is a human-readable summary of the Legal Code (the full <a
+# href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser
+# General Public License</a>). A <a href="legalcode.pt">Portuguese
+# translation</a> is also available.
+#. This is a human-readable summary of the Legal Code (the full <a
+#. href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser
+#. General Public License</a>). A <a href="legalcode.pt">Portuguese
+#. translation</a> is also available.
+#: c/engine/macros_templates/deed.pt:135
+msgid "deed.lgpl_human_summary"
+msgstr ""
+"Αυτή είναι μία εύληπτη για τον απλό χρήστη περίληψη του Νομικού Μέρους "
+"(the full <a href=\"http://www.gnu.org/licenses/old-"
+"licenses/lgpl-2.1.html\">GNU Lesser General Public License</a>). A <a "
+"href=\"legalcode.pt\">Πορτογαλική έκδοση</a>είναι επίσης διαθέσιμη."
+
+# This is a human-readable summary of the Legal Code (the full <a
+# href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
+# Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is
+# also available.
+#. This is a human-readable summary of the Legal Code (the full <a
+#. href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
+#. Public License</a>). A <a href="legalcode.pt">Portuguese translation</a> is
+#. also available.
+#: c/engine/macros_templates/deed.pt:145
+msgid "deed.gpl_human_summary"
+msgstr ""
+"Αυτή είναι μία εύληπτη για τον απλό χρήστη περίληψη του Νομικού Μέρους  "
+"(η πλήρης <a href=\"http://www.gnu.org/licenses/old-"
+"licenses/gpl-2.0.html\">GNU General Public License</a>). Μια <a "
+"href=\"legalcode.pt\">Πορτογαλική έκδοση</a> είναι επίσης διαθέσιμη."
+
+# <p>
+# <em>Note:</em> To license a work, you must be its copyright holder or have
+# express authorization from its copyright holder to do so.</p>
+# Creative Commons does not provide legal advice or services. We provide form
+# legal documents; the rest is up to you.
+# </p>
+#. <p>
+#. <em>Note:</em> To license a work, you must be its copyright holder or have
+#. express authorization from its copyright holder to do so.</p>
+#. Creative Commons does not provide legal advice or services. We provide form
+#. legal documents; the rest is up to you.
+#. </p>
+#: c/engine/chooser_pages/partner/index.pt:117
+msgid "license.partner_note"
+msgstr ""
+"<p>\n"
+"<em>Σημείωση:</em> Προκειμένου να εκχωρήσετε ένα έργο θα πρέπει να είστε "
+"ο δικαιούχος του δικαιώματος πνευματικής ιδιοκτησίας ή να έχετε ρητή "
+"εξουσιοδότηση από το δικαιούχο.</p>\n"
+"\n"
+"<p>\n"
+"Το νομικό πρόσωπο Creative Commons δεν παρέχει ούτε νομικές υπηρεσίες "
+"ούτε νομικές συμβουλές; τα υπόλοιπα εξαρτώνται από εσάς.\n"
+"</p>"
+
+# Developing Nations
+#. Developing Nations
+msgid "util.Developing_Nations"
+msgstr "Αναπτυσσόμενα Έθνη"
+
+# To mark a PDF or other XMP-supported file, <a href="xmp?${url_vars}">save
+# this template</a> following these <a href="/technology/xmp-
+# help">instructions</a>.
+#. To mark a PDF or other XMP-supported file, <a href="xmp?${url_vars}">save
+#. this template</a> following these <a href="/technology/xmp-
+#. help">instructions</a>.
+#: c/engine/pd/templates/publicdomain-4.pt:54
+#: c/engine/chooser_pages/results.pt:122
+msgid "license.mark_xmp"
+msgstr ""
+"Προκειμένου να μαρκάρετε ένα αρχείο  PDF ή άλλο XMP-αρχείο που "
+"υποστηρίζεται, <a href=\"xmp?${url_vars}\">σώστε αυτόν τον οδηγό</a> "
+"ακολουθώντας αυτές τις  <a href=\"/technology/xmp-help\">οδηγίες</a>."
+
+# NonCommercial Sampling Plus
+#. NonCommercial Sampling Plus
+msgid "licenses.pretty_nc-sampling+"
+msgstr " Sampling Plus για Μη εμπορική Χρήση"
+
+# You may not perform, display, or distribute copies of this whole work for
+# any purpose.
+#. You may not perform, display, or distribute copies of this whole work for
+#. any purpose.
+#: c/engine/licenses/sampling_templates/deed.pt:47
+msgid "char.no_brief"
+msgstr ""
+"Δε μπορείτε να ερμηνεύσετε, να κάνετε προσιτό στο κοινό ή να διανείμετε "
+"αντίγραφα από ολόκληρο αυτό το έργο για οποιοδήποτε σκοπό."
+
+# Wiki
+#. Wiki
+#: c/engine/chooser_pages/index.pt:232
+msgid "util.Wiki"
+msgstr "Wiki"
+
+# Danish
+#. Danish
+msgid "lang.da"
+msgstr "Δανέζικα"
+
+# Unported
+#. Unported
+msgid "util.Unported"
+msgstr "Unported"
+
+# Based on a work at ${source_link}.
+#. Based on a work at ${source_link}.
+msgid "license.work_based_on"
+msgstr "Βασισμένο σε ένα έργο στο ${source_link}."
+
+# German
+#. German
+#: c/engine/macros_templates/deed.pt:129
+msgid "lang.de"
+msgstr "Γερμανικά"
+
+# step
+#. step
+#: c/engine/chooser_pages/sampling.pt:31 c/engine/chooser_pages/sampling.pt:35
+#: c/engine/chooser_pages/sampling.pt:40 c/engine/chooser_pages/sampling.pt:45
+#: c/engine/macros_templates/support.pt:81
+#: c/engine/macros_templates/support.pt:85
+#: c/engine/macros_templates/support.pt:92
+#: c/engine/macros_templates/support.pt:96
+#: c/engine/macros_templates/support.pt:102
+#: c/engine/macros_templates/support.pt:106
+#: c/engine/macros_templates/support.pt:112
+#: c/engine/macros_templates/support.pt:116
+#: c/engine/macros_templates/support.pt:126
+#: c/engine/macros_templates/support.pt:130
+#: c/engine/macros_templates/support.pt:144
+#: c/engine/macros_templates/support.pt:148
+#: c/engine/macros_templates/support.pt:160
+#: c/engine/macros_templates/support.pt:164
+msgid "util.step"
+msgstr "βήμα"
+
+# You are free:
+#. You are free:
+#: c/engine/licenses/devnations_templates/deed.pt:27
+#: c/engine/licenses/mitbsd_templates/deed.pt:23
+#: c/engine/licenses/sampling_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:34
+msgid "deed.You_are_free"
+msgstr "Είναι ελεύθερη:"
+
+# If you alter, transform, or build upon this work, you may distribute the
+# resulting work only under the same or similar license to this one.
+#. If you alter, transform, or build upon this work, you may distribute the
+#. resulting work only under the same or similar license to this one.
+msgid "char.sa_brief"
+msgstr ""
+"Εάν αλλοιώσετε, τροποποιήσετε ή δημιουργήσετε περαιτέρω βασισμένοι στο "
+"έργο θα μπορείτε να διανείμετε το έργο που θα προκύψει μόνο με την ίδια ή"
+" παρόμοια άδεια."
+
+# Music Sharing
+#. Music Sharing
+#: c/engine/chooser_pages/index.pt:236
+msgid "util.Music_Sharing"
+msgstr "Διανομή Μουσικής"
+
+# LGPL
+#. LGPL
+msgid "licenses.pretty_LGPL"
+msgstr "LGPL"
+
+# French (CA)
+#. French (CA)
+msgid "lang.fr_CA"
+msgstr "Γαλλικά (Καναδά)"
+
+# Lawyer-Readable<br/>
+# Legal Code
+#. Lawyer-Readable<br/>
+#. Legal Code
+#: c/engine/chooser_pages/gpl.pt:47 c/engine/chooser_pages/lgpl.pt:48
+msgid "license.lawyer-readable_legal_code"
+msgstr ""
+"Αφορά Δικηγόρους<br/>\n"
+"Νομικό Μέρος"
+
+# Require Share-Alike
+#. Require Share-Alike
+msgid "jswidget.Require_Share-Alike"
+msgstr "Απαίτηση Παρόμοιας Διανομής"
+
+# <strong>to Remix</strong> — to adapt the work
+#. <strong>to Remix</strong> — to adapt the work
+#: c/engine/licenses/devnations_templates/deed.pt:34
+#: c/engine/licenses/mitbsd_templates/deed.pt:26
+#: c/engine/licenses/standard_templates/deed.pt:39
+msgid "deed.free_derivative"
+msgstr "<strong>η διασκευή</strong> —να τροποποιήσετε το έργο"
+
+# Find music, photos and more
+#. Find music, photos and more
+msgid "nav.find_title"
+msgstr "Βρείτε μουσική, φωτογραγίες και άλλα"
+
+# Venezuela
+#. Venezuela
+msgid "country.ve"
+msgstr "Βενεζουέλα"
+
+# publicize
+#. publicize
+#: c/engine/chooser_pages/sampling.pt:46
+#: c/engine/macros_templates/support.pt:161
+#: c/engine/macros_templates/support.pt:165
+msgid "license.publicize"
+msgstr "διαφημίσετε"
+
+# <p style="text-align:center"><em>Copyright-Only Dedication (based on United
+# States law)
+# or Public Domain Certification</em></p>
+# <p>The person or persons who have associated work with this document
+# (the "Dedicator" or "Certifier") hereby either (a) certifies that, to the
+# best of his knowledge, the work of authorship identified is in the public
+# domain of the country from which the work is published, or (b) hereby
+# dedicates whatever copyright the dedicators holds in the work of authorship
+# identified below (the "Work") to the public domain. A certifier, moreover,
+# dedicates any copyright interest he may have in the associated work, and for
+# these purposes, is described as a "dedicator" below.</p>
+# <p>A certifier has taken reasonable steps to verify the copyright
+# status of this work. Certifier recognizes that his good faith efforts may
+# not shield him from liability if in fact the work certified is not in the
+# public domain.</p>
+# <p>Dedicator makes this dedication for the benefit of the public at
+# large and to the detriment of the Dedicator's heirs and successors.
+# Dedicator intends this dedication to be an overt act of relinquishment in
+# perpetuity of all present and future rights under copyright law, whether
+# vested or contingent, in the Work. Dedicator understands that such
+# relinquishment of all rights includes the relinquishment of all rights to
+# enforce (by lawsuit or otherwise) those copyrights in the Work.</p>
+# <p>Dedicator recognizes that, once placed in the public domain, the
+# Work may be freely reproduced, distributed, transmitted, used, modified,
+# built upon, or otherwise exploited by anyone for any purpose, commercial or
+# non-commercial, and in any way, including by methods that have not yet been
+# invented or conceived.</p>
+#. <p style="text-align:center"><em>Copyright-Only Dedication (based on United
+#. States law)
+#. or Public Domain Certification</em></p>
+#. <p>The person or persons who have associated work with this document
+#. (the "Dedicator" or "Certifier") hereby either (a) certifies that, to the
+#. best of his knowledge, the work of authorship identified is in the public
+#. domain of the country from which the work is published, or (b) hereby
+#. dedicates whatever copyright the dedicators holds in the work of authorship
+#. identified below (the "Work") to the public domain. A certifier, moreover,
+#. dedicates any copyright interest he may have in the associated work, and for
+#. these purposes, is described as a "dedicator" below.</p>
+#. <p>A certifier has taken reasonable steps to verify the copyright
+#. status of this work. Certifier recognizes that his good faith efforts may
+#. not shield him from liability if in fact the work certified is not in the
+#. public domain.</p>
+#. <p>Dedicator makes this dedication for the benefit of the public at
+#. large and to the detriment of the Dedicator's heirs and successors.
+#. Dedicator intends this dedication to be an overt act of relinquishment in
+#. perpetuity of all present and future rights under copyright law, whether
+#. vested or contingent, in the Work. Dedicator understands that such
+#. relinquishment of all rights includes the relinquishment of all rights to
+#. enforce (by lawsuit or otherwise) those copyrights in the Work.</p>
+#. <p>Dedicator recognizes that, once placed in the public domain, the
+#. Work may be freely reproduced, distributed, transmitted, used, modified,
+#. built upon, or otherwise exploited by anyone for any purpose, commercial or
+#. non-commercial, and in any way, including by methods that have not yet been
+#. invented or conceived.</p>
+#: c/engine/pd/templates/publicdomain-3.pt:41
+#: c/engine/licenses/publicdomain_templates/deed.pt:19
+#, fuzzy
+msgid "deed.pd"
+msgstr ""
+"<p style=\"text-align:center\"><em>Copyright-Only Dedication (based on "
+"United States law) or Public Domain Certification</em></p>\n"
+"\n"
+"        <p>Το άτομο ή τα άτομα που έχουν συσχετίσει έργο με αυτό το "
+"αρχείο (αυτός που το προσφέρει ή πιστοποιεί) με το παρόν είτε (α) "
+"πιστοποιούν ότι, εν γνώσει τους,το έργο του οποίου η πατρότητα  "
+"εξακριβώθηκε, ανήκει στα κοινά (δημόσιο τομέα) της χώρας στην οποία αυτό "
+"δημοσιεύτηκε, είτε (β) προσφέρουν στα κοινά (δημόσιο τομέα) οποιοδήποτε "
+"δικαίωμα πνευματικής ιδιοκτησίας έχει ο προσφέρων το έργο, η πατρότητα "
+"του οποίου διαπιστώνεται παρακάτω. Αυτός που πιστοποιεί προσφέρει "
+"περαιτέρω οποιοδήποτε δικαίωμα επί των δικαιωμάτων πνευματικής "
+"ιδιοκτησίας  που τυχόν έχει με το έργο που σχετίζεται και για τους λόγους"
+" αυτούς περιγράφεται ως \"αυτός που προσφέρει\" παρακάτω.</p>\n"
+"\n"
+"        <p>Αυτός που πιστοποιεί έχει κάνει τις απαραίτητες ενέργειες "
+"προκειμένου να εξακριβώσει το καθεστώς σχετικά με τα δικαιώματα "
+"πνευματικής ιδιοκτησίας στο έργο αυτό. Αυτός που πιστοποιεί αναγνωρίζει "
+"ότι όλες οι προσπάθειες που έκανε με καλή την πίστη δεν τον απαλάσσουν "
+"από τυχόν ευθύνη σε περίπτωση που το έργο του οποίου η πατρότητα "
+"εξακριβώθηκε δεν ανήκει στα κοινά (δημόσιο τομέα).</p>\n"
+"\n"
+"        <p>Αυτός που προσφέρει κάνει την προσφορά αυτή για το καλό του "
+"κοινού και σε βάρος των απογόνων και κληρονόμων του. Αυτός που προσφέρει "
+"έχει σκοπό να αποτελεί η προσφορά του μία απροκάλυπτη πράξη εκχώρησης στο"
+" διηνεκές όλων των τωρινών και μελλοντικών δικαιωμάτων πνευματικής "
+"ιδιοκτησίας κεκτημένων ή ενδεχόμενων να προκύψουν στο μέλλον επί του "
+"έργου.</p>\n"
+"\n"
+"        <p>Αυτός που προσφέρει αναγνωρίζει ότι από τη στιγμή που το έργο "
+"θα εισέλθει στα κοινά (δημόσιο τομέα), θα μπορεί ο καθένας ελεύθερα να το"
+" αναπαράγει, να το διανέμει, να το μεταδίδει, να το χρησιμοποιεί, να το "
+"τροποποιεί, να δημιουργεί παράγωγα έργα βασισμένα σε αυτό ή αλλιώς να το "
+"εκμεταλλεύεται ο καθένας για οποιονδήποτε σκοπό, εμπορικό ή μη εμπορικό, "
+"και με οποιονδήποτε τρόπο συμπεριλαμβανομένων και μεθόδων εκμετάλλευσης "
+"που δεν έχουν ακόμα εφευρεθεί ή συλληφθεί ως ιδέα.</p>"
+
+# To sample, mash-up, or otherwise creatively transform this work for
+# noncommercial purposes.
+#. To sample, mash-up, or otherwise creatively transform this work for
+#. noncommercial purposes.
+#: c/engine/licenses/sampling_templates/deed.pt:27
+msgid "deed.free_sample_nc"
+msgstr ""
+"Να πάρετε δείγματα, να ανακατέψετε ή αλλιώς να τροποιήσετε δημιουργικά το"
+" έργο αυτό για μη εμπορικούς σκοπούς"
+
+# Before you apply the Sampling License to your work, make sure you have the
+# authority to license all the rights involved. Musical works, for example,
+# often consist of multiple copyrights (composition, recording, lyrics).
+#. Before you apply the Sampling License to your work, make sure you have the
+#. authority to license all the rights involved. Musical works, for example,
+#. often consist of multiple copyrights (composition, recording, lyrics).
+#: c/engine/chooser_pages/sampling.pt:116
+msgid "license.sampling_before"
+msgstr ""
+"Πριν εφαρμόσετε την άδεια Sampling στο έργο σας, βεβαιωθείτε ότι έχετε "
+"την εξουσία να εκχωρήσετε όλα τα δικαιώματα που σχετίζονται με αυτό. Τα "
+"μουσικά έργα για παράδειγμα συχνά αφορούν περισσότερα του ενός δικαιώματα"
+" πνευματικής ιδιοκτησίας (σύνθεσης, ηχογράφησης, στίχων) ."
+
+# Jurisdiction of your license:
+#. Jurisdiction of your license:
+msgid "api.jurisdiction"
+msgstr "Διακιοδοσία της άδειάς σας:"
+
+# home
+#. home
+msgid "util.home"
+msgstr "αρχική"
+
+# <b>NOTE:</b> clicking on "proceed" will send a confirmation request to the
+# email address you entered. Make sure the address is correct!
+#. <b>NOTE:</b> clicking on "proceed" will send a confirmation request to the
+#. email address you entered. Make sure the address is correct!
+#: c/engine/pd/templates/publicdomain-2.pt:53
+msgid "license.proceed_email_note"
+msgstr ""
+"<b>ΣΗΜΕΙΩΣΗ:</b>πατώντας πάνω \"proceed\" θα σας αποσταλλεί μία "
+"επιβεβαίωση στη διέυθυνση ηλεκτρονικού ταχυδρομείου που εισάγατε. "
+"Βεβαιωθελιτε οτι η διεύθυνση αυτή είναι σωστή."
+
+# Brazil
+#. Greece
+msgid "country.gr"
+msgstr "Ελλάδα"
+
+#: s/index.pt:107 c/engine/chooser_pages/index.pt:107
+msgid "license.help.derivatives"
+msgstr ""
+"The licensor permits others to copy, distribute, display and perform the "
+"work, as well as make derivative works based on it."
+
+#: s/index.pt:56
+msgid "Commercial Use"
+msgstr "Εμπορική Χρήση"
+
+#: s/index.pt:59 c/engine/chooser_pages/index.pt:59
+msgid "license.help.commercial"
+msgstr ""
+"The licensor permits others to copy, distribute, display, and perform the"
+" work, including for commercial purposes."
+
+#: s/index.pt:70 c/engine/chooser_pages/index.pt:70
+msgid "license.help.noncommercial"
+msgstr ""
+"The licensor permits others to copy, distribute, display, and perform the"
+" work for non-commercial purposes only."
+
+#: s/index.pt:88
+msgid "Yes, as long as others share alike"
+msgstr "Ναι, εφόσον οι άλλοι χρησιμοποιούν άδεια Παρόμοια διανομή"
+
+msgctxt "lang.el"
+msgid "Allow Derivative Works"
+msgstr "Επιτρέπεται η δημιουργία παράγωγου έργου (τροποποίηση του έργου)"
+
+msgid "lang.el"
+msgstr "Ελληνικά"
+
+msgid "country.pr"
+msgstr "Πουέρτο Ρίκο"
+
+msgid "country.nz"
+msgstr "Νέα Ζηλανδία"
+
+msgid "lang.sr_LATN"
+msgstr "Serbian (Latin)"
+
+msgid "lang.ro"
+msgstr "Ρουμανικά"
+
+msgid "lang.es_EC"
+msgstr "Ισπανικά (Εκουαδόρ)"
+
+#: e/macros_templates/metadata.pt:107
+msgid "Embedded Metadata"
+msgstr "Ενσωματωμένα μεταδεδομένα"
+
+#. Default: ""
+#. "<p>\n"
+#. "\t  The information is embedded in a software readable format.\n"
+#. "\t  This allows search engines to index additional information\n"
+#. "\t  about your work and allows people coming to the license deed\n"
+#. "\t  from your page to see information on the deed about how to\n"
+#. "\t  attribute your work.  \n"
+#. "\t</p>\n"
+#. "\t<p>\n"
+#. "\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+#. "\t    information</a> on Creative Commons metadata is available if\n"
+#. "\t  you want to find out more.\n"
+#. "\t</p>"
+#: e/macros_templates/metadata.pt:108
+msgid "license.metadata_help"
+msgstr ""
+"<p>\n"
+"\t  The information is embedded in a software readable format.\n"
+"\t  This allows search engines to index additional information\n"
+"\t  about your work and allows people coming to the license deed\n"
+"\t  from your page to see information on the deed about how to\n"
+"\t  attribute your work.  \n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+"\t    information</a> on Creative Commons metadata is available if\n"
+"\t  you want to find out more.\n"
+"\t</p>"
+
+#: e/macros_templates/metadata.pt:140
+msgid "The title of the work you are licensing."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:152
+msgid ""
+"The name users of the work should give attribution to. For example, the "
+"name of the work's author."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:165
+msgid ""
+"The URL users of the work should link to. For example, the work's page on"
+" the author's site."
+msgstr ""
+
+#: e/macros_templates/metadata.pt:178
+msgid ""
+"A URL where a user can obtain information about clearing rights that are "
+"not pre-cleared by your CC license."
+msgstr ""
+
+#: e/licenses/standard_templates/deed.pt:126
+msgid "What does \"Attribute this work\" mean?"
+msgstr ""
+
+#: e/licenses/standard_templates/deed.pt:129
+msgid ""
+"The page you came from contained embedded licensing metadata, including "
+"how the creator wishes to be attributed for re-use. You can use the HTML "
+"here to cite the work. Doing so will also include metadata on your page "
+"so that others can find the original work as well."
+msgstr ""
+
+msgid "country.ec"
+msgstr " Εκουαδόρ"
+
+#: e/macros_templates/metadata.pt:13
+msgid "license.additional_info"
+msgstr "Additional Information"
+
+#: e/macros_templates/metadata.pt:16
+msgid "license.additional_fields_optional"
+msgstr ""
+"The additional fields are <strong>optional</strong>, but will be embedded"
+" in the HTML generated for your license. This allows users of your work "
+"to determine how to attribute it or where to go for more information "
+"about the work."
+
+msgid "country.no"
+msgstr "Νορβηγία"
+
+msgid "lang.no"
+msgstr "Νορβηγικά"
+
+msgid "license.mark_software"
+msgstr "Mark Software"
+
+msgid "license.fsf_instructions"
+msgstr ""
+"Read the <a href=\"http://www.gnu.org/licenses/gpl-howto.html\">FSF's "
+"instructions for including the license with your software</a>."
+
+msgid "license.display_software_icon"
+msgstr ""
+"You can display the icon on any site you offer your software for download"
+" using the following markup:"
+
+#: c/engine/macros_templates/deed.pt:206
+msgid "deed.use_this_license"
+msgstr "Use this license for your own work."
+
+msgid "country.hk"
+msgstr "Hong Kong"
+
+msgid "lang.en_HK"
+msgstr "English (Hong Kong)"
+
+msgid "lang.zh_HK"
+msgstr "Chinese (Hong Kong)"
+
+msgid "country.gt"
+msgstr "Guatemala"
+
+msgid "lang.es_GT"
+msgstr "Spanish (Guatemala)"
+
+msgid "lang.en_SG"
+msgstr "English (Singapore)"
+
+#: c/engine/chooser_pages/index.pt:104
+msgid "Allow Derivative Works"
+msgstr "Επιτρέπονται παράγωγα έργα"
+
+#. "Rights other\n"
+#. "\t      persons may have either in the work itself or in how the\n"
+#. "\t      work is used, such\n"
+#. "\t      as <a
+#. href=\"http://wiki.creativecommons.org/Frequently_Asked_Questions#When_are_publicity_rights_relevant.3F\"
+#. class=\"helpLink\" id=\"publicity_rights\">publicity</a> or privacy\n"
+#. "\t      rights."
+#, fuzzy
+msgid "deed.publicity_rights"
+msgstr ""
+"Rights other persons may have either in the work itself or in how the "
+"work is used, such as publicity or privacy rights."
+
+#: src/cc/engine/chooser_pages/results.pt:144
+msgid "license.register_with_cc_network"
+msgstr "Register your work with the CC Network"
+
+#: src/cc/engine/chooser_pages/results.pt:151
+msgid "license.track_with_fairshare"
+msgstr "Track use of your work with FairShare"
+
+#. Default: ""
+#. "<p>The Commons Deed is not a legal instrument. It is simply a\n"
+#. "\t\thandy reference for understanding the CC0 Legal Code,\n"
+#. "\t\ta human-readable expression of some of its key\n"
+#. "\t\tterms. Think of it as the user-friendly interface to\n"
+#. "\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
+#. "\t\tlegal value, and its contents do not appear in\n"
+#. "\t\tCC0.</p>\n"
+#. "\n"
+#. "\t\t<p>Creative Commons is not a law firm and does not\n"
+#. "\t\t  provide legal services. Distributing, displaying, \n"
+#. "\t\t  or linking to this Commons Deed does not create an\n"
+#. "\t\t  attorney-client relationship.</p>"
+#: c/engine/licenses/zero_templates/deed.pt:114
+msgid "deed.zero.disclaimer"
+msgstr ""
+"<p>The Commons Deed is not a legal instrument. It is simply a\n"
+"\t\thandy reference for understanding the CC0 Legal Code,\n"
+"\t\ta human-readable expression of some of its key\n"
+"\t\tterms. Think of it as the user-friendly interface to\n"
+"\t\tthe CC0 Legal Code beneath. This Deed itself has no\n"
+"\t\tlegal value, and its contents do not appear in\n"
+"\t\tCC0.</p>\n"
+"\n"
+"\t\t<p>Creative Commons is not a law firm and does not\n"
+"\t\t  provide legal services. Distributing, displaying, \n"
+"\t\t  or linking to this Commons Deed does not create an\n"
+"\t\t  attorney-client relationship.</p>"
+
+#. Default: ""
+#. "This is a human-readable summary of\n"
+#. "\t  the <a href=\"./legalcode\">Legal Code (read the full\n"
+#. "\t  text)</a>."
+#: c/engine/licenses/zero_templates/deed.pt:131
+msgid "deed.zero.human_summary"
+msgstr ""
+"This is a human-readable summary of the <a href=\"./legalcode\">Legal "
+"Code (read the full text)</a>."
+
+#. Default: "No Copyright"
+#: c/engine/licenses/zero_templates/deed.pt:30
+msgid "deed.zero.no_copyright"
+msgstr "No Copyright"
+
+#. Default: ""
+#. "The person who associated a work with this document\n"
+#. "            has dedicated this work to the Commons by waiving all\n"
+#. "            of his or her rights to the work under copyright law\n"
+#. "            and all related or neighboring legal rights he or she\n"
+#. "            had in the work, to the extent allowable by law."
+#: c/engine/licenses/zero_templates/deed.pt:33
+msgid "deed.zero.nocopyright-text"
+msgstr ""
+"The person who associated a work with this document has dedicated this "
+"work to the Commons by waiving all of his or her rights to the work under"
+" copyright law and all related or neighboring legal rights he or she had "
+"in the work, to the extent allowable by law."
+
+#. Default: "Attribute this work:"
+#: c/engine/licenses/zero_templates/deed.pt:42
+msgid "deed.attribute_this_work"
+msgstr "Attribute this work:"
+
+#. Default: ""
+#. "In no way are any of the following rights affected by\n"
+#. "\t  the above:"
+#: c/engine/licenses/zero_templates/deed.pt:65
+msgid "deed.following_unaffected"
+msgstr "In no way are any of the following rights affected by the above:"
+
+#. Default: "Patent or trademark rights held by the person who associated this
+#. document with a work."
+#: c/engine/licenses/zero_templates/deed.pt:69
+msgid "deed.zero.patent"
+msgstr ""
+"Patent or trademark rights held by the person who associated this "
+"document with a work."
+
+#. Default: "What are \"Publicity Rights\"?"
+#: c/engine/licenses/zero_templates/deed.pt:83
+msgid "deed.publicity_rights.help.title"
+msgstr "What are \"Publicity Rights\"?"
+
+#. Default: ""
+#. "Publicity\n"
+#. "          rights allow individuals to control how their voice, image\n"
+#. "          or likeness is used for commercial purposes in public.  If a\n"
+#. "          work under CC0 includes the voice or image of anyone other\n"
+#. "          than the affirmer, a user of the work may need to get\n"
+#. "          permission from those individuals before using the work for\n"
+#. "          commercial purposes."
+#: c/engine/licenses/zero_templates/deed.pt:87
+msgid "deed.zero.publicity_rights.help"
+msgstr ""
+"Publicity rights allow individuals to control how their voice, image or "
+"likeness is used for commercial purposes in public.  If a work under CC0 "
+"includes the voice or image of anyone other than the affirmer, a user of "
+"the work may need to get permission from those individuals before using "
+"the work for commercial purposes."
+
+#. Default: "Learn more"
+#: c/engine/licenses/zero_templates/deed.pt:95
+#: c/engine/zero/templates/index.pt:89
+msgid "util.learn_more"
+msgstr "Learn more"
+
+#. Default: "Confirm Waiver"
+#: c/engine/zero/templates/confirm.pt:30
+msgid "license.zero.confirm_title"
+msgstr "Confirm Waiver"
+
+#. Default: ""
+#. "Are you certain you wish to waive all rights to your\n"
+#. "\t    work?  Once these rights are waived, you cannot reclaim\n"
+#. "\t    them."
+#: c/engine/zero/templates/confirm.pt:48
+msgid "license.zero.confirm_waiver_1"
+msgstr ""
+"Are you certain you wish to waive all rights to your work? Once these "
+"rights are waived, you cannot reclaim them."
+
+#. Default: ""
+#. "In particular, if you are an artist or author who\n"
+#. "\t    depends upon copyright for your income, Creative Commons\n"
+#. "\t    <strong>does not recommend</strong> that you use this\n"
+#. "\t    tool."
+#: c/engine/zero/templates/confirm.pt:54
+msgid "license.zero.confirm_waiver_2"
+msgstr ""
+"In particular, if you are an artist or author who depends upon copyright "
+"for your income, Creative Commons <strong>does not recommend</strong> "
+"that you use this tool."
+
+#. Default: ""
+#. "If you don't own the rights to this work, then do not\n"
+#. "\t    use CC0.  If you believe that nobody owns rights to the\n"
+#. "\t    work, then the <a href=\"/license/publicdomain-2\">Public\n"
+#. "\t      Domain Certification</a> may be what you're looking for."
+#: c/engine/zero/templates/confirm.pt:61
+msgid "license.zero.confirm_waiver_3"
+msgstr ""
+"If you don't own the rights to this work, then do not use CC0.  If you "
+"believe that nobody owns rights to the work, then the <a "
+"href=\"/license/publicdomain-2\">Public Domain Certification</a> may be "
+"what you're looking for."
+
+#. Default: "No, I Do Not Waive"
+#: c/engine/zero/templates/confirm.pt:71
+msgid "license.zero.confirm_waiver_no"
+msgstr "No, I Do Not Waive"
+
+#. Default: "Yes, I Waive"
+#: c/engine/zero/templates/confirm.pt:82
+msgid "license.zero.confirm_waiver_yes"
+msgstr "Yes, I Waive"
+
+#. Default: ""
+#. "Please note that this is <strong>not a registration\n"
+#. "\t    process</strong> and Creative Commons does not store or\n"
+#. "\t  save any of the information you enter.  This tool\n"
+#. "\t  guides you through the process of generating HTML with\n"
+#. "\t  embedded metadata for marking your work as being available\n"
+#. "\t  under CC0.  Your work will not be associated with CC0 or made\n"
+#. "\t  available under CC0 until you publish it marked as being so."
+#: c/engine/zero/templates/index.pt:76
+msgid "license.zero.intro_3"
+msgstr ""
+"Please note that this is <strong>not a registration process</strong> and "
+"Creative Commons does not store or save any of the information you enter."
+"  This tool guides you through the process of generating HTML with "
+"embedded metadata for marking your work as being available under CC0.  "
+"Your work will not be associated with CC0 or made available under CC0 "
+"until you publish it marked as being so."
+
+#. Default: "begin"
+#: c/engine/zero/templates/index.pt:98
+msgid "util.begin"
+msgstr "begin"
+
+#. Default: ""
+#. "Copy the text below to your Web site to let your visitors\n"
+#. "\tknow that you've waived the rights to your work.  Creative\n"
+#. "\tCommons does not retain a record of your selection; as the\n"
+#. "\tpublisher it's up to you to let people know how they may use your\n"
+#. "\twork."
+#: c/engine/zero/templates/results.pt:108
+msgid "license.zero.copy_text"
+msgstr ""
+"Copy the text below to your Web site to let your visitors know that "
+"you've waived the rights to your work.  Creative Commons does not retain "
+"a record of your selection; as the publisher it's up to you to let people"
+" know how they may use your work."
+
+#. Default: "Send Email"
+#: c/engine/zero/templates/results.pt:122
+msgid "license.zero.send_email"
+msgstr "Send Email"
+
+#. Default: ""
+#. "An error occurred when we tried to send the email message;\n"
+#. "\t  you can try clicking the Back button and double checking your \n"
+#. "\t  email address.  If the address you used (\n"
+#. "\t  ${email_addr}) was correct you can \n"
+#. "\t  <a href=\"/about/contact\">contact us</a>."
+#: c/engine/zero/templates/results.pt:134
+msgid "license.zero.email_error"
+msgstr ""
+"An error occurred when we tried to send the email message; you can try "
+"clicking the Back button and double checking your email address.  If the "
+"address you used (${email_addr}) was correct you can <a "
+"href=\"/about/contact\">contact us</a>."
+
+#. Default: "The suggested HTML has been sent to ${email_addr}."
+#: c/engine/zero/templates/results.pt:143
+msgid "license.zero.email_sent"
+msgstr "The suggested HTML has been sent to ${email_addr}."
+
+#. Default: ""
+#. "You have asked to be notified of updates to CC0.  A subscription\n"
+#. "\t    request has been sent on your behalf; you must click the link in\n"
+#. "\t    the confirmation email to complete the sign-up process."
+#: c/engine/zero/templates/results.pt:148
+msgid "license.zero.subscribed_to_updates"
+msgstr ""
+"You have asked to be notified of updates to CC0.  A subscription request "
+"has been sent on your behalf; you must click the link in the confirmation"
+" email to complete the sign-up process."
+
+#. Default: ""
+#. "If you'd like to get the HTML with embedded metadata via\n"
+#. "\t  email and optionally receive updates about CC0, fill in your\n"
+#. "\t  email address below."
+#: c/engine/zero/templates/results.pt:161
+msgid "license.zero.send_email_updates"
+msgstr ""
+"If you'd like to get the HTML with embedded metadata via email and "
+"optionally receive updates about CC0, fill in your email address below."
+
+#. Default: "Send me updates about CC0"
+#: c/engine/zero/templates/results.pt:181
+msgid "license.zero.update_opt_in"
+msgstr "Send me updates about CC0"
+
+#. Default: ""
+#. "You did not affirm your decision to waive the rights\n"
+#. "\tassociated with your work. If you'd like to continue you can\n"
+#. "\tclick the Back button to review your choice."
+#: c/engine/zero/templates/results.pt:55
+msgid "license.zero.declined"
+msgstr ""
+"You did not affirm your decision to waive the rights associated with your"
+" work. If you'd like to continue you can click the Back button to review "
+"your choice."
+
+#. Default: "About CC0"
+#: c/engine/zero/templates/results.pt:61
+msgid "license.zero.about"
+msgstr "About CC0"
+
+#. Default: "Frequently Asked Questions"
+#: c/engine/zero/templates/results.pt:63
+msgid "util.FAQ"
+msgstr "Frequently Asked Questions"
+
+#. Default: "Choose which style of button you'd like on your webpage:"
+#: c/engine/zero/templates/results.pt:72
+msgid "license.choose_button"
+msgstr "Choose which style of button you'd like on your webpage:"
+
+#. Default: "Here's a preview of how your waiver will appear on your site:"
+#: c/engine/zero/templates/results.pt:98
+msgid "license.zero.preview_waiver"
+msgstr "Here's a preview of how your waiver will appear on your site:"
+
+#. Default: "Your name"
+#: c/engine/zero/templates/waiver.pt:103
+msgid "util.your_name"
+msgstr "Your name"
+
+#. Default: "Your URL"
+#: c/engine/zero/templates/waiver.pt:111 c/engine/zero/templates/waiver.pt:125
+msgid "util.your_url"
+msgstr "Your URL"
+
+#. Default: ""
+#. "The URL where people can find more information about \n"
+#. "\tthe creator or rights holder."
+#: c/engine/zero/templates/waiver.pt:126 c/engine/zero/templates/waiver.pt:124
+msgid "license.zero.your_url_help"
+msgstr ""
+"The URL where people can find more information about \n"
+"the work or the person using CC0."
+
+#. Default: "Country"
+#: c/engine/zero/templates/waiver.pt:143 c/engine/zero/templates/waiver.pt:165
+msgid "util.country"
+msgstr "Country"
+
+#. Default: ""
+#. "Jurisdiction where the work is being \n"
+#. "\toffered from under CC0."
+#: c/engine/zero/templates/waiver.pt:166 c/engine/zero/templates/waiver.pt:164
+msgid "license.zero.country_help"
+msgstr "Jurisdiction from which the work is being offered under CC0."
+
+#. Default: ""
+#. "I hereby waive all copyright and related or neighboring\n"
+#. "\t    rights together with all associated claims and causes of\n"
+#. "\t    action with respect to this work to the extent possible\n"
+#. "\t    under the law."
+#: c/engine/zero/templates/waiver.pt:180
+msgid "license.zero.confirm_waiver"
+msgstr ""
+"I hereby waive all copyright and related or neighboring rights together "
+"with all associated claims and causes of action with respect to this work"
+" to the extent possible under the law."
+
+#. Default: ""
+#. "I have read and understand the terms and intended legal\n"
+#. "\t    effect of CC0, and hereby voluntarily elect to apply it to\n"
+#. "\t    this work."
+#: c/engine/zero/templates/waiver.pt:205
+msgid "license.zero.confirm_reading"
+msgstr ""
+"I have read and understand the terms and intended legal effect of CC0, "
+"and hereby voluntarily elect to apply it to this work."
+
+#. Default: "continue"
+#: c/engine/zero/templates/waiver.pt:217
+msgid "util.continue"
+msgstr "continue"
+
+#. Default: ""
+#. "These fields are optional, but will be embedded in the HTML\n"
+#. "      generated for your work. This allows users of your work to\n"
+#. "      determine how to contact you or where to go for more information\n"
+#. "      about the work."
+#: c/engine/zero/templates/waiver.pt:65
+msgid "license.zero.additional_metadata"
+msgstr ""
+"These fields are optional, but will be embedded in the HTML generated for"
+" your work. This allows users of your work to determine how to contact "
+"you or where to go for more information about the work."
+
+#: c/engine/chooser_pages/index.pt:165 c/engine/chooser_pages/index.pt:170
+msgid "None of the above"
+msgstr ""
+
+#: c/engine/chooser_pages/index.pt:310
+msgid "Software"
+msgstr ""
+
+#: c/engine/chooser_pages/results.pt:103
+msgid "license.publish_ia"
+msgstr ""
+"Publish your licensed music or video to\n"
+"\t       the Internet Archive"
+
+#: c/engine/chooser_pages/results.pt:119
+msgid "license.offline_work"
+msgstr "Offline Work?"
+
+#: c/engine/chooser_pages/results.pt:129
+msgid "license.option_next_steps"
+msgstr "Optional next steps"
+
+#: c/engine/licenses/publicdomain_templates/deed.pt:14
+#: c/engine/pd/templates/publicdomain-3.pt:38
+msgid "deed.pd.title"
+msgstr ""
+"Copyright-Only Dedication<a href=\"#\" class=\"helpLink\" "
+"id=\"use_zero\">*</a>\n"
+"  (based on United States law)<br />\n"
+"  or Public Domain Certification"
+
+#: c/engine/licenses/publicdomain_templates/deed.pt:25
+#: c/engine/licenses/standard_templates/deed.pt:22
+#: c/engine/publicdomain/zero_templates/deed.pt:25
+msgid "This license is acceptable for Free Cultural Works."
+msgstr ""
+
+#: c/engine/licenses/publicdomain_templates/deed.pt:47
+#: c/engine/publicdomain/zero_templates/deed.pt:141
+msgid "deed.use_this_tool"
+msgstr "Use this tool for your own work."
+
+#: c/engine/licenses/standard_templates/deed.pt:110
+msgid "deed.with_the_understanding"
+msgstr "With the understanding that:"
+
+#: c/engine/licenses/standard_templates/deed.pt:116
+msgid "util.waiver"
+msgstr "Waiver"
+
+#: c/engine/licenses/standard_templates/deed.pt:125
+msgid "util.other_rights"
+msgstr "Other Rights"
+
+#: c/engine/licenses/standard_templates/deed.pt:128
+msgid "deed.other_rights"
+msgstr "In no way are any of the following rights affected by the license:"
+
+#: c/engine/licenses/standard_templates/deed.pt:178
+msgid "deed.permission.help.title"
+msgstr "What does \"conditions can be waived\" mean?"
+
+#: c/engine/licenses/standard_templates/deed.pt:182
+msgid "deed.permission.help"
+msgstr ""
+"CC licenses anticipate that a licensor may want to\n"
+"\t\twaive compliance with a specific condition, such as\n"
+"\t\tattribution."
+
+#: c/engine/licenses/standard_templates/deed.pt:192
+msgid "deed.fair_use.help.title"
+msgstr "What does \"Fair use\" mean?"
+
+#: c/engine/licenses/standard_templates/deed.pt:196
+msgid "deed.fair_use.help"
+msgstr ""
+"All jurisdictions\n"
+"              allow some limited uses of copyrighted material without\n"
+"              permission.  CC licenses do not affect the rights of\n"
+"              users under those copyright limitations and exceptions,\n"
+"              such as fair use and fair dealing where applicable."
+
+#: c/engine/licenses/standard_templates/deed.pt:208
+msgid "deed.moralrights.help.title"
+msgstr "What are \"Moral Rights\"?"
+
+#: c/engine/licenses/standard_templates/deed.pt:212
+msgid "deed.moralrights.help"
+msgstr ""
+"In addition to the right of licensors to request removal of their name "
+"from the work when used in a derivative or collective they don't like, "
+"copyright laws in most jurisdictions around the world (with the notable "
+"exception of the US except in very limited circumstances) grant creators "
+"\"moral rights\" which may provide some redress if a derivative work "
+"represents a \"derogatory treatment\" of the licensor's work."
+
+#: c/engine/licenses/standard_templates/deed.pt:233
+msgid "deed.publicity_rights.help"
+msgstr ""
+"Publicity\n"
+"              rights allow individuals to control how their voice,\n"
+"              image or likeness is used for commercial purposes in\n"
+"              public.  If a CC-licensed work includes the voice or\n"
+"              image of anyone other than the licensor, a user of the\n"
+"              work may need to get permission from those individuals\n"
+"              before using the work for commercial purposes."
+
+#: c/engine/macros_templates/metadata.pt:24
+#: c/engine/macros_templates/metadata.pt:59
+#: c/engine/macros_templates/metadata.pt:72
+#: c/engine/macros_templates/metadata.pt:86
+#: c/engine/macros_templates/metadata.pt:98
+#: c/engine/macros_templates/metadata.pt:111
+#: c/engine/licenses/standard_templates/deed.pt:74
+#: c/engine/publicdomain/zero_templates/deed.pt:55
+#: c/engine/zero/templates/waiver.pt:73 c/engine/zero/templates/waiver.pt:116
+#: c/engine/zero/templates/waiver.pt:156 c/engine/chooser_pages/index.pt:65
+#: c/engine/chooser_pages/index.pt:78 c/engine/chooser_pages/index.pt:99
+#: c/engine/chooser_pages/index.pt:112 c/engine/chooser_pages/index.pt:125
+#: c/engine/chooser_pages/index.pt:138
+msgid "Information"
+msgstr ""
+
+#: c/engine/pd/templates/publicdomain-2.pt:20
+msgid "license.pd.intro_1"
+msgstr ""
+"You have selected the Public Domain Certification.  The Public\n"
+"    Domain Certification should only be used to certify a work that is\n"
+"    already in the public domain.  Creative Commons does not recommend\n"
+"    you use the Public Domain Certification for dedicating a work\n"
+"    still protected by copyright to the public domain.  To dedicate a\n"
+"    work to the public domain, consider\n"
+"    using <a href=\"/license/zero/\">CC0</a>.  Please note that if you\n"
+"    use the Public Domain Certification to dedicate a work to the\n"
+"    public domain, it may not be valid outside of the United States."
+
+#: c/engine/pd/templates/publicdomain-2.pt:37
+#: c/engine/pd/templates/publicdomain-2.pt:32
+msgid "license.pd.intro_3"
+msgstr ""
+"Once you're done filling this out, you will still have the\n"
+"    opportunity to confirm your choice before the certification\n"
+"    happens."
+
+#: c/engine/pd/templates/publicdomain-2.pt:43
+msgid "license.pd.about_the_work"
+msgstr "About the work you are certifying"
+
+#: c/engine/pd/templates/publicdomain-2.pt:47
+msgid "util.fields_required"
+msgstr "(all fields are required)"
+
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:16
+#: c/engine/pd/templates/publicdomain-4.pt:17
+#: c/engine/pd/templates/publicdomain-3.pt:18
+#: c/engine/pd/templates/publicdomain-2.pt:16
+msgid "license.pd.identify_a_pd_work"
+msgstr "Identify a Public Domain Work"
+
+#: c/engine/publicdomain/templates/index.pt:14
+msgid "license.pdtools.title"
+msgstr "Our Public Domain Tools"
+
+#: c/engine/publicdomain/templates/index.pt:16
+msgid "license.pdtools.intro"
+msgstr ""
+"Our licenses help authors\n"
+"  keep and manage their copyright on terms they choose.  Our public\n"
+"  domain tools, on the other hand, facilitate the discovery of works\n"
+"  already in the public domain and enable authors and copyright owners\n"
+"  who want to dedicate their works to the public domain to do so."
+
+#: c/engine/publicdomain/templates/index.pt:24
+msgid "license.pdtools.zero"
+msgstr ""
+"Use this universal tool if\n"
+"    you are a holder of copyright or database rights, and you wish to\n"
+"    waive all your interests in your work."
+
+#: c/engine/publicdomain/templates/index.pt:33
+#: c/engine/pd/templates/publicdomain-waiting-email-verification.pt:8
+#: c/engine/pd/templates/publicdomain-4.pt:8
+#: c/engine/pd/templates/publicdomain-3.pt:8
+#: c/engine/pd/templates/publicdomain-2.pt:8
+msgid "util.public_domain_certification"
+msgstr "Public Domain Certification"
+
+#: c/engine/publicdomain/templates/index.pt:35
+msgid "license.pdtools.pdc"
+msgstr ""
+"Use this tool if you have\n"
+"    identified and want to certify other works that are already in the\n"
+"    public domain.  You will also be relinquishing any rights in the\n"
+"    work you may have under copyright.  Creative Commons does not\n"
+"    recommend this tool for use with works under copyright - \n"
+" consider using CC0 instead."
+
+#: c/engine/zero/templates/index.pt:59
+msgid "license.zero.intro_1"
+msgstr ""
+"Using CC0, you can waive all copyrights and related or\n"
+"\t  neighboring rights that you have over your work, such as\n"
+"\t  your moral rights (to the extent waivable), your publicity\n"
+"\t  or privacy rights, rights you have protecting against unfair\n"
+"\t  competition, and database rights and rights protecting the\n"
+"\t  extraction, dissemination and reuse of data."
+
+#: c/engine/zero/templates/index.pt:68
+msgid "license.zero.intro_2"
+msgstr ""
+"Keep in mind that you cannot waive rights to a work that you\n"
+"\t  do not own unless you have permission from the owner.  To\n"
+"\t  avoid infringing third party rights, you should consult with\n"
+"\t  your legal advisor if you are unsure whether you have all\n"
+"\t  the rights you need to distribute the work."
+
+#: c/engine/zero/templates/waiver.pt:83
+msgid "license.zero.metadata_help"
+msgstr ""
+"<p>\n"
+"\t  The information is embedded in a software readable format.\n"
+"\t  This allows search engines to index additional information\n"
+"\t  about your work.\n"
+"\t</p>\n"
+"\t<p>\n"
+"\t  <a href=\"http://wiki.creativecommons.org/Metadata\">More\n"
+"\t    information</a> on Creative Commons metadata is available if\n"
+"\t  you want to find out more.\n"
+"\t</p>"
+
+#: c/engine/pd/templates/publicdomain-3.pt:65
+msgid "deed.pd.title_plain"
+msgstr ""
+"Copyright-Only Dedication (based on United States law) \n"
+"or Public Domain Certification"
+
+#: c/engine/pd/templates/publicdomain-2.pt:58
+msgid "util.author"
+msgstr "Author"
+
+#: c/engine/pd/templates/publicdomain-3.pt:118
+msgid "license.pdc.confirm_reading"
+msgstr ""
+"I have read and understand the terms and intended legal\n"
+"\t    effect of this tool, and hereby voluntarily elect to apply it to\n"
+"\t    this work."
+
+#: c/engine/pd/templates/publicdomain-3.pt:56
+msgid "license.pd.confirm_title"
+msgstr "Confirm Your Public Domain Certification"
+
+#: c/engine/publicdomain/templates/index.pt:34
+#: c/engine/publicdomain/templates/index.pt:51
+msgid "util.use_this_tool"
+msgstr "Use this tool"
+
+#: c/engine/publicdomain/zero_templates/deed.pt:67
+msgid "deed.zero.other_rights"
+msgstr "In no way are any of the following rights affected by CC0:"
+
+msgid "country.th"
+msgstr "Thailand"
+
+msgid "lang.th"
+msgstr "Thai"
+
+#: c/engine/licenses/standard_templates/deed.pt:162
+msgid "util.notice"
+msgstr "Notice"
+
+msgid "lang.cs"
+msgstr "Czech"
+
+#: c/engine/chooser_pages/partner/index.pt:36
+msgid "license.partner.publicdomain_options"
+msgstr ""
+"If you want to share a work you created with no conditions, choose\n"
+"<a href=\"${cc0_url}\">CC0</a>. If\n"
+"   you're sharing a work that isn't covered by copyright or on which\n"
+"   the copyright has expired, choose the\n"
+"   <a href=\"${pd_url}\">public domain certification</a>."
+
+#: c/engine/pd/templates/publicdomain-partner.pt:24
+msgid "license.partner.pd_intro"
+msgstr ""
+"Your choice suggests you\n"
+"want to certify a work is in the public domain. The Public Domain\n"
+"Certification is not a license. By using it you assert that a work is\n"
+"already in the public domain."
+
+#: c/engine/pd/templates/publicdomain-partner.pt:31
+msgid "license.partner.pd.use_cc0"
+msgstr ""
+"If instead you want to\n"
+"waive copyright and neighboring rights on a work <em>in which you hold\n"
+"these rights</em>, choose <a href=\"${cc0_url}\">CC0</a>."
+
+#: c/engine/zero/templates/partner.pt:44
+msgid "license.partner.zero.use_pdc_instead"
+msgstr ""
+"If\n"
+"\tinstead you want to certify that a work is <em>already in the\n"
+"\tpublic domain</em>, use\n"
+"\tthe <a href=\"${pd_url}\">Public\n"
+"\tDomain Certification</a>."
+

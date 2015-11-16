@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "البرازيل"; } 
+ if (s == "Canada") { return "كندا"; } 
+ if (s == "Italy") { return "ايطاليا"; } 
+ if (s == "Creative Commons") { return "المشاع الابداعي"; } 
+ if (s == "Serbia") { return "صربيا"; } 
+ if (s == "Malta") { return "مالطا"; } 
+ if (s == "France") { return "فرنسا"; } 
+ if (s == "Peru") { return "بيرو"; } 
+ if (s == "Argentina") { return "الأرجنتين"; } 
+ if (s == "Norway") { return "نروج"; } 
+ if (s == "New Zealand") { return "نيوزيلندا"; } 
+ if (s == "Ecuador") { return "اكودار"; } 
+ if (s == "Czech Republic") { return "جمهورية التشيك"; } 
+ if (s == "Israel") { return "اسرائيل"; } 
+ if (s == "Australia") { return "أستراليا"; } 
+ if (s == "Korea") { return "كوريا"; } 
+ if (s == "Singapore") { return "سنغافورة"; } 
+ if (s == "Thailand") { return "تايلاند"; } 
+ if (s == "South Africa") { return "جنوب إفريقيا"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "لقد قمنا بتحديث نسخة من الترخيص الخاص بك لأحدث واحد المتاحة."; } 
+ if (s == "Slovenia") { return "سلوفينيا"; } 
+ if (s == "Guatemala") { return "كاثولونيا"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "المرخص يصرح  لنسخة أخرى ، وتوزيع ويحيل العمل. وفي المقابل ، لا يجوز استخدام المرخص لهم العمل لأغراض تجارية -- ما لم تحصل على إذن من المرخص."; } 
+ if (s == "Noncommercial") { return "غير تجاري"; } 
+ if (s == "Puerto Rico") { return "بورتوريكو"; } 
+ if (s == "Belgium") { return "بلجيكا"; } 
+ if (s == "Germany") { return "المانيا"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "لقد تم تحديث هذة النسخة على رخصتك بناء على اخر التعديلات على تشريعكم القانوني"; } 
+ if (s == "Hong Kong") { return "هونج كونج"; } 
+ if (s == "Poland") { return "بولندا"; } 
+ if (s == "Spain") { return "اسبانيا"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "هذا ${work_type} مرخص بموجب <a rel=\"license\" href=\"${license_url}\">المشاع الابداعي ${license_name}الترخيص </a>."; } 
+ if (s == "Remix") { return "اعادة توزيع"; } 
+ if (s == "Netherlands") { return "هولندا"; } 
+ if (s == "UK: England & Wales") { return "المملكة المتحدة : انكلترا وويلز"; } 
+ if (s == "Chile") { return "شيلي"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "الدنمارك"; } 
+ if (s == "Philippines") { return "فلبين"; } 
+ if (s == "Finland") { return "فلندا"; } 
+ if (s == "Macedonia") { return "مقدونيا"; } 
+ if (s == "United States") { return "الولايات المنحدة"; } 
+ if (s == "Sweden") { return "السويد"; } 
+ if (s == "No license chosen") { return "لم يتم اختيار رخصة"; } 
+ if (s == "Croatia") { return "كرواتيا"; } 
+ if (s == "Luxembourg") { return "لوكسمبورج"; } 
+ if (s == "Japan") { return "اليابان"; } 
+ if (s == "Switzerland") { return "سوسرا"; } 
+ if (s == "UK: Scotland") { return "سكوتلندا - المملكة المتحدة"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "تايوان"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "إذا كنت ترغب في الترخيص يحكمها قانون حق المؤلف من اختصاص معين ، يرجى اختيار الاختصاص الملائم."; } 
+ if (s == "Bulgaria") { return "بلغاريا"; } 
+ if (s == "Romania") { return "رومانيا"; } 
+ if (s == "Licensor permits others to make derivative works") { return "المرخص تراخيص أخرى لتقديم أعمال اشتقاقية"; } 
+ if (s == "Portugal") { return "البرتغال"; } 
+ if (s == "Mexico") { return "مكسيك"; } 
+ if (s == "work") { return " المصنف"; } 
+ if (s == "India") { return "الهند"; } 
+ if (s == "China Mainland") { return "الصين "; } 
+ if (s == "Malaysia") { return "ماليزيا"; } 
+ if (s == "Austria") { return "النمسا"; } 
+ if (s == "Colombia") { return "كولمبيا"; } 
+ if (s == "Greece") { return "اليونان"; } 
+ if (s == "Hungary") { return "هونغاريا"; } 
+ if (s == "Share Alike") { return "المشاركة على قدم المساواة"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "المرخص تصاريح أخرى لتوزيع مشتقات تعمل فقط تحت نفس الترخيص أو واحدة متوافقة مع واحد أن يحكم عمل المرخص."; } 
+alert("Falling off the end.");
+return s;
+		}

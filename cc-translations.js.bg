@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Бразилия"; } 
+ if (s == "Canada") { return "Канада"; } 
+ if (s == "Italy") { return "Италия"; } 
+ if (s == "Creative Commons") { return "Криейтив Комънс"; } 
+ if (s == "Serbia") { return "Сърбия"; } 
+ if (s == "Malta") { return "Малта"; } 
+ if (s == "France") { return "Франция"; } 
+ if (s == "Peru") { return "Перу"; } 
+ if (s == "Argentina") { return "Аржентина"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "Нова Зеландия"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Чехия"; } 
+ if (s == "Israel") { return "Израел"; } 
+ if (s == "Australia") { return "Австралия"; } 
+ if (s == "Korea") { return "Корея"; } 
+ if (s == "Singapore") { return "Сингапур"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Южна Африка"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "Актуализирахме версията на лиценза, който ползвате до последната официално достъпна."; } 
+ if (s == "Slovenia") { return "Словения"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Носителят на правата позволява на другите да създават копия, да разпространяват и предават на разстояние произведението. В замяна на това произведението не може да се ползва за комерсиални цели, освен с изрично разрешение от носителя на правата."; } 
+ if (s == "Noncommercial") { return "Некомерсиално"; } 
+ if (s == "Puerto Rico") { return "Пуерто Рико"; } 
+ if (s == "Belgium") { return "Белгия"; } 
+ if (s == "Germany") { return "Германия"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "Вашият лиценз е актуализиран до последната официално публикувана версия за вашата юрисдикция"; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Полша"; } 
+ if (s == "Spain") { return "Испания"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Произведението ${work_type} ползва условията на <a rel=\"license\" href=\"${license_url}\">Криейтив Комънс договор</a>."; } 
+ if (s == "Remix") { return "Ремикс"; } 
+ if (s == "Netherlands") { return "Холандия"; } 
+ if (s == "UK: England & Wales") { return "Обединено кралство: Англия и Уелс"; } 
+ if (s == "Chile") { return "Чили"; } 
+ if (s == "Unported") { return "Нелокализиран"; } 
+ if (s == "Denmark") { return "Дания"; } 
+ if (s == "Philippines") { return "Филипини"; } 
+ if (s == "Finland") { return "Финландия"; } 
+ if (s == "Macedonia") { return "Македония"; } 
+ if (s == "United States") { return "САЩ"; } 
+ if (s == "Sweden") { return "Швеция"; } 
+ if (s == "No license chosen") { return "Не сте избрали никакъв лиценз"; } 
+ if (s == "Croatia") { return "Хърватска"; } 
+ if (s == "Luxembourg") { return "Люксембург"; } 
+ if (s == "Japan") { return "Япония"; } 
+ if (s == "Switzerland") { return "Швейцария"; } 
+ if (s == "UK: Scotland") { return "Обединено кралство: Шотландия"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Тайван"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Ако желаете да използвате договор, регулиран от Закона за авторското право на специфична юрисдикция, моля изберете съответната държава."; } 
+ if (s == "Bulgaria") { return "България"; } 
+ if (s == "Romania") { return "Румъния"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Носителят на правата позволява създаването на производни произведения"; } 
+ if (s == "Portugal") { return "Португалия"; } 
+ if (s == "Mexico") { return "Мексико"; } 
+ if (s == "work") { return "произведение"; } 
+ if (s == "India") { return "Индия"; } 
+ if (s == "China Mainland") { return "Китай (континентален)"; } 
+ if (s == "Malaysia") { return "Малайзия"; } 
+ if (s == "Austria") { return "Австрия"; } 
+ if (s == "Colombia") { return "Колумбия"; } 
+ if (s == "Greece") { return "Гърция"; } 
+ if (s == "Hungary") { return "Унгария"; } 
+ if (s == "Share Alike") { return "Споделяне на споделеното"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "Носителят на правата позволява на другите да разпространяват производни произведения само съгласно условията на договор, съвместим с този, под който се разпространява самото произведение."; } 
+alert("Falling off the end.");
+return s;
+		}

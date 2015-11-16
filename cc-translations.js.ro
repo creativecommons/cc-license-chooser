@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brazilia"; } 
+ if (s == "Canada") { return "Canada"; } 
+ if (s == "Italy") { return "Italia"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "Malta"; } 
+ if (s == "France") { return "Franţa"; } 
+ if (s == "Peru") { return "Peru"; } 
+ if (s == "Argentina") { return "Argentina"; } 
+ if (s == "Norway") { return "Norvegia"; } 
+ if (s == "New Zealand") { return "Noua Zeelandă"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Cehia"; } 
+ if (s == "Israel") { return "Israel"; } 
+ if (s == "Australia") { return "Australia"; } 
+ if (s == "Korea") { return "Correa de Sud"; } 
+ if (s == "Singapore") { return "Singapore"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Africa de Sud"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "Am actualizat licenţa ta la ultima versiune disponibilă."; } 
+ if (s == "Slovenia") { return "Slovenia"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Licenţiatorul permite altora să copieze, distribuie şi să transmită opera. În schimb, licenţiatul nu are voie să folosească opera în scopuri comerciale, cu excepţia cazului când are o permisiune expresă din partea licenţiatorului."; } 
+ if (s == "Noncommercial") { return "Necomercial"; } 
+ if (s == "Puerto Rico") { return "Porto Rico"; } 
+ if (s == "Belgium") { return "Belgia"; } 
+ if (s == "Germany") { return "Germania"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "Am actualizat versiunea licenţei tale la cea mai recentă disponibilă în jurisdicţia ta."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Polonia"; } 
+ if (s == "Spain") { return "Spania"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Această ${work_type} este pusă la dispoziţie sub <a rel=\"license\" href=\"${license_url}\">Licenţa ${license_name} Creative Commons</a>."; } 
+ if (s == "Remix") { return "Remixa"; } 
+ if (s == "Netherlands") { return "Olanda"; } 
+ if (s == "UK: England & Wales") { return "Marea Britanie: Anglia&Ţara Galilor"; } 
+ if (s == "Chile") { return "Chile"; } 
+ if (s == "Unported") { return "Ne-adaptată"; } 
+ if (s == "Denmark") { return "Danemarca"; } 
+ if (s == "Philippines") { return "Filipine"; } 
+ if (s == "Finland") { return "Finlanda"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "Statele Unite ale Americii"; } 
+ if (s == "Sweden") { return "Suedia"; } 
+ if (s == "No license chosen") { return "Nicio licenţă selectată"; } 
+ if (s == "Croatia") { return "Croaţia"; } 
+ if (s == "Luxembourg") { return "Luxemburg"; } 
+ if (s == "Japan") { return "Japonia"; } 
+ if (s == "Switzerland") { return "Elveţia"; } 
+ if (s == "UK: Scotland") { return "Marea Britanie: Scoţia"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Taiwan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Daca doreşti ca licenţa ta să fie guvernată de Legea dreptului de autor dintr-o anumită jurisdicţie, selectează jurisdicţia specifică. "; } 
+ if (s == "Bulgaria") { return "Bulgaria"; } 
+ if (s == "Romania") { return "România"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licenţiatorul permite altora să facă opere derivate"; } 
+ if (s == "Portugal") { return "Portugalia"; } 
+ if (s == "Mexico") { return "Mexic"; } 
+ if (s == "work") { return "operă"; } 
+ if (s == "India") { return "India"; } 
+ if (s == "China Mainland") { return "China continentală"; } 
+ if (s == "Malaysia") { return "Malaiezia"; } 
+ if (s == "Austria") { return "Austria"; } 
+ if (s == "Colombia") { return "Colombia"; } 
+ if (s == "Greece") { return "Grecia"; } 
+ if (s == "Hungary") { return "Ungaria"; } 
+ if (s == "Share Alike") { return "Distribuire în condiţii identice"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "Licenţiatorul permite altora să distribuie opere derivate doar sub aceiaşi licenţă sau una compatibilă cu cea care guvernează opera licenţiatorului."; } 
+alert("Falling off the end.");
+return s;
+		}

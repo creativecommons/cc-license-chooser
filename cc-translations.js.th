@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "บราซิล"; } 
+ if (s == "Canada") { return "แคนาดา"; } 
+ if (s == "Italy") { return "อิตาลี"; } 
+ if (s == "Creative Commons") { return "ครีเอทีฟคอมมอนส์"; } 
+ if (s == "Serbia") { return "เซอร์เบีย"; } 
+ if (s == "Malta") { return "มอลตา"; } 
+ if (s == "France") { return "ฝรั่งเศส"; } 
+ if (s == "Peru") { return "เปรู"; } 
+ if (s == "Argentina") { return "อาร์เจนตินา"; } 
+ if (s == "Norway") { return "นอร์เวย์"; } 
+ if (s == "New Zealand") { return "นิวซีแลนด์"; } 
+ if (s == "Ecuador") { return "เอกวาดอร์"; } 
+ if (s == "Czech Republic") { return "สาธารณรัฐเชค"; } 
+ if (s == "Israel") { return "อิสราเอล"; } 
+ if (s == "Australia") { return "ออสเตรเลีย"; } 
+ if (s == "Korea") { return "เกาหลี"; } 
+ if (s == "Singapore") { return "สิงคโปร์"; } 
+ if (s == "Thailand") { return "ประเทศไทย"; } 
+ if (s == "South Africa") { return "แอฟริกาใต้"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "เราได้ปรับรุ่นสัญญาอนุญาตของคุณเป็นรุ่นล่าสุดแล้ว"; } 
+ if (s == "Slovenia") { return "สโลวาเนีย"; } 
+ if (s == "Guatemala") { return "กัวเตมาลา"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "ผุ้อนุญาตยินยอมให้ผู้อื่นทำซ้ำ แจกจ่ายและถ่ายทอดซึ่งงาน แต่ผู้รับอนุญาตต้องไม่ใช้งานเพื่อวัตถุประสงค์ทางการค้า เว้นแต่จะได้รับอนุญาตจากผู้อนุญาตแล้ว"; } 
+ if (s == "Noncommercial") { return "ไม่ใช้เพื่อการค้า"; } 
+ if (s == "Puerto Rico") { return "เปอร์โตริโก"; } 
+ if (s == "Belgium") { return "เบลเยียม"; } 
+ if (s == "Germany") { return "เยอรมนี"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "เราได้ปรับปรุงแก้ไขสัญญาอนุญาตของคุณเป็นฉบับล่าสุดสำหรับเขตอำนาจศาลของคุณ"; } 
+ if (s == "Hong Kong") { return "ฮ่องกง"; } 
+ if (s == "Poland") { return "โปแลนด์"; } 
+ if (s == "Spain") { return "สเปน"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "${work_type}นี้ ใช้<a rel=\"license\" href=\"${license_url}\">สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ ${license_name}</a>."; } 
+ if (s == "Remix") { return "เรียบเรียงใหม่"; } 
+ if (s == "Netherlands") { return "เนเธอร์แลนด์"; } 
+ if (s == "UK: England & Wales") { return "สหราชอาณาจักร: อังกฤษและเวลส์"; } 
+ if (s == "Chile") { return "ชิลี"; } 
+ if (s == "Unported") { return "ต้นฉบับ"; } 
+ if (s == "Denmark") { return "เดนมาร์ก"; } 
+ if (s == "Philippines") { return "ฟิลิปปินส์"; } 
+ if (s == "Finland") { return "ฟินแลนด์"; } 
+ if (s == "Macedonia") { return "มาซิโดเนีย"; } 
+ if (s == "United States") { return "สหรัฐอเมริกา"; } 
+ if (s == "Sweden") { return "สวีเดน"; } 
+ if (s == "No license chosen") { return "ไม่มีสัญญาอนุญาตที่ถูกเลือก"; } 
+ if (s == "Croatia") { return "โครเอเชีย"; } 
+ if (s == "Luxembourg") { return "ลักเซมเบิร์ก"; } 
+ if (s == "Japan") { return "่ญี่ปุ่น"; } 
+ if (s == "Switzerland") { return "สวิสเซอร์แลนด์"; } 
+ if (s == "UK: Scotland") { return "สหราชอาณาจักร : สกอตแลนด์"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "ไต้หวัน"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "ถ้าคุณต้องการใช้สัญญาอนุญาตที่จัดทำขึ้นตามกฎหมายลิขสิทธิ์ของเขตอำนาจศาลใดโดยเฉพาะ กรุณาเลือกเขตอำนาจศาลที่เหมาะสม"; } 
+ if (s == "Bulgaria") { return "บัลแกเรีย"; } 
+ if (s == "Romania") { return "โรมาเนีย"; } 
+ if (s == "Licensor permits others to make derivative works") { return "ผู้อนุญาตยินยอมให้ผู้อื่นทำงานดัดแปลงได้"; } 
+ if (s == "Portugal") { return "โปรตุเกส"; } 
+ if (s == "Mexico") { return "เม็กซิโก"; } 
+ if (s == "work") { return "ผลงาน"; } 
+ if (s == "India") { return "อินเดีย"; } 
+ if (s == "China Mainland") { return "จีนแผ่นดินใหญ่"; } 
+ if (s == "Malaysia") { return "มาเลเซีย"; } 
+ if (s == "Austria") { return "ออสเตรีย"; } 
+ if (s == "Colombia") { return "โคลัมเบีย"; } 
+ if (s == "Greece") { return "กรีซ"; } 
+ if (s == "Hungary") { return "ฮังการี"; } 
+ if (s == "Share Alike") { return "อนุญาตแบบเดียวกัน"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "ผู้อนุญาตยินยอมให้ผู้อื่นแจกจ่ายงานดัดแปลงเฉพาะโดยการใช้สัญญาอนุญาตที่เหมือนกันหรือที่สอดคล้องกันกับสัญญาอนุญาตที่ใช้กับงานนี้"; } 
+alert("Falling off the end.");
+return s;
+		}

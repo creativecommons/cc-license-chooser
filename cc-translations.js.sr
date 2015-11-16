@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Бразил"; } 
+ if (s == "Canada") { return "Канада"; } 
+ if (s == "Italy") { return "Италија"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Србија"; } 
+ if (s == "Malta") { return "Малта"; } 
+ if (s == "France") { return "Француска"; } 
+ if (s == "Peru") { return "Перу"; } 
+ if (s == "Argentina") { return "Аргентина"; } 
+ if (s == "Norway") { return "Норвешка"; } 
+ if (s == "New Zealand") { return "Нови Зеланд"; } 
+ if (s == "Ecuador") { return "Еквадор"; } 
+ if (s == "Czech Republic") { return "Чешка"; } 
+ if (s == "Israel") { return "Израел"; } 
+ if (s == "Australia") { return "Аустралија"; } 
+ if (s == "Korea") { return "Кореја"; } 
+ if (s == "Singapore") { return "Сингапур"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Јужна Африка"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "Ажурирали смо вашу лиценцу новом верзијом."; } 
+ if (s == "Slovenia") { return "Словенија"; } 
+ if (s == "Guatemala") { return "Гватемала"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Давалац лиценце дозвољава умножавање, дистрибуирање и јавно саопштавање дела. Стицалац лиценце не може да користи дело у комерцијалне сврхе, осим ако добије дозволу Даваоца лиценце."; } 
+ if (s == "Noncommercial") { return "Некомерцијално"; } 
+ if (s == "Puerto Rico") { return "Порторико"; } 
+ if (s == "Belgium") { return "Белгија"; } 
+ if (s == "Germany") { return "Немачка"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "Ажурирали смо вашу лиценцу новом верзијом која је доступна у вашој јурисдикцији."; } 
+ if (s == "Hong Kong") { return "Хонг Конг"; } 
+ if (s == "Poland") { return "Пољска"; } 
+ if (s == "Spain") { return "Шпанија"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Ово ${work_type} је лиценцирано под условима лиценце<a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name}</a>."; } 
+ if (s == "Remix") { return "Прерада"; } 
+ if (s == "Netherlands") { return "Холандија"; } 
+ if (s == "UK: England & Wales") { return "ВБ: Енглеска и Велс"; } 
+ if (s == "Chile") { return "Чиле"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "Данска"; } 
+ if (s == "Philippines") { return "Филипини"; } 
+ if (s == "Finland") { return "Финска"; } 
+ if (s == "Macedonia") { return "Македонија"; } 
+ if (s == "United States") { return "САД"; } 
+ if (s == "Sweden") { return "Шведска"; } 
+ if (s == "No license chosen") { return "Нисте изабрали лиценцу"; } 
+ if (s == "Croatia") { return "Хрватска"; } 
+ if (s == "Luxembourg") { return "Луксембург"; } 
+ if (s == "Japan") { return "Јапан"; } 
+ if (s == "Switzerland") { return "Швајцарска"; } 
+ if (s == "UK: Scotland") { return "ВБ: Шкотска"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Тајван"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Ако желите лиценцу неке посебне јурисдикције, изаберите јурисдикцију."; } 
+ if (s == "Bulgaria") { return "Бугарска"; } 
+ if (s == "Romania") { return "Румунија"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Давалац лиценце дозвољава прераде дела"; } 
+ if (s == "Portugal") { return "Португалија"; } 
+ if (s == "Mexico") { return "Мексико"; } 
+ if (s == "work") { return "дело"; } 
+ if (s == "India") { return "Индија"; } 
+ if (s == "China Mainland") { return "Кина"; } 
+ if (s == "Malaysia") { return "Малезија"; } 
+ if (s == "Austria") { return "Аустрија"; } 
+ if (s == "Colombia") { return "Колумбија"; } 
+ if (s == "Greece") { return "Грчка"; } 
+ if (s == "Hungary") { return "Мађарска"; } 
+ if (s == "Share Alike") { return "Делити под истим условима"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "Дозвољена је дистрибуција прераде, само ако је прерада лиценцирана истом или сличном (компатибилном) лиценцом којом је лиценцирано дело."; } 
+alert("Falling off the end.");
+return s;
+		}

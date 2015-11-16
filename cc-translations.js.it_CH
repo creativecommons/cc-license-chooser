@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brasile"; } 
+ if (s == "Canada") { return "Canada"; } 
+ if (s == "Italy") { return "Italia"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "Malta"; } 
+ if (s == "France") { return "Francia"; } 
+ if (s == "Peru") { return "Peru"; } 
+ if (s == "Argentina") { return "Argentina"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "New Zealand"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Czech Republic"; } 
+ if (s == "Israel") { return "Israel"; } 
+ if (s == "Australia") { return "Australia"; } 
+ if (s == "Korea") { return "Corea"; } 
+ if (s == "Singapore") { return "Singapore"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Sud Africa"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
+ if (s == "Slovenia") { return "Slovenia"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Il <em>licenziante</em> acconsente che altri copino, distribuiscano, esibiscano ed eseguano l'opera. In cambio i <em>licenziatari</em> non possono usare l'<em>opera</em> per scopi commerciali &mdash; a meno che non abbiano ottenuto il permesso del <em>licenziante</em>."; } 
+ if (s == "Noncommercial") { return "Non commerciale"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "Belgio"; } 
+ if (s == "Germany") { return "Germania"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Polonia"; } 
+ if (s == "Spain") { return "Spagna"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Questo/a ${work_type} è pubblicato sotto una <a rel=\"license\" href=\"${license_url}\">Licenza Creative Commons</a>."; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "Olanda"; } 
+ if (s == "UK: England & Wales") { return "Inghilterra & Galles"; } 
+ if (s == "Chile") { return "Chile"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "Denmark"; } 
+ if (s == "Philippines") { return "Philippines"; } 
+ if (s == "Finland") { return "Finlandia"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "United States"; } 
+ if (s == "Sweden") { return "Sweden"; } 
+ if (s == "No license chosen") { return "No license chosen"; } 
+ if (s == "Croatia") { return "Croazia"; } 
+ if (s == "Luxembourg") { return "Luxembourg"; } 
+ if (s == "Japan") { return "Giappone"; } 
+ if (s == "Switzerland") { return "Switzerland"; } 
+ if (s == "UK: Scotland") { return "UK: Scotland"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Taiwan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Se desideri una licenza adattata a una specifica giurisdizione, scegli la giurisdizione appropriata.\nAd esempio, se desideri che la tua opera sia protetta secondo le leggi sul diritto d'autore vigenti in Giappone, \nscegli la versione giapponese della licenza."; } 
+ if (s == "Bulgaria") { return "Bulgaria"; } 
+ if (s == "Romania") { return "Romania"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Portugal") { return "Portogallo"; } 
+ if (s == "Mexico") { return "Mexico"; } 
+ if (s == "work") { return "opera"; } 
+ if (s == "India") { return "India"; } 
+ if (s == "China Mainland") { return "Cina"; } 
+ if (s == "Malaysia") { return "Malaysia"; } 
+ if (s == "Austria") { return "Austria"; } 
+ if (s == "Colombia") { return "Colombia"; } 
+ if (s == "Greece") { return "Greece"; } 
+ if (s == "Hungary") { return "Hungary"; } 
+ if (s == "Share Alike") { return "Condividi allo stesso modo"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "Il <em>licenziante</em> acconsente che altri copino e distribuiscano solo copie dell'<em>opera</em> pubblicate sotto una licenza identica a quella adottata dal <em>licenziante</em> per l'<em>opera</em> stessa."; } 
+alert("Falling off the end.");
+return s;
+		}

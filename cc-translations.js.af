@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brasilië"; } 
+ if (s == "Canada") { return "Kanada"; } 
+ if (s == "Italy") { return "Italië"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "Malta"; } 
+ if (s == "France") { return "Frankryk"; } 
+ if (s == "Peru") { return "Peru"; } 
+ if (s == "Argentina") { return "Argentinië"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "New Zealand"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Tsjeggiese Republiek"; } 
+ if (s == "Israel") { return "Israel"; } 
+ if (s == "Australia") { return "Australië"; } 
+ if (s == "Korea") { return "Korea"; } 
+ if (s == "Singapore") { return "Singapoer"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Suid-Afrika"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
+ if (s == "Slovenia") { return "Slowenië"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Die lisensiegewer laat ander toe om die werk te kopieer, te versprei en te versend.  As teenprestasie onderneem lisensiehouers om nie die werk vir kommersiële doeleindes te gebruik nie -- tensy hulle die lisensiegewer se toestemming verkry."; } 
+ if (s == "Noncommercial") { return "Niekommersieel"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "België"; } 
+ if (s == "Germany") { return "Duitsland"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Pole"; } 
+ if (s == "Spain") { return "Spanje"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Hierdie ${work_type} is gelisensieer ingevolge 'n <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name}-lisensie</a>."; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "Nederland"; } 
+ if (s == "UK: England & Wales") { return "VK: Engeland en Wallis"; } 
+ if (s == "Chile") { return "Chili"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "Denemarke"; } 
+ if (s == "Philippines") { return "Filippyne"; } 
+ if (s == "Finland") { return "Finland"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "Verenigde State"; } 
+ if (s == "Sweden") { return "Swede"; } 
+ if (s == "No license chosen") { return "No license chosen"; } 
+ if (s == "Croatia") { return "Kroasië"; } 
+ if (s == "Luxembourg") { return "Luxemburg"; } 
+ if (s == "Japan") { return "Japan"; } 
+ if (s == "Switzerland") { return "Switserland"; } 
+ if (s == "UK: Scotland") { return "VK: Skotland"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Taiwan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "As u 'n lisensie wil hê wat beheers word deur die Kopiereg van 'n bepaalde jurisdiksie, kies asseblief die toepaslike jurisdiksie."; } 
+ if (s == "Bulgaria") { return "Bulgarye"; } 
+ if (s == "Romania") { return "Roemenië"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Portugal") { return "Portugal"; } 
+ if (s == "Mexico") { return "Mexiko"; } 
+ if (s == "work") { return "werk"; } 
+ if (s == "India") { return "Indië"; } 
+ if (s == "China Mainland") { return "Sjinese Vasteland"; } 
+ if (s == "Malaysia") { return "Maleisië"; } 
+ if (s == "Austria") { return "Oostenryk"; } 
+ if (s == "Colombia") { return "Colombia"; } 
+ if (s == "Greece") { return "Dummy (should say \"Greece\")"; } 
+ if (s == "Hungary") { return "Hongarye"; } 
+ if (s == "Share Alike") { return "Insgelyks Deel"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "Die lisensiegewer laat ander toe om afgeleide werke te versprei, maar net ingevolge 'n lisensie wat identies is aan die een wat die lisensiegewer se werk beheers."; } 
+alert("Falling off the end.");
+return s;
+		}

@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "巴西"; } 
+ if (s == "Canada") { return "加拿大"; } 
+ if (s == "Italy") { return "義大利"; } 
+ if (s == "Creative Commons") { return "創用 CC"; } 
+ if (s == "Serbia") { return "塞爾維亞"; } 
+ if (s == "Malta") { return "馬爾他"; } 
+ if (s == "France") { return "法國"; } 
+ if (s == "Peru") { return "秘魯"; } 
+ if (s == "Argentina") { return "阿根廷"; } 
+ if (s == "Norway") { return "挪威"; } 
+ if (s == "New Zealand") { return "紐西蘭"; } 
+ if (s == "Ecuador") { return "厄瓜多爾"; } 
+ if (s == "Czech Republic") { return "捷克"; } 
+ if (s == "Israel") { return "以色列"; } 
+ if (s == "Australia") { return "澳大利亞"; } 
+ if (s == "Korea") { return "韓國"; } 
+ if (s == "Singapore") { return "新加坡"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "南非"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "我們已將你的授權條款更新至最新一版。"; } 
+ if (s == "Slovenia") { return "斯洛維尼亞"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "授權人允許他人重製、散布、展示、演出本著作。相對地，除非得到授權人的允許，否則被授權人不得為商業目的使用本著作。"; } 
+ if (s == "Noncommercial") { return "非商業性"; } 
+ if (s == "Puerto Rico") { return "波多黎各"; } 
+ if (s == "Belgium") { return "比利時"; } 
+ if (s == "Germany") { return "德國"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "我們已將你的授權條款更新至你所選之司法管轄區的最新版本。"; } 
+ if (s == "Hong Kong") { return "香港"; } 
+ if (s == "Poland") { return "波蘭"; } 
+ if (s == "Spain") { return "西班牙"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "本 ${work_type} 係採用<a rel=\"license\" href=\"${license_url}\">創用 CC ${license_name} 授權條款</a>授權."; } 
+ if (s == "Remix") { return "重混"; } 
+ if (s == "Netherlands") { return "荷蘭"; } 
+ if (s == "UK: England & Wales") { return "英國: 英格蘭及威爾斯"; } 
+ if (s == "Chile") { return "智利"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "丹麥"; } 
+ if (s == "Philippines") { return "菲律賓"; } 
+ if (s == "Finland") { return "芬蘭"; } 
+ if (s == "Macedonia") { return "馬其頓"; } 
+ if (s == "United States") { return "美國"; } 
+ if (s == "Sweden") { return "瑞典"; } 
+ if (s == "No license chosen") { return "尚未選擇授權條款"; } 
+ if (s == "Croatia") { return "克羅埃西亞"; } 
+ if (s == "Luxembourg") { return "盧森堡"; } 
+ if (s == "Japan") { return "日本"; } 
+ if (s == "Switzerland") { return "瑞士"; } 
+ if (s == "UK: Scotland") { return "英國: 蘇格蘭"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "台灣"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "如果您想要受到某個特定司法管轄領域著作權法所約束的授權條款，請選擇此一適當的司法管轄領域。"; } 
+ if (s == "Bulgaria") { return "保加利亞"; } 
+ if (s == "Romania") { return "羅馬尼亞"; } 
+ if (s == "Licensor permits others to make derivative works") { return "允許他人依此作品創作衍生著作"; } 
+ if (s == "Portugal") { return "葡萄牙"; } 
+ if (s == "Mexico") { return "墨西哥"; } 
+ if (s == "work") { return "著作"; } 
+ if (s == "India") { return "印度"; } 
+ if (s == "China Mainland") { return "中國大陸"; } 
+ if (s == "Malaysia") { return "馬來西亞"; } 
+ if (s == "Austria") { return "奧地利"; } 
+ if (s == "Colombia") { return "哥倫比亞"; } 
+ if (s == "Greece") { return "希臘"; } 
+ if (s == "Hungary") { return "匈牙利"; } 
+ if (s == "Share Alike") { return "相同方式分享"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "授權人僅允許他人得在遵守與規範授權人的著作相同的授權條款下散布衍生著作。"; } 
+alert("Falling off the end.");
+return s;
+		}

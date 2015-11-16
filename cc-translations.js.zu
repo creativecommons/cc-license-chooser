@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "iBrazil"; } 
+ if (s == "Canada") { return "Ecanada"; } 
+ if (s == "Italy") { return "i-Italy"; } 
+ if (s == "Creative Commons") { return "I-Creative Commons"; } 
+ if (s == "Serbia") { return "Serbia"; } 
+ if (s == "Malta") { return "eMalta"; } 
+ if (s == "France") { return "EFrance"; } 
+ if (s == "Peru") { return "ePeru"; } 
+ if (s == "Argentina") { return "E-Argentina"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "New Zealand"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "ECzech Republic"; } 
+ if (s == "Israel") { return "E-Israel"; } 
+ if (s == "Australia") { return "e-Australia"; } 
+ if (s == "Korea") { return "iKorea"; } 
+ if (s == "Singapore") { return "ESingapore"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "ENingizimu Afrika"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
+ if (s == "Slovenia") { return "iSlovenia"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Umnikazi wemvume uvumela abanye ukuba bakopishe, basabalalise futhi badlulise lo msebenzi. Kodwa-ke abanikwe imvume ngeke bawusebenzisele ezentengiselwano lo msebenzi — ngaphandle kokuba bathole imvume kumnikazi welayisensi."; } 
+ if (s == "Noncommercial") { return "Awunakusetshenziselwa ezentengiselwano"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "eBelgium"; } 
+ if (s == "Germany") { return "Ejalimane"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "EPoland"; } 
+ if (s == "Spain") { return "Espain"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Lolu ${work_type} lufakwa ilayisensi ngaphansi kwale <a rel=\"license\" href=\"${license_url}\">Layisensi Yakwa-Creative Commons ethi ${license_name}</a>."; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "iNetherlands"; } 
+ if (s == "UK: England & Wales") { return "E-UK: England & Wales"; } 
+ if (s == "Chile") { return "Echile"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "eDenmark"; } 
+ if (s == "Philippines") { return "iPhilippines"; } 
+ if (s == "Finland") { return "iFinland"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "E-United States"; } 
+ if (s == "Sweden") { return "iSweden"; } 
+ if (s == "No license chosen") { return "No license chosen"; } 
+ if (s == "Croatia") { return "eCroatia"; } 
+ if (s == "Luxembourg") { return "ELuxembourg"; } 
+ if (s == "Japan") { return "Ejapane"; } 
+ if (s == "Switzerland") { return "ESwitzerland"; } 
+ if (s == "UK: Scotland") { return "E-UK: Scotland"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "iTaiwan"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Uma ufuna ilayisensi elawulwa uMthetho Welungelo Lobunikazi wasendaweni ethile, sicela ukhethe indawo efanele."; } 
+ if (s == "Bulgaria") { return "iBulgaria"; } 
+ if (s == "Romania") { return "eRomania"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Portugal") { return "iPortugal"; } 
+ if (s == "Mexico") { return "EMexico"; } 
+ if (s == "work") { return "umsebenzi"; } 
+ if (s == "India") { return "Endiya"; } 
+ if (s == "China Mainland") { return "EMainland China"; } 
+ if (s == "Malaysia") { return "iMalaysia"; } 
+ if (s == "Austria") { return "i-Austria"; } 
+ if (s == "Colombia") { return "iColombia"; } 
+ if (s == "Greece") { return "Greece"; } 
+ if (s == "Hungary") { return "iHungary"; } 
+ if (s == "Share Alike") { return "Zihlanganyeleni"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "Umnikazi welayisensi uvumela abanye ukuba basabalalise imisebenzi esuselwe kulo kuphela ngaphansi kwelayisensi elifana naleli elilawula umsebenzi walo mnikazi welayisensi."; } 
+alert("Falling off the end.");
+return s;
+		}

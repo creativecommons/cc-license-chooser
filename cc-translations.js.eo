@@ -1,0 +1,71 @@
+function cc_js_t(s) {
+		 if (s == "Brazil") { return "Brazilo"; } 
+ if (s == "Canada") { return "Kanado"; } 
+ if (s == "Italy") { return "Italio"; } 
+ if (s == "Creative Commons") { return "Creative Commons"; } 
+ if (s == "Serbia") { return "Serbio"; } 
+ if (s == "Malta") { return "Malto"; } 
+ if (s == "France") { return "Francio"; } 
+ if (s == "Peru") { return "Peruo"; } 
+ if (s == "Argentina") { return "Argentino"; } 
+ if (s == "Norway") { return "Norway"; } 
+ if (s == "New Zealand") { return "New Zealand"; } 
+ if (s == "Ecuador") { return "Ecuador"; } 
+ if (s == "Czech Republic") { return "Ĉeĥio"; } 
+ if (s == "Israel") { return "Israelo"; } 
+ if (s == "Australia") { return "Aŭstralio"; } 
+ if (s == "Korea") { return "Koreio"; } 
+ if (s == "Singapore") { return "Singapuro"; } 
+ if (s == "Thailand") { return "Thailand"; } 
+ if (s == "South Africa") { return "Sud-Afriko"; } 
+ if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
+ if (s == "Slovenia") { return "Slovenio"; } 
+ if (s == "Guatemala") { return "Guatemala"; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "La permesil-posedanto permesas aliajn kopii, distribui kaj transdoni la verkon. Tamen, interesitoj ne rajtas uzi la verkon por komercaj celoj -- krom se ili akiras la permeson de la permesil-posedanto."; } 
+ if (s == "Noncommercial") { return "Nekomerca"; } 
+ if (s == "Puerto Rico") { return "Puerto Rico"; } 
+ if (s == "Belgium") { return "Belgio"; } 
+ if (s == "Germany") { return "Germanio"; } 
+ if (s == "We have updated the version of your license to the most recent one available in your jurisdiction.") { return "We have updated the version of your license to the most recent one available in your jurisdiction."; } 
+ if (s == "Hong Kong") { return "Hong Kong"; } 
+ if (s == "Poland") { return "Pollando"; } 
+ if (s == "Spain") { return "Hispanio"; } 
+ if (s == "This ${work_type} is licensed under a <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} License</a>.") { return "Tiu ĉi ${work_type} havas permesilon <a rel=\"license\" href=\"${license_url}\">Creative Commons ${license_name} Permesilo</a>."; } 
+ if (s == "Remix") { return "Remix"; } 
+ if (s == "Netherlands") { return "Nederlando"; } 
+ if (s == "UK: England & Wales") { return "Britio: Anglio kaj Kimrio"; } 
+ if (s == "Chile") { return "Ĉilio"; } 
+ if (s == "Unported") { return "Unported"; } 
+ if (s == "Denmark") { return "Danio"; } 
+ if (s == "Philippines") { return "Filipinoj"; } 
+ if (s == "Finland") { return "Finnlando"; } 
+ if (s == "Macedonia") { return "Macedonia"; } 
+ if (s == "United States") { return "Usono"; } 
+ if (s == "Sweden") { return "Svedio"; } 
+ if (s == "No license chosen") { return "No license chosen"; } 
+ if (s == "Croatia") { return "Kroatio"; } 
+ if (s == "Luxembourg") { return "Luksemburgo"; } 
+ if (s == "Japan") { return "Japanio"; } 
+ if (s == "Switzerland") { return "Svislando"; } 
+ if (s == "UK: Scotland") { return "Britio: Skotlando"; } 
+ if (s == "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here.") { return "With a Creative Commons license, you keep your copyright but allow people to copy and distribute your work provided they give you credit — and only on the conditions you specify here."; } 
+ if (s == "Taiwan") { return "Tajvano"; } 
+ if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Se vi volas uzi permesilon rajtigita de la Kopirjata Leĝo de specifa jurisdikcio, bv. elekti la korektan jurisdikcion."; } 
+ if (s == "Bulgaria") { return "Bulgario"; } 
+ if (s == "Romania") { return "Rumanio"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Portugal") { return "Portugalio"; } 
+ if (s == "Mexico") { return "Meksiko"; } 
+ if (s == "work") { return "verko"; } 
+ if (s == "India") { return "Barato"; } 
+ if (s == "China Mainland") { return "Ĉinio"; } 
+ if (s == "Malaysia") { return "Malajzio"; } 
+ if (s == "Austria") { return "Aŭstrio"; } 
+ if (s == "Colombia") { return "Kolombio"; } 
+ if (s == "Greece") { return "Greece"; } 
+ if (s == "Hungary") { return "Hungario"; } 
+ if (s == "Share Alike") { return "Distribui kun sama permesilo"; } 
+ if (s == "The licensor permits others to distribute derivative works only under the same license or one compatible with the one that governs the licensor's work.") { return "La permesil-posedanto permesas al aliaj la distribuadon de derivaj verkoj nur kun permesilo identa al tiu kiu estas ligita al la permesilo de la verko."; } 
+alert("Falling off the end.");
+return s;
+		}
