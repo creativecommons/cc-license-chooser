@@ -59,7 +59,14 @@ function cc_js_enable_widget() {
 		box = cc_js_secret_disabled[box_num];
 		cc_js_option_on(box);
 	}
-	if (cc_js_$('jurisdiction')) {
+
+
+    cc_js_option_on('remix');
+    cc_js_option_on('nc');
+    cc_js_option_on('sa');
+
+
+    if (cc_js_$('jurisdiction')) {
 		cc_js_$('jurisdiction').disabled = false;
 	}
 	cc_js_secret_disabled = [];
