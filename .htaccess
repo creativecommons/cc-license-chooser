@@ -1,5 +1,5 @@
 <Files complete.js>
-	SetHandler php5-script
+	SetHandler php7-script
     ExpiresDefault now
 </Files>
 <Files template.html>
