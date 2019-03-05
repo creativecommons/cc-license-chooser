@@ -1,0 +1,27 @@
+body {
+  margin: 20px auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #566b78;
+}
+
+#details_list {
+  list-style-type: none;
+}
+
+#details_list a, nav a {
+  color: #e81c4f;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 30px
+}
+
+nav ul li {
+  margin: 8px;
+}
+
+nav a.selected {
+  color: dodgerblue;
+}
