@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <title>Without Jurisdiction</title>
+    <title>Inside Form</title>
     <link rel="stylesheet" href="css/widget-style.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/script.js"></script>
@@ -9,16 +9,16 @@
     <!-- Written by Creative Commons in 2007.  No rights reserved; see COPYING for more details. -->
   </head>
   <body>
-    <h2> Basic example usage of the CC License Chooser Widget.</h2>
-    
+    <h2>Basic example usage of the CC License Chooser Widget.</h2>
+
     <i>Everything below the following horizontal rule is provided by the widget.</i>
     <hr />
-    <div id="cc_js_widget_container">
+    <form id="cc_js_widget_container">
       <script
         type="text/javascript"
-        src="http://api.creativecommons.org/jswidget/tags/0.97/complete.js?locale=en_US&amp;jurisdictions=disabled"
+        src="http://api.creativecommons.org/jswidget/tags/0.97/complete.js?locale=en_US"
       ></script>
-    </div>
+    </form>
     <hr />
     <i>Everything above the preceeding horizontal rule is provided by the widget.</i>
 
@@ -40,14 +40,17 @@
         <li><a href="index.html">Default</a></li>
         <li><a href="default-is-no-license.html">Default is no license</a></li>
         <li><a href="definitely-want-license.html">Definitely want license</a></li>
-        <li><a href="inside-form.html">Inside form</a></li>
+        <li><a class="selected" href="inside-form.html">Inside form</a></li>
         <li><a href="language-detect.html">Auto detect language</a></li>
         <li><a href="with-seed.html">With seed</a></li>
         <li><a href="with-seed-old-version.html">With seed old version</a></li>
-        <li><a class="selected" href="without-jurisdiction.html">Without jurisdiction</a></li>
-        <li><a href="with-seed-without-jurisdiction.html">With seed without jurisdiction</a></li>
+        <li><a href="without-jurisdiction.html">Without jurisdiction</a></li>
+        <li>
+          <a href="with-seed-without-jurisdiction.html"
+            >With seed without jurisdiction</a
+          >
+        </li>
       </ul>
     </nav>
-
   </body>
 </html>
