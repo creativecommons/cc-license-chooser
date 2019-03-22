@@ -11,6 +11,8 @@ auto-save-list
 tramp
 .\#*
 *.swp
+.idea
+*.iml
 
 # Org-mode
 .org-id-locations
