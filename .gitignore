@@ -9,6 +9,7 @@
 auto-save-list
 tramp
 .\#*
+*.swp
 
 # Org-mode
 .org-id-locations
@@ -31,19 +32,16 @@ tramp
 /auto/
 
 ### Intellij ###
-
 .idea
 out/
 *.iml
 *.iws
 
 ### VisualStudioCode ###
-
 .vscode/*
 .history
 
 ### Executable ###
-
 *.app
 *.apk
 *.bat
@@ -56,12 +54,7 @@ out/
 *.vb
 *.wsf
 
-*.dmg
-*.swp
-.DS_Store
-
 ### Node ###
-
 # Dependency directories
 node_modules/
 /apitest/node_modules
@@ -71,3 +64,14 @@ node_modules/
 
 # Optional eslint cache
 .eslintcache
+
+# General macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.dmg
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
