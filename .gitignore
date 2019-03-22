@@ -1,11 +1,11 @@
+### Emacs ###
+
 # -*- mode: gitignore; -*-
 *~
 \#*\#
 /.emacs.desktop
 /.emacs.desktop.lock
 *.elc
-*.exe
-*.dmg
 auto-save-list
 tramp
 .\#*
@@ -31,13 +31,45 @@ tramp
 # AUCTeX auto folder
 /auto/
 
-# apitest
+### Intellij ###
+.idea
+out/
+*.iml
+*.iws
+
+### VisualStudioCode ###
+.vscode/*
+.history
+
+### Executable ###
+*.app
+*.apk
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
+### Node ###
+# Dependency directories
+node_modules/
 /apitest/node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
 
 # General macOS files
 .DS_Store
 .AppleDouble
 .LSOverride
+*.dmg
 
 # Python Byte-compiled / optimized / DLL files
 __pycache__/
