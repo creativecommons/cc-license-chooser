@@ -1,4 +1,4 @@
-# LicenseChooser.js
+# cc-license-chooser
 
 This is the Creative Commons JavaScript license selector in the form of a
 JavaScript widget.
@@ -36,10 +36,16 @@ Every night, if you run `make -s` here, it'll update the translations and
 jurisdiction info.
 
 
+## Renamed
+
+This project was previously named `LicenseChooser.js`.
+
+
 ## Old Version
 
 The old version of the JavaScript license chooser:
 - [cc-archive/jswidget](https://github.com/cc-archive/jswidget)
+
 
 ## Credits
 
