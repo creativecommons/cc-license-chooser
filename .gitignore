@@ -1,18 +1,14 @@
+### Emacs ###
+
 # -*- mode: gitignore; -*-
 *~
 \#*\#
 /.emacs.desktop
 /.emacs.desktop.lock
 *.elc
-#*.apk
-*.exe
-*.dmg
 auto-save-list
 tramp
 .\#*
-*.swp
-.idea
-*.iml
 
 # Org-mode
 .org-id-locations
@@ -34,7 +30,44 @@ tramp
 # AUCTeX auto folder
 /auto/
 
-# apitest
+### Intellij ###
+
+.idea
+out/
+*.iml
+*.iws
+
+### VisualStudioCode ###
+
+.vscode/*
+.history
+
+### Executable ###
+
+*.app
+*.apk
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
+*.dmg
+*.swp
+.DS_Store
+
+### Node ###
+
+# Dependency directories
+node_modules/
 /apitest/node_modules
 
-.DS_Store
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
