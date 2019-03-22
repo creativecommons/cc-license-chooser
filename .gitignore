@@ -4,7 +4,6 @@
 /.emacs.desktop
 /.emacs.desktop.lock
 *.elc
-#*.apk
 *.exe
 *.dmg
 auto-save-list
@@ -35,4 +34,12 @@ tramp
 # apitest
 /apitest/node_modules
 
+# General macOS files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
