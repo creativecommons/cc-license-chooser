@@ -53,10 +53,10 @@ def gen_jurisdiction_info():
                 this_one['name'] = name
                 result[this_ones_id] = this_one
 
-    ret = json.write(result)
+    ret = json.dumps(result)
     
     # Validate JSON generation
-    assert (json.read(ret) == result) # this includes a type check
+    assert (json.loads(ret) == result) # this includes a type check
 
     return ret
 

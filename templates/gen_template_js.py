@@ -9,7 +9,7 @@ from simpletal import simpleTAL, simpleTALES
 import cStringIO as StringIO
 import os
 import BeautifulSoup
-from xml.dom.minidom import parseString
+from xml.etree import ElementTree
 
 LANGUAGE="en_US"
 
@@ -78,37 +78,32 @@ def write_string_to(s, filename):
 	fd.close()
 	os.rename(filename + '.tmp', filename)
 
-from xml import xpath
-
 def dom_elt_by_id(dom, id):
 	assert '"' not in id
-	return xpath.Evaluate('//*[@id="%s"]' % id, dom)[0]
+	return dom.findall('.//*[@id="%s"]' % id, dom)[0]
 
 def apply_variants(variants, dom):
 	if 'nojuri' in variants:
 		juri_box = dom_elt_by_id(dom, 'cc_js_jurisdiction_box')
-		juri_box.parentNode.removeChild(juri_box)
+		juri_box.clear()
 	if 'definitely_want_license' in variants:
 		want_license_at_all_box = dom_elt_by_id(dom, 'cc_js_want_cc_license_at_all')
-		want_license_at_all_box.parentNode.removeChild(want_license_at_all_box)
+		want_license_at_all_box.clear()
 	if 'no_license_by_default' in variants:
 		yes_radio = dom_elt_by_id(dom, 'cc_js_want_cc_license_sure')
-		yes_radio.setAttribute('checked', '')
+		yes_radio.set('checked', '')
 		no_radio = dom_elt_by_id(dom, 'cc_js_want_cc_license_nah')
-		no_radio.setAttribute('checked', 'checked')
+		no_radio.set('checked', 'checked')
 
 def jsify(in_string):
-	# remove leading <?xml from in_string
 	in_string_lines = in_string.split('\n')
-	assert in_string_lines[0].startswith('<?xml')
 	assert in_string_lines[0].count('<') == 1 # There better only be one tag in this thing we're clobbering.
 	assert in_string_lines[0][-1] == ">" # and it had better end with the tag end
-	in_string_lines = in_string_lines[1:]
 	in_string = '\n'.join(in_string_lines)
 
 	outlines = [
 	# First, jam our in_string in
-	"var in_string = " + json.write(in_string) + ";",
+	"var in_string = " + json.dumps(in_string) + ";",
 	# Now, jam our HTML into a fresh, anonymous container DIV
 	# that code lives in append_ourselves.js.
 	]
@@ -130,13 +125,13 @@ def gen_templated_js(language, my_variants):
 		name = convert.country_id2name(value, language)
 		jurisdictions.append(dict(id=element_id, value=value, name=name))
 	expanded = expand_template_with_jurisdictions('template.html', jurisdictions)
-	expanded_dom = parseString(expanded)
+	expanded_dom = ElementTree.fromstring(expanded)
 
 	# translate the spans, then pull out the changed text
-	translate_spans_with_only_text_children(expanded_dom.getElementsByTagName('span'), language)
+	translate_spans_with_only_text_children(expanded_dom.findall('span'), language)
 
 	apply_variants(my_variants, expanded_dom)
-	my_string = expanded_dom.toxml(encoding='utf-8')
+	my_string = ElementTree.tostring(expanded_dom, encoding="utf-8", method="xml")
 	if my_variants:
 		my_suffix = '.'.join(my_variants)
 		my_filename_base = 'template.' + my_suffix + '.js'
@@ -149,13 +144,21 @@ def main():
 	# For each language, generate templated JS for it
 	languages = sorted([ s.split(os.path.sep)[-2] for s in glob.glob('license_xsl/i18n/i18n_po/*/cc_org.po')])
 	
-	for my_variants in ( [], ['nojuri'], ['definitely_want_license'],
+	count = 1
+	for my_variants in (
+			[],
+			['nojuri'],
+			['definitely_want_license'],
 			['nojuri', 'definitely_want_license'],
 			['no_license_by_default'],
-			['no_license_by_default', 'nojuri']):
+			['no_license_by_default', 'nojuri']
+		):
 		my_variants.sort()
+		variants_text = ', '.join(my_variants) if my_variants else 'blank'
 		for lang in languages:
+			print 'Processing #%d: %s - %s' % (count, lang, variants_text)
 			gen_templated_js(lang, my_variants)
+			count += 1
 		create_var_file(my_variants, languages)	
 
 def create_var_file(my_variants, languages, base_filename='template.js'):

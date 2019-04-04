@@ -36,9 +36,17 @@ Every night, if you run `make -s` here, it'll update the translations and
 jurisdiction info.
 
 
+## Local Development
+
+To run this project locally, install Python requirements listed in `requirements.txt` using:
+`pip install -r requirements.txt`. 
+
+[SimpleTAL](https://www.owlfish.com/software/simpleTAL/) is not available on PyPI and must be installed manually by downloading the latest release and installing it using `python setup.py install` (make sure to download the Python 2.7 compatible release, not the latest release). Using a virtualenv is recommended, if you don't install SimpleTAL in a virtualenv, you may have to add its install location to your environment's `PYTHONPATH`. 
+
+
 ## Renamed
 
-This project was previously named `LicenseChooser.js`.
+This project was previously named `LicenseChooser.js`. The name was updated to `cc-license-chooser` in March 2019 to follow current JavaScript best practices.
 
 
 ## Old Version
