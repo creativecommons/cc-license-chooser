@@ -4,9 +4,9 @@
 ## to using the en string as the identifier.
 
 try:
-	import psyco
+    import psyco
 except:
-	pass # slo be it
+    pass # slo be it
 
 DEBUG=0
 import sys
@@ -36,8 +36,8 @@ def key2canonical(key):
     # to babel.
     pofile = get_PoFile('en')
     if key not in pofile.strings:
-	key = key.strip() # gosh darn it
-	print 'had to strip key, hope it helped!', key
+        key = key.strip() # gosh darn it
+        print('had to strip key, hope it helped!', key)
     return unicode(pofile[key], 'utf-8')
 
 '''Input: a po fd that needs to be converted.
@@ -50,15 +50,15 @@ def pofd2converted(pofd):
     # Message objects should have .string gotten from them
     new_cat = babel.messages.catalog.Catalog()
     for key in r._messages:
-	# In the case that the key does not exist, add the old key
-	value = unicode(r[key].string)
-	if value: # only bother converting those that are translated
-	    try:
-	        english_key = key2canonical(key)
-	        new_cat.add(english_key, value)
-	    except KeyError:
-	        print 'sad, could not find English for', key, 'so adding it with old lame key'
-	        new_cat.add(key, value)
+    # In the case that the key does not exist, add the old key
+        value = unicode(r[key].string)
+    if value: # only bother converting those that are translated
+        try:
+            english_key = key2canonical(key)
+            new_cat.add(english_key, value)
+        except KeyError:
+            print('sad, could not find English for', key, 'so adding it with old lame key')
+            new_cat.add(key, value)
 
     ## Set some other properties of new_cat
     out_fd = StringIO.StringIO()
@@ -85,30 +85,30 @@ def get_PoFile(language, use_cache = True):
     return ret
 
 def country_id2name(country_id, language):
-	# Now gotta look it up with gettext...
-	po = get_PoFile(language)
-	country_key = 'country.%s' % country_id
-	if country_key in po:
-		return po[country_key].string
-	return country_id # so sad, can't find country
+    # Now gotta look it up with gettext...
+    po = get_PoFile(language)
+    country_key = 'country.%s' % country_id
+    if country_key in po:
+        return po[country_key].string
+    return country_id # so sad, can't find country
 
 def extremely_slow_translation_function(s, out_lang):
-	try:
-		u = unicode(s)
-	except:
-		u = unicode(s, 'utf-8')
-	# First, look through the en po for such a string
-	en_po = get_PoFile('en')
-	found_key = None
-	for entry in en_po._messages:
-		if en_po[entry].string == u:
-			found_key = entry
-			print >> debug_stream, 'yahoo, found', found_key
-	if found_key is None:
-		print >> debug_stream, 'sad, did not find match'
+    try:
+        u = unicode(s)
+    except:
+        u = unicode(s, 'utf-8')
+    # First, look through the en po for such a string
+    en_po = get_PoFile('en')
+    found_key = None
+    for entry in en_po._messages:
+        if en_po[entry].string == u:
+            found_key = entry
+            print >> debug_stream, 'yahoo, found', found_key
+    if found_key is None:
+        print >> debug_stream, 'sad, did not find match'
 
-	real_po = get_PoFile(out_lang)
-	if found_key in real_po._messages:
-		return real_po[found_key].string
-	# Return the version in out_lang's PO.
-	return u # but if we don't find it, fail silently!
+    real_po = get_PoFile(out_lang)
+    if found_key in real_po._messages:
+        return real_po[found_key].string
+    # Return the version in out_lang's PO.
+    return u # but if we don't find it, fail silently!
