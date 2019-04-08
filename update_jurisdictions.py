@@ -1,7 +1,4 @@
-try:
-    import BeautifulSoup
-except ImportError:
-    from bs4 import BeautifulSoup
+import BeautifulSoup
 import re
 import os
 import json
