@@ -57,7 +57,8 @@ def pofd2converted(pofd):
             english_key = key2canonical(key)
             new_cat.add(english_key, value)
         except KeyError:
-            print("sad, could not find English for", key, "so adding it with old lame key")
+            print("unfortunately, could not find English for", key, "so adding"
+                  "it with old key")
             new_cat.add(key, value)
 
     ## Set some other properties of new_cat
