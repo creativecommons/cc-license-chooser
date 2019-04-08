@@ -12,7 +12,7 @@ DEBUG=0
 import sys
 import os
 if not DEBUG:
-    debug_stream = open('/dev/null', 'w')
+    debug_stream = open("/dev/null", "w")
 else:
     debug_stream = sys.stdout
 
@@ -34,16 +34,16 @@ POFILE_PATH=get_default_pofile_path()
 def key2canonical(key):
     # FIXME: Probably doesn't work due to API change from NY's translate.py
     # to babel.
-    pofile = get_PoFile('en')
+    pofile = get_PoFile("en")
     if key not in pofile.strings:
         key = key.strip() # gosh darn it
-        print('had to strip key, hope it helped!', key)
-    return unicode(pofile[key], 'utf-8')
+        print("had to strip key, hope it helped!", key)
+    return unicode(pofile[key], "utf-8")
 
-'''Input: a po fd that needs to be converted.
+"""Input: a po fd that needs to be converted.
 Output: a po file string that has the same contents as
 the original PO file, but the keys have been replaced with
-canonical values for those keys.'''
+canonical values for those keys."""
 def pofd2converted(pofd):
     r = babel.messages.pofile.read_po(pofd)
     # r._messages is a mapping from string ID to Message object
@@ -57,7 +57,7 @@ def pofd2converted(pofd):
             english_key = key2canonical(key)
             new_cat.add(english_key, value)
         except KeyError:
-            print('sad, could not find English for', key, 'so adding it with old lame key')
+            print("sad, could not find English for", key, "so adding it with old lame key")
             new_cat.add(key, value)
 
     ## Set some other properties of new_cat
@@ -65,7 +65,7 @@ def pofd2converted(pofd):
     babel.messages.pofile.write_po(out_fd, new_cat)
     ret = out_fd.getvalue()
 
-    unicode_test = unicode(ret, 'utf-8')
+    unicode_test = unicode(ret, "utf-8")
     return ret
 
 # Code cleanup: convert to a class with __call__ maybe
@@ -75,7 +75,7 @@ def get_PoFile(language, use_cache = True):
     global pofile_cache
 
     if (not use_cache) or (language not in pofile_cache):
-        pofile = os.path.join(POFILE_PATH, language, 'cc_org.po')
+        pofile = os.path.join(POFILE_PATH, language, "cc_org.po")
         ret = babel.messages.pofile.read_po(open(pofile))
     if use_cache:
         if language in pofile_cache:
@@ -87,7 +87,7 @@ def get_PoFile(language, use_cache = True):
 def country_id2name(country_id, language):
     # Now gotta look it up with gettext...
     po = get_PoFile(language)
-    country_key = 'country.%s' % country_id
+    country_key = "country.%s" % country_id
     if country_key in po:
         return po[country_key].string
     return country_id # so sad, can't find country
@@ -96,14 +96,14 @@ def extremely_slow_translation_function(s, out_lang):
     try:
         u = unicode(s)
     except:
-        u = unicode(s, 'utf-8')
+        u = unicode(s, "utf-8")
     # First, look through the en po for such a string
-    en_po = get_PoFile('en')
+    en_po = get_PoFile("en")
     found_key = None
     for entry in en_po._messages:
         if en_po[entry].string == u:
             found_key = entry
-            print >> debug_stream, 'yahoo, found', found_key
+            print >> debug_stream, "yahoo, found", found_key
     if found_key is None:
         print >> debug_stream, 'sad, did not find match'
 
