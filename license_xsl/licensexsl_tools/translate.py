@@ -38,9 +38,9 @@ import lxml.etree as et
     
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
-VARIABLE_RE = re.compile('\$\{.*?\}', re.I|re.M|re.S)
+VARIABLE_RE = re.compile("\$\{.*?\}", re.I|re.M|re.S)
 
-POFILE_DIR = '../i18n/i18n_po'
+POFILE_DIR = "../i18n/i18n_po"
 
 
 def fix_tags(input_string):
@@ -48,7 +48,7 @@ def fix_tags(input_string):
     tags and perform entity (specifically &) substitutions."""
 
     # convert & to &amp;
-    input_string = re.sub('&(?!amp;)', '&amp;', input_string)
+    input_string = re.sub("&(?!amp;)", "&amp;", input_string)
     
     tag_re = re.compile("<([\w]+)([\w\t =\"']*)>")
     match = re.match(tag_re, input_string)
@@ -79,7 +79,7 @@ def fix_tags(input_string):
             pass
                         
         # no success -- parse as HTML, escaping namespace declarations
-        tree = et.HTML(input_string.replace(':', '__'))
+        tree = et.HTML(input_string.replace(":", "__"))
     else:
         return input_string
 
@@ -87,14 +87,14 @@ def fix_tags(input_string):
     # if the tag matched at position 0, return the conents of the <body>
     if match and match.start() == 0:
 
-        return et.tostring(tree.xpath('//html/body')[0]
-                           )[6:-7].replace('__', ':')
+        return et.tostring(tree.xpath("//html/body")[0]
+                           )[6:-7].replace("__", ":")
 
     else:
         # otherwise return the contents of the first <p> in <body>
 
-        return et.tostring(tree.xpath('//html/body/p')[0]
-                           )[3:-4].replace('__', ':')
+        return et.tostring(tree.xpath("//html/body/p")[0]
+                           )[3:-4].replace("__", ":")
 
 def replace_vars(value):
     """Replace gettext variable declarations with XSLT copy-of's."""
@@ -110,9 +110,9 @@ def replace_vars(value):
                     '"/>' + value[match.end():]
         else:
             value = value[:match.start()] + \
-                    '{$' + \
+                    "{$" + \
                     value[match.start() + 2:match.end() - 1] + \
-                    '}' + value[match.end():]
+                    "}" + value[match.end():]
 
         match = VARIABLE_RE.search(value, match.end())
 
@@ -123,8 +123,8 @@ def lookupString(key, locale):
 
     if key in LOCALES[locale]:
         result = LOCALES[locale][key].string
-    elif key in LOCALES['en']:
-        result = LOCALES['en'][key].string
+    elif key in LOCALES["en"]:
+        result = LOCALES["en"][key].string
     else:
         result = key
 
@@ -138,14 +138,14 @@ def loadCatalogs(source_dir):
     
     for root, dirnames, filenames in os.walk(source_dir):
         for fn in filenames:
-            if fn[-3:] == '.po':
+            if fn[-3:] == ".po":
 
                 # figure out what locale this is based on pathname
                 locale = root.split(os.sep)[-1]
-                print 'loading catalog for %s...' % locale
+                print "loading catalog for %s..." % locale
                 
                 msg_catalog = read_po(
-                    file(os.path.abspath(os.path.join(root, fn)), 'r'))
+                    file(os.path.abspath(os.path.join(root, fn)), "r"))
                 
                 langs[locale] = msg_catalog
 
@@ -157,24 +157,24 @@ def loadJurisdictions():
 
     # parse licenses.xml -- assumes svn checkout layout
     licenses_xml = et.parse(os.path.join(os.path.dirname(__file__),
-                                         '..', 'licenses.xml'))
+                                         "..", "licenses.xml"))
 
     # get the raw list
     codes = licenses_xml.xpath('//jurisdiction-info[@launched="true"]/@id')
 
     # strip out generic codes, as we don't add those to the license name
-    return [n for n in codes if n not in ('', '-')]
+    return [n for n in codes if n not in ("", "-")]
 
 def loadOpts():
     """Parse command line options; returns a tuple of (opts, args)."""
     parser = optparse.OptionParser(usage="%prog [options...] files",
                                    version="%%prog %s" % __version__)
 
-    parser.add_option('--podir', dest='podir',
-                     help='Directory containing .po translation files.')
-    parser.add_option('-o', '--output', dest='outputDir',
-                      help='Save output files to specified directory'
-                      '(defaults to the same directory as input files).')
+    parser.add_option("--podir", dest="podir",
+                     help="Directory containing .po translation files.")
+    parser.add_option("-o", "--output", dest="outputDir",
+                      help="Save output files to specified directory"
+                      "(defaults to the same directory as input files).")
     parser.set_defaults(podir = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), POFILE_DIR)
                         )
@@ -186,7 +186,7 @@ def main():
 
     # parse command line parameters and check for sanity
     (opts, args) = loadOpts()
-    if (getattr(opts, 'podir', None) is None):
+    if (getattr(opts, "podir", None) is None):
         print >> sys.stderr, "You must specify --podir."
         sys.exit(1)
 
@@ -194,7 +194,7 @@ def main():
     LOCALES = loadCatalogs(opts.podir)
     
     # determine our output directory
-    output_dir = getattr(opts, 'outputDir', None)
+    output_dir = getattr(opts, "outputDir", None)
 
     # set up our TAL context
     context = simpleTALES.Context(allowPythonPath=1)
@@ -214,11 +214,11 @@ def main():
         temp_fn = "%s.tmp" % out_fn
 
         # compile the template and write it to the temporary file
-        template = simpleTAL.compileXMLTemplate (open (in_fn, 'r'))
-        output = file(temp_fn, 'w')
+        template = simpleTAL.compileXMLTemplate (open (in_fn, "r"))
+        output = file(temp_fn, "w")
 
-        print 'writing to %s..' % temp_fn
-        template.expand (context, output, 'utf-8')
+        print "writing to %s.." % temp_fn
+        template.expand (context, output, "utf-8")
         output.close()
 
         # try to clear the error log before checking validity
@@ -230,7 +230,7 @@ def main():
         
         # re-read the temp file and parse it for well-formed-ness
         try:
-            print 'validating XML structure of %s...' % temp_fn
+            print "validating XML structure of %s..." % temp_fn
             tree = et.parse(temp_fn)
 
         except Exception, e:
@@ -240,9 +240,9 @@ def main():
             sys.exit(1)
                 
         # the file was either read correctly or elementtree is not available
-        print 'moving %s to %s...' % (temp_fn, out_fn)
+        print "moving %s to %s..." % (temp_fn, out_fn)
         shutil.move(temp_fn, out_fn)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     main()

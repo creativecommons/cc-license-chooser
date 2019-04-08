@@ -23,29 +23,29 @@ from setuptools import setup
 setup(
     name = "licensexsl_tools",
     version = "1.0",
-    packages = ['licensexsl_tools'],
+    packages = ["licensexsl_tools"],
 
-    entry_points = {'console_scripts' : 
-                    ['makerdf = licensexsl_tools.makerdf:main',
-                     'licenses = licensexsl_tools.licenses:main',
-                     'translate = licensexsl_tools.translate:main']
+    entry_points = {"console_scripts" :
+                    ["makerdf = licensexsl_tools.makerdf:main",
+                     "licenses = licensexsl_tools.licenses:main",
+                     "translate = licensexsl_tools.translate:main"]
                     },
     
-    install_requires = ['setuptools',
-                        'rdflib',
-                        'lxml==1.3.6',
-                        'SimpleTAL',
-                        'Babel',
+    install_requires = ["setuptools",
+                        "rdflib",
+                        "lxml==1.3.6",
+                        "SimpleTAL",
+                        "Babel",
                         ],
-    dependency_links = ['http://www.owlfish.com/software/simpleTAL/download.html'],
+    dependency_links = ["http://www.owlfish.com/software/simpleTAL/download.html"],
     
     include_package_data = True,
     zip_safe = True,
 
-    author = 'Nathan R. Yergler',
-    author_email = 'nathan@creativecommons.org',
-    description = 'XXX.',
-    license = 'MIT',
-    url = 'http://wiki.creativecommons.org/Developer',
+    author = "Nathan R. Yergler",
+    author_email = "nathan@creativecommons.org",
+    description = "XXX.",
+    license = "MIT",
+    url = "http://wiki.creativecommons.org/Developer",
 
     )
