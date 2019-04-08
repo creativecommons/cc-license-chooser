@@ -48,26 +48,26 @@ def initOpts():
 def assembleRDF(instream, outstream, verbose=False):
 
     licenses = lxml.etree.parse(instream)
-    graph = Graph('default',"http://creativecommons.org/licenses/index.rdf")
-    uris = licenses.xpath('//jurisdiction/version/@uri')
+    graph = Graph("default","http://creativecommons.org/licenses/index.rdf")
+    uris = licenses.xpath("//jurisdiction/version/@uri")
     
     for uri in uris:
         if verbose:
-            print >>sys.stderr, 'Retrieving %srdf...' % uri
+            print >>sys.stderr, "Retrieving %srdf..." % uri
 
         try:
-            rdfsource = rdflib.URLInputSource('%srdf' % uri)
+            rdfsource = rdflib.URLInputSource("%srdf" % uri)
         except httplib.BadStatusLine, e:
-            print >>sys.stderr, 'Error retrieving %srdf; bad status line.' % uri
+            print >>sys.stderr, "Error retrieving %srdf; bad status line." % uri
             uris.append(uri)
             continue
         except urllib2.URLError, e:
-            print >>sys.stderr, 'URL error on %srdf.' % uri
+            print >>sys.stderr, "URL error on %srdf." % uri
             uris.append(uri)
 
 
         if verbose:
-            print >>sys.stderr, 'Parsing %srdf...' % uri
+            print >>sys.stderr, "Parsing %srdf..." % uri
 
         try:
             graph.parse(rdfsource, publicID=uri)
@@ -87,10 +87,10 @@ def main():
     assembleRDF(file(options.licenses_xml), output, options.verbose)
 
     if options.output_rdf:
-        file(options.output_rdf, 'w').write(output.getvalue())
+        file(options.output_rdf, "w").write(output.getvalue())
     else:
         print output.getvalue()
         
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
