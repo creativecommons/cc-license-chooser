@@ -3,8 +3,10 @@ import re
 import os
 import json
 import sys
-import convert
+
 sys.path.insert(0, "./license_xsl/licensexsl_tools")
+
+import convert  # noqa: E402 sys.path modification needed above
 
 
 def get_contents(soup, attr):
@@ -53,8 +55,8 @@ def gen_jurisdiction_info():
                 if this_ones_id == "generic":
                     name = "Unported"
                 else:
-                    name = convert.country_id2name(
-                        country_id=this_ones_id, language="en_US").encode("ascii")
+                    name = convert.country_id2name(country_id=this_ones_id,
+                                                   language="en_US").encode("ascii")  # noqa: E501
 
                 this_one["name"] = name
                 result[this_ones_id] = this_one

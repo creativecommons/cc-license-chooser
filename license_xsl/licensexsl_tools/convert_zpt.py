@@ -8,6 +8,7 @@ import os
 import convert
 import re
 import babel.messages.pofile
+from xml.dom.minidom import parseString
 
 xml_hack_replacements = dict()
 
@@ -21,7 +22,6 @@ def key2en(key):
     return unicode(pofile._messages[key].string)
 
 
-from xml.dom.minidom import parseString  # noqa E402: assuming this is imported later for a reason
 # sample input: <span i18n:translate="country.mk" />
 # sample output: <span i18n:translate="">Macedonia</span>
 def convert_zpt_string(s):  # noqa E302
@@ -89,7 +89,9 @@ def convert_zpt_dom_elements(elts):
 
 
 def i18nstring2dom_elts(u):
-    global xml_hack_replacements  # noqa E501: A lookup table for what Python generates vs. what translation expects
+    # xml_hack_replacements is a lookup table for
+    # what Python generates vs. what translations expects
+    global xml_hack_replacements
 
     u = unicode(u)
     wrapped = "<xml>{}</xml>".format(u.unicode("utf-8"))

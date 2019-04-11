@@ -119,7 +119,9 @@ def make(filename, outfile):
         lno += 1
         # If we get a comment line after a msgstr, this is a new entry
         if line[0] == "#" and section == STR:
-            add(msgid, msgstr, fuzzy)
+            # msgid and msgstr may give (functionally) false positives when
+            # linting, the variables are loaded from the .po file on line 108
+            add(msgid, msgstr, fuzzy)  # noqa: F821
             section = None
             fuzzy = 0
         # Record a fuzzy mark
@@ -131,7 +133,9 @@ def make(filename, outfile):
         # Now we are in a msgid section, output previous section
         if line.startswith("msgid"):
             if section == STR:
-                add(msgid, msgstr, fuzzy)
+                # msgid and msgstr may give (functionally) false positives when
+                # linting, the variables are loaded from the .po file on line 108
+                add(msgid, msgstr, fuzzy)  # noqa: F821
             section = ID
             line = line[5:]
             msgid = msgstr = ""

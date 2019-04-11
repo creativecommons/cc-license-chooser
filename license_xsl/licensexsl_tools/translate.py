@@ -33,7 +33,8 @@ import lxml.etree as et
 
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
-VARIABLE_RE = re.compile("\$\{.*?\}", re.I | re.M | re.S)  # noqa W605, E501: assuming the escape sequences are needed
+VARIABLE_RE = re.compile("[$][{].*?[}]",
+                         re.IGNORECASE | re.MULTILINE | re.DOTALL)
 
 POFILE_DIR = "../i18n/i18n_po"
 
@@ -100,15 +101,15 @@ def replace_vars(value):
         if value[match.start() - 1] != '"':
 
             # <xsl:value-of select="$license-name"/>
-            value = value[:match.start()] + \
-                   '<xsl:copy-of select="$' + \
-                    value[match.start() + 2:match.end() - 1] + \
-                    '"/>' + value[match.end():]
+            value = (value[:match.start()] +
+                     '<xsl:copy-of select="$' +
+                     value[match.start() + 2:match.end() - 1] +
+                     '"/>' + value[match.end():])
         else:
-            value = value[:match.start()] + \
-                    "{$" + \
-                    value[match.start() + 2:match.end() - 1] + \
-                    "}" + value[match.end():]
+            value = (value[:match.start()] +
+                     "{$" +
+                     value[match.start() + 2:match.end() - 1] +
+                     "}" + value[match.end():])
 
         match = VARIABLE_RE.search(value, match.end())
 
@@ -174,9 +175,9 @@ def loadOpts():
     parser.add_option("-o", "--output", dest="outputDir",
                       help="Save output files to specified directory"
                       "(defaults to the same directory as input files).")
-    parser.set_defaults(podir=os.path.join(os.path.dirname(
-        os.path.abspath(__file__)), POFILE_DIR)
-                        )
+    podir = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                         POFILE_DIR)  # noqa: E127
+    parser.set_defaults(podir=podir)
     return parser.parse_args()
 
 

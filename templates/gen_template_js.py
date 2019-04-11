@@ -11,11 +11,13 @@ import os
 import BeautifulSoup
 from xml.etree import ElementTree
 import sys
-import convert
+
+sys.path.insert(0, "./license_xsl/licensexsl_tools")
+import convert  # noqa: E402 sys.path modification needed above
+import translate  # noqa: E402 sys.path modification needed above
 
 LANGUAGE = "en_US"
 DEBUG = True
-sys.path.insert(0, "./license_xsl/licensexsl_tools")
 
 if not DEBUG:
     sys.stdout = open("/dev/null", "w")
@@ -105,15 +107,17 @@ def apply_variants(variants, dom):
 
 def jsify(in_string):
     in_string_lines = in_string.split("\n")
-    assert in_string_lines[0].count("<") == 1  # noqa: E501 There better only be one tag in this thing we"re clobbering.
-    assert in_string_lines[0][-1] == ">"  # noqa: E501 and it had better end with the tag end
+    # Assert to ensures there is only one tag in this thing we're clobbering.
+    assert in_string_lines[0].count("<") == 1
+    # and it had better end with the tag end
+    assert in_string_lines[0][-1] == ">"
     in_string = "\n".join(in_string_lines)
 
     outlines = [
     # noqa: E122 First, jam our in_string in
     "var in_string = {};".format(json.dumps(in_string)),
-    # Now, jam our HTML into a fresh, anonymous container DIV noqa: E122
-    # that code lives in append_ourselves.js. noqa: E122
+    # Now, jam our HTML into a fresh, anonymous container DIV that code lives
+    #      in append_ourselves.js.
     ]
     outlines.extend((line for line in open("append_ourselves.js")))
     return "\n".join(outlines)
@@ -127,29 +131,25 @@ def gen_templated_js(language, my_variants):
     generic_element_id = "cc_js_jurisdiction_choice_{}".format(generic_value)
     generic_name = convert.extremely_slow_translation_function(
         "Unported", language)
-    jurisdictions.append(dict(
-        id=generic_element_id,
-        value=generic_value,
-        name=generic_name))
+    jurisdictions.append(dict(id=generic_element_id, value=generic_value,
+                              name=generic_name))
     # Now jam everyone else in, too.
     for juri in jurisdiction_names:
         value = juri
         element_id = "cc_js_jurisdiction_choice_{}".format(value)
         name = convert.country_id2name(value, language)
         jurisdictions.append(dict(id=element_id, value=value, name=name))
-    expanded = expand_template_with_jurisdictions(
-        "template.html", jurisdictions)
+    expanded = expand_template_with_jurisdictions("template.html",
+                                                  jurisdictions)
     expanded_dom = ElementTree.fromstring(expanded)
 
     # translate the spans, then pull out the changed text
-    translate_spans_with_only_text_children(
-        expanded_dom.findall("span"), language)
+    translate_spans_with_only_text_children(expanded_dom.findall("span"),
+                                            language)
 
     apply_variants(my_variants, expanded_dom)
-    my_string = ElementTree.tostring(
-        expanded_dom,
-        encoding="utf-8",
-        method="xml")
+    my_string = ElementTree.tostring(expanded_dom, encoding="utf-8",
+                                     method="xml")
     if my_variants:
         my_suffix = ".".join(my_variants)
         my_filename_base = "template.{}.js".format(my_suffix)
@@ -195,25 +195,23 @@ def create_var_file(my_variants, languages, base_filename="template.js"):
     default_lang = "en"
     var_lines = ["URI: {}".format(template)]
     for lang in languages:
-        var_lines.append(gen_var_lang_line(
-            uri_base=template,
-            lang=lang,
-            default_lang=default_lang))
+        var_lines.append(gen_var_lang_line(uri_base=template, lang=lang,
+                         default_lang=default_lang))
     htaccess_fd = open("{}.var.tmp".format(template), "w")
     htaccess_fd.write("\n\n".join(var_lines) + "\n")
     htaccess_fd.close()
     os.rename("{}.var.tmp".format(template), "{}.var".format(template))
 
 
-def gen_var_lang_line(uri_base, lang, default_lang, content_type="text/javascript"):  # noqa: E501
+def gen_var_lang_line(uri_base, lang, default_lang,
+                      content_type="text/javascript"):
     if lang == default_lang:
         quality = "1.0"
     else:
         quality = "0.8"
 
-    out = """URI: {}.{}
-Content-Language: {}
-Content-Type: {}; qs = {}""".format(uri_base, lang, lang, content_type, quality)  # noqa: E501
+    out = ("URI: {}.{}\nContent-Language: {}\nContent-Type: {}; qs = {}"
+           .format(uri_base, lang, lang, content_type, quality))
     return out
 
 

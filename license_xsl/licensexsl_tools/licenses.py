@@ -145,25 +145,22 @@ def addLicense(filename, jurisdiction, version, licenses):
                     newelem.tail = "\n"
                     w.append(newelem)
             if found == 0:
-                # If it"s not there, add a new jurisdiction too.
+                # If it's not there, add a new jurisdiction too.
                 print "Creating new jurisdiction {}".format(jurisdiction)
                 newelem = v.makeelement("jurisdiction", None)
                 newelem.set("id", jurisdiction)
                 newelem.text = "\n"
                 v.append(newelem)
-                print "Adding version {} to new jurisdictions {}".format(
-                    version,
-                    jurisdiction)
+                print ("Adding version {} to new jurisdictions {}"
+                       .format(version, jurisdiction))
                 newelem2 = newelem.makeelement("version", None)
                 newelem2.set("id", version)
                 j = ""
                 if jurisdiction != "-":
                     j = "{}/".format(jurisdiction)
-                newelem2.set("uri", "http://creativecommons.org/licenses/{}/{}/{}".format( # noqa E501
-                    v.get("id"),
-                    version,
-                    j)
-                )
+                newelem2.set("uri",
+                             "http://creativecommons.org/licenses/{}/{}/{}"
+                             .format(v.get("id"), version, j))
                 newelem2.tail = "\n"
                 newelem.append(newelem2)
 

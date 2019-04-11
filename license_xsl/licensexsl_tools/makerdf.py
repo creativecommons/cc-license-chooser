@@ -40,8 +40,9 @@ def initOpts():
         ]
 
     usage = "%prog [-v] [-l licenses.xml] [-o output.rdf]"
+    version = "%prog {}".format(__version__)
     parser = OptionParser(usage=usage,
-                          version="%%prog %s" % __version__,
+                          version=version,
                           option_list=option_list)
 
     return parser
@@ -60,7 +61,8 @@ def assembleRDF(instream, outstream, verbose=False):
         try:
             rdfsource = rdflib.URLInputSource("{}rdf".format(uri))
         except httplib.BadStatusLine, e:
-            print >> sys.stderr, "Error retrieving {}rdf; bad status line.".format(uri)  # noqa E501
+            print >> sys.stderr, ("Error retrieving {}rdf; bad status line."
+                                  .format(uri))
             uris.append(uri)
             continue
         except urllib2.URLError, e:

@@ -19,6 +19,7 @@
 # DEALINGS IN THE SOFTWARE.
 
 from setuptools import setup
+dependency_links = ["http://www.owlfish.com/software/simpleTAL/download.html"]
 
 setup(
     name="licensexsl_tools",
@@ -37,7 +38,7 @@ setup(
                       "SimpleTAL",
                       "Babel",
                       ],
-    dependency_links=["http://www.owlfish.com/software/simpleTAL/download.html"],  # noqa: E501, line too long
+    dependency_links=dependency_links,
 
     include_package_data=True,
     zip_safe=True,
