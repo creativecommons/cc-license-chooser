@@ -33,7 +33,7 @@ is_jython = sys.platform.startswith("java")
 try:
     import pkg_resources
 except ImportError:
-    ez = {}
+    ez = dict()
     exec urllib2.urlopen("http://peak.telecommunity.com/dist/ez_setup.py"
                          ).read() in ez
     ez["use_setuptools"](to_dir=tmpeggs, download_delay=0)
@@ -43,7 +43,7 @@ except ImportError:
 if sys.platform == "win32":
     def quote(c):
         if " " in c:
-            return '"%s"' % c  # work around spawn lamosity on windows
+            return '"{}"'.format(c)  # work around spawn lamosity on windows
         else:
             return c
 else:
@@ -54,7 +54,7 @@ cmd = 'from setuptools.command.easy_install import main; main()'
 ws = pkg_resources.working_set
 
 if len(sys.argv) > 2 and sys.argv[1] == "--version":
-    VERSION = " == %s" % sys.argv[2]
+    VERSION = " == {}".format(sys.argv[2])
     args = sys.argv[3:] + ["bootstrap"]
 else:
     VERSION = ""
