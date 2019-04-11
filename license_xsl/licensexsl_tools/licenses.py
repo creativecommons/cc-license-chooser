@@ -129,7 +129,7 @@ def addLicense(filename, jurisdiction, version, licenses):
                 if w.get("id") == jurisdiction:
                     # If it"s there, add in the new version.
                     found = 1
-                    print "Adding version {} to existing jurisdiction {}.".format(
+                    print "Adding version {} to existing jurisdiction {}.".format(  # noqa E501
                           version, jurisdiction)
                     newelem = w.makeelement("version", None)
                     newelem.set("id", version)
@@ -243,7 +243,7 @@ def main():
     if argdict is None:
         parser.print_help()
         sys.exit(1)
-  
+
     if not(opts.infoOnly):
         addLicense(opts.filename,
                    argdict["jurisdiction"],
