@@ -10,14 +10,12 @@ import cStringIO as StringIO
 import os
 import BeautifulSoup
 from xml.etree import ElementTree
+import sys
+import convert
 
 LANGUAGE = "en_US"
-
 DEBUG = True
-
-import sys  # noqa: E402
 sys.path.insert(0, "./license_xsl/licensexsl_tools")
-import convert  # noqa: E402
 
 if not DEBUG:
     sys.stdout = open("/dev/null", "w")
@@ -215,7 +213,7 @@ def gen_var_lang_line(uri_base, lang, default_lang, content_type="text/javascrip
 
     out = """URI: {}.{}
 Content-Language: {}
-Content-Type: {}; qs = {}""".format(uri_base, lang, lang, content_type, quality)
+Content-Type: {}; qs = {}""".format(uri_base, lang, lang, content_type, quality)  # noqa: E501
     return out
 
 
