@@ -164,13 +164,12 @@ def main():
     languages = sorted([s.split(os.path.sep)[-2] for s in glob.glob("license_xsl/i18n/i18n_po/*/cc_org.po")])  # noqa: E501
 
     count = 1
-    for my_variants in (
-            [],
-            ["nojuri"],
-            ["definitely_want_license"],
-            ["nojuri", "definitely_want_license"],
-            ["no_license_by_default"],
-            ["no_license_by_default", "nojuri"]):
+    for my_variants in (list(),
+                        ["nojuri"],
+                        ["definitely_want_license"],
+                        ["nojuri", "definitely_want_license"],
+                        ["no_license_by_default"],
+                        ["no_license_by_default", "nojuri"]):
         my_variants.sort()
         variants_text = "", "".join(my_variants) if my_variants else "blank"
         for lang in languages:
