@@ -14,7 +14,6 @@ import sys
 
 sys.path.insert(0, "./license_xsl/licensexsl_tools")
 import convert  # noqa: E402 sys.path modification needed above
-import translate  # noqa: E402 sys.path modification needed above
 
 LANGUAGE = "en_US"
 DEBUG = True
