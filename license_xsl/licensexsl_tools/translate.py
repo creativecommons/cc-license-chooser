@@ -22,23 +22,19 @@ __version__ = "$Revision: 7581 $"
 import re
 import sys
 import os
-import fnmatch
-import tempfile
-import subprocess
 import optparse
-import re
 import shutil
-import glob
 
 from babel.messages.pofile import read_po
 from simpletal import simpleTAL, simpleTALES
 
 # import the ElementTree API
 import lxml.etree as et
-    
+
 CVSROOT = ":pserver:anonymous@cvs.sf.net:/cvsroot/cctools"
 CVSMODULE = "zope/iStr/i18n"
-VARIABLE_RE = re.compile("\$\{.*?\}", re.I|re.M|re.S)
+VARIABLE_RE = re.compile("[$][{].*?[}]",
+                         re.IGNORECASE | re.MULTILINE | re.DOTALL)
 
 POFILE_DIR = "../i18n/i18n_po"
 
@@ -49,13 +45,13 @@ def fix_tags(input_string):
 
     # convert & to &amp;
     input_string = re.sub("&(?!amp;)", "&amp;", input_string)
-    
-    tag_re = re.compile("<([\w]+)([\w\t =\"']*)>")
+
+    tag_re = re.compile("<([\w]+)([\w\t =\"']*)>")  # noqa W605: ignoring because in RegEx
     match = re.match(tag_re, input_string)
 
     if not(match):
         return input_string
-    
+
     # the input string contains what appears to be markup
     try:
         # try to parse as XML to see if we're well formed
@@ -63,21 +59,21 @@ def fix_tags(input_string):
 
         # valid XML
         return input_string
-    
-    except Exception, e:
+
+    except Exception:
         # not well formed XML -- probably unbalanced tags
 
         # try the stupid solution -- just close the first tag we find
-        new_input = input_string + "</" + match.groups()[0] + ">"
+        new_input = "{}</{}>".format(input_string, match.groups()[0])
 
         try:
             et.XML(new_input)
 
             return new_input
-        except Exception, e:
+        except Exception:
             # OK, that didn't work... fall back to HTML
             pass
-                        
+
         # no success -- parse as HTML, escaping namespace declarations
         tree = et.HTML(input_string.replace(":", "__"))
     else:
@@ -96,28 +92,30 @@ def fix_tags(input_string):
         return et.tostring(tree.xpath("//html/body/p")[0]
                            )[3:-4].replace("__", ":")
 
+
 def replace_vars(value):
     """Replace gettext variable declarations with XSLT copy-of's."""
-    
-    match = VARIABLE_RE.search(value) 	 
-    while match is not None: 	 
-        if value[match.start() - 1] != '"': 	 
 
-            #<xsl:value-of select="$license-name"/> 	 
-            value = value[:match.start()] + \
-                   '<xsl:copy-of select="$' + \
-                    value[match.start() + 2:match.end() - 1] + \
-                    '"/>' + value[match.end():]
+    match = VARIABLE_RE.search(value)
+    while match is not None:
+        if value[match.start() - 1] != '"':
+
+            # <xsl:value-of select="$license-name"/>
+            value = (value[:match.start()] +
+                     '<xsl:copy-of select="$' +
+                     value[match.start() + 2:match.end() - 1] +
+                     '"/>' + value[match.end():])
         else:
-            value = value[:match.start()] + \
-                    "{$" + \
-                    value[match.start() + 2:match.end() - 1] + \
-                    "}" + value[match.end():]
+            value = (value[:match.start()] +
+                     "{$" +
+                     value[match.start() + 2:match.end() - 1] +
+                     "}" + value[match.end():])
 
         match = VARIABLE_RE.search(value, match.end())
 
     return value
-                             
+
+
 def lookupString(key, locale):
     global LOCALES
 
@@ -130,26 +128,27 @@ def lookupString(key, locale):
 
     return fix_tags(replace_vars(result))
 
+
 def loadCatalogs(source_dir):
     """Load the translation catalogs and return a dictionary mapping
     the locale code to the PoFile object."""
 
     langs = {}
-    
+
     for root, dirnames, filenames in os.walk(source_dir):
         for fn in filenames:
             if fn[-3:] == ".po":
 
                 # figure out what locale this is based on pathname
                 locale = root.split(os.sep)[-1]
-                print "loading catalog for %s..." % locale
-                
+                print "loading catalog for {}...".format(locale)
+
                 msg_catalog = read_po(
                     file(os.path.abspath(os.path.join(root, fn)), "r"))
-                
-                langs[locale] = msg_catalog
 
+                langs[locale] = msg_catalog
     return langs
+
 
 def loadJurisdictions():
     """Load licenses.xml and return a sequence of launched jurisdiction
@@ -165,22 +164,23 @@ def loadJurisdictions():
     # strip out generic codes, as we don't add those to the license name
     return [n for n in codes if n not in ("", "-")]
 
+
 def loadOpts():
     """Parse command line options; returns a tuple of (opts, args)."""
     parser = optparse.OptionParser(usage="%prog [options...] files",
                                    version="%%prog %s" % __version__)
 
     parser.add_option("--podir", dest="podir",
-                     help="Directory containing .po translation files.")
+                      help="Directory containing .po translation files.")
     parser.add_option("-o", "--output", dest="outputDir",
                       help="Save output files to specified directory"
                       "(defaults to the same directory as input files).")
-    parser.set_defaults(podir = os.path.join(os.path.dirname(
-        os.path.abspath(__file__)), POFILE_DIR)
-                        )
-    
+    podir = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                         POFILE_DIR)  # noqa: E127
+    parser.set_defaults(podir=podir)
     return parser.parse_args()
-    
+
+
 def main():
     global LOCALES
 
@@ -192,15 +192,15 @@ def main():
 
     # load the catalogs and jurisdiction list
     LOCALES = loadCatalogs(opts.podir)
-    
+
     # determine our output directory
     output_dir = getattr(opts, "outputDir", None)
 
     # set up our TAL context
     context = simpleTALES.Context(allowPythonPath=1)
-    context.addGlobal ("locales", LOCALES.keys())
-    context.addGlobal ("jurisdictions", loadJurisdictions())
-    context.addGlobal ("lookupString", lookupString)
+    context.addGlobal("locales", LOCALES.keys())
+    context.addGlobal("jurisdictions", loadJurisdictions())
+    context.addGlobal("lookupString", lookupString)
 
     # iterate over the specified
     for in_fn in args:
@@ -211,14 +211,14 @@ def main():
             out_fn = os.path.join(output_dir, os.path.basename(in_fn)[:-3])
 
         # generate a temporary intermediary file to validate the XML
-        temp_fn = "%s.tmp" % out_fn
+        temp_fn = "{}.tmp".format(out_fn)
 
         # compile the template and write it to the temporary file
-        template = simpleTAL.compileXMLTemplate (open (in_fn, "r"))
+        template = simpleTAL.compileXMLTemplate(open(in_fn, "r"))
         output = file(temp_fn, "w")
 
-        print "writing to %s.." % temp_fn
-        template.expand (context, output, "utf-8")
+        print "writing to {}..".format(temp_fn)
+        template.expand(context, output, "utf-8")
         output.close()
 
         # try to clear the error log before checking validity
@@ -227,22 +227,22 @@ def main():
         except AttributeError:
             # lxml < 1.1
             pass
-        
+
         # re-read the temp file and parse it for well-formed-ness
         try:
-            print "validating XML structure of %s..." % temp_fn
-            tree = et.parse(temp_fn)
+            print "validating XML structure of {}...".format(temp_fn)
+            tree = et.parse(temp_fn)  # noqa F841
 
         except Exception, e:
             print
-            print "An error exists in %s: " % temp_fn
+            print "An error exists in {}: ".format(temp_fn)
             print e
             sys.exit(1)
-                
+
         # the file was either read correctly or elementtree is not available
-        print "moving %s to %s..." % (temp_fn, out_fn)
+        print "moving {} to {}...".format(temp_fn, out_fn)
         shutil.move(temp_fn, out_fn)
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     main()

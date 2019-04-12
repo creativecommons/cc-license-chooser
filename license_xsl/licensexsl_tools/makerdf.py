@@ -21,6 +21,7 @@ import httplib
 import urllib2
 from optparse import make_option, OptionParser
 
+
 def initOpts():
     """Assemble the option parser."""
 
@@ -39,35 +40,37 @@ def initOpts():
         ]
 
     usage = "%prog [-v] [-l licenses.xml] [-o output.rdf]"
+    version = "%prog {}".format(__version__)
     parser = OptionParser(usage=usage,
-                                   version="%%prog %s" % __version__,
-                                   option_list = option_list)
+                          version=version,
+                          option_list=option_list)
 
     return parser
+
 
 def assembleRDF(instream, outstream, verbose=False):
 
     licenses = lxml.etree.parse(instream)
-    graph = Graph("default","http://creativecommons.org/licenses/index.rdf")
+    graph = Graph("default", "http://creativecommons.org/licenses/index.rdf")
     uris = licenses.xpath("//jurisdiction/version/@uri")
-    
+
     for uri in uris:
         if verbose:
-            print >>sys.stderr, "Retrieving %srdf..." % uri
+            print >> sys.stderr, "Retrieving {}rdf...".format(uri)
 
         try:
-            rdfsource = rdflib.URLInputSource("%srdf" % uri)
+            rdfsource = rdflib.URLInputSource("{}rdf".format(uri))
         except httplib.BadStatusLine, e:
-            print >>sys.stderr, "Error retrieving %srdf; bad status line." % uri
+            print >> sys.stderr, ("Error retrieving {}rdf; bad status line."
+                                  .format(uri))
             uris.append(uri)
             continue
         except urllib2.URLError, e:
-            print >>sys.stderr, "URL error on %srdf." % uri
+            print >> sys.stderr, "URL error on {}rdf.".format(uri)
             uris.append(uri)
 
-
         if verbose:
-            print >>sys.stderr, "Parsing %srdf..." % uri
+            print >> sys.stderr, "Parsing {}rdf...".format(uri)
 
         try:
             graph.parse(rdfsource, publicID=uri)
@@ -77,20 +80,21 @@ def assembleRDF(instream, outstream, verbose=False):
 
     graph.serialize(outstream)
 
+
 def main():
     """Run the makerdf script."""
     optparser = initOpts()
     (options, args) = optparser.parse_args()
 
     output = StringIO.StringIO()
-    
+
     assembleRDF(file(options.licenses_xml), output, options.verbose)
 
     if options.output_rdf:
         file(options.output_rdf, "w").write(output.getvalue())
     else:
         print output.getvalue()
-        
+
 
 if __name__ == "__main__":
     main()

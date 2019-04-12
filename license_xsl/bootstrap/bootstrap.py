@@ -20,7 +20,11 @@ use the -c option to specify an alternate configuration file.
 $Id: bootstrap.py 99574 2009-04-29 13:37:44Z tarek $
 """
 
-import os, shutil, sys, tempfile, urllib2
+import os
+import shutil
+import sys
+import tempfile
+import urllib2
 
 tmpeggs = tempfile.mkdtemp()
 
@@ -29,7 +33,7 @@ is_jython = sys.platform.startswith("java")
 try:
     import pkg_resources
 except ImportError:
-    ez = {}
+    ez = dict()
     exec urllib2.urlopen("http://peak.telecommunity.com/dist/ez_setup.py"
                          ).read() in ez
     ez["use_setuptools"](to_dir=tmpeggs, download_delay=0)
@@ -39,18 +43,18 @@ except ImportError:
 if sys.platform == "win32":
     def quote(c):
         if " " in c:
-            return '"%s"' % c # work around spawn lamosity on windows
+            return '"{}"'.format(c)  # work around spawn lamosity on windows
         else:
             return c
 else:
-    def quote (c):
+    def quote(c):
         return c
 
 cmd = 'from setuptools.command.easy_install import main; main()'
-ws  = pkg_resources.working_set
+ws = pkg_resources.working_set
 
 if len(sys.argv) > 2 and sys.argv[1] == "--version":
-    VERSION = " == %s" % sys.argv[2]
+    VERSION = " == {}".format(sys.argv[2])
     args = sys.argv[3:] + ["bootstrap"]
 else:
     VERSION = ""
@@ -60,25 +64,25 @@ if is_jython:
     import subprocess
 
     assert subprocess.Popen([sys.executable] + ["-c", quote(cmd), "-mqNxd",
-           quote(tmpeggs), "zc.buildout" + VERSION],
+           quote(tmpeggs), "zc.buildout" + VERSION],  # noqa E128: preserving syntactic sugar
            env=dict(os.environ,
-               PYTHONPATH=
+               PYTHONPATH=  # noqa E251
                ws.find(pkg_resources.Requirement.parse("setuptools")).location
                ),
            ).wait() == 0
 
 else:
     assert os.spawnle(
-        os.P_WAIT, sys.executable, quote (sys.executable),
-        "-c", quote (cmd), "-mqNxd", quote (tmpeggs), "zc.buildout" + VERSION,
+        os.P_WAIT, sys.executable, quote(sys.executable),
+        "-c", quote(cmd), "-mqNxd", quote(tmpeggs), "zc.buildout" + VERSION,
         dict(os.environ,
-            PYTHONPATH=
+            PYTHONPATH=  # noqa E128, E251: preserving syntactic sugar
             ws.find(pkg_resources.Requirement.parse("setuptools")).location
             ),
         ) == 0
 
 ws.add_entry(tmpeggs)
 ws.require("zc.buildout" + VERSION)
-import zc.buildout.buildout
+import zc.buildout.buildout  # noqa E402: assuming that this is at the end for a reason
 zc.buildout.buildout.main(args)
 shutil.rmtree(tmpeggs)

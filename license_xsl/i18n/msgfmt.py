@@ -1,6 +1,6 @@
 #! /usr/bin/python2.4
 # -*- coding: iso-8859-1 -*-
-# Written by Martin v. Löwis <loewis@informatik.hu-berlin.de>
+# Written by Martin v. Lï¿½wis <loewis@informatik.hu-berlin.de>
 
 """Generate binary message catalog from textual translation description.
 
@@ -33,10 +33,9 @@ import array
 
 __version__ = "1.1"
 
-MESSAGES = {}
+MESSAGES = dict()
 
 
-
 def usage(code, msg=""):
     print >> sys.stderr, __doc__
     if msg:
@@ -44,12 +43,12 @@ def usage(code, msg=""):
     sys.exit(code)
 
 
-
 def add(id, str, fuzzy):
     "Add a non-fuzzy translation to the dictionary."
     global MESSAGES
     if not fuzzy and str:
         MESSAGES[id] = str
+
 
 def generate():
     "Return the generated output."
@@ -57,7 +56,7 @@ def generate():
     keys = MESSAGES.keys()
     # the keys are sorted in the .mo file
     keys.sort()
-    offsets = []
+    offsets = list()
     ids = strs = ""
     for id in keys:
         # For each string, we need size and file offset.  Each string is NUL
@@ -72,8 +71,8 @@ def generate():
     keystart = 7*4+16*len(keys)
     # and the values start after the keys
     valuestart = keystart + len(ids)
-    koffsets = []
-    voffsets = []
+    koffsets = list()
+    voffsets = list()
     # The string table first has the list of keys, then the list of values.
     # Each entry has first the size of the string, then the file offset.
     for o1, l1, o2, l2 in offsets:
@@ -92,6 +91,7 @@ def generate():
     output += strs
     return output
 
+
 def make(filename, outfile):
     ID = 1
     STR = 2
@@ -100,9 +100,9 @@ def make(filename, outfile):
     if filename.endswith(".po"):
         infile = filename
     else:
-        infile = filename + ".po"
+        infile = "{}.po".format(filename)
     if outfile is None:
-        outfile = os.path.splitext(infile)[0] + ".mo"
+        outfile = "{}.mo".format(os.path.splitext(infile)[0])
 
     try:
         lines = open(infile).readlines()
@@ -115,44 +115,48 @@ def make(filename, outfile):
 
     # Parse the catalog
     lno = 0
-    for l in lines:
+    for line in lines:
         lno += 1
         # If we get a comment line after a msgstr, this is a new entry
-        if l[0] == "#" and section == STR:
-            add(msgid, msgstr, fuzzy)
+        if line[0] == "#" and section == STR:
+            # msgid and msgstr may give (functionally) false positives when
+            # linting, the variables are loaded from the .po file on line 108
+            add(msgid, msgstr, fuzzy)  # noqa: F821
             section = None
             fuzzy = 0
         # Record a fuzzy mark
-        if l[:2] == "#," and l.find("fuzzy"):
+        if line[:2] == "#," and line.find("fuzzy"):
             fuzzy = 1
         # Skip comments
-        if l[0] == "#":
+        if line[0] == "#":
             continue
         # Now we are in a msgid section, output previous section
-        if l.startswith("msgid"):
+        if line.startswith("msgid"):
             if section == STR:
-                add(msgid, msgstr, fuzzy)
+                # msgid and msgstr may give (functionally) false positives when
+                # linting, the variables are loaded from the .po file on line 108
+                add(msgid, msgstr, fuzzy)  # noqa: F821
             section = ID
-            l = l[5:]
+            line = line[5:]
             msgid = msgstr = ""
         # Now we are in a msgstr section
-        elif l.startswith("msgstr"):
+        elif line.startswith("msgstr"):
             section = STR
-            l = l[6:]
+            line = line[6:]
         # Skip empty lines
-        l = l.strip()
-        if not l:
+        line = line.strip()
+        if not line:
             continue
         # XXX: Does this always follow Python escape semantics?
-        l = eval(l)
+        line = eval(line)
         if section == ID:
-            msgid += l
+            msgid += line
         elif section == STR:
-            msgstr += l
+            msgstr += line
         else:
-            print >> sys.stderr, "Syntax error on %s:%d" % (infile, lno), \
+            print >> sys.stderr, "Syntax error on {}:{}".format(infile, lno), \
                   "before:"
-            print >> sys.stderr, l
+            print >> sys.stderr, line
             sys.exit(1)
     # Add last entry
     if section == STR:
@@ -162,12 +166,11 @@ def make(filename, outfile):
     output = generate()
 
     try:
-        open(outfile,"wb").write(output)
-    except IOError,msg:
+        open(outfile, "wb").write(output)
+    except IOError, msg:
         print >> sys.stderr, msg
 
 
-
 def main():
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hVo:",

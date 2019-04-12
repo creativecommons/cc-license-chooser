@@ -1,30 +1,33 @@
 #!/usr/bin/python
-## USAGE: convert_zpt.py $zpt_file.py
-## converts it from using the old i18n:translate="key" to creating
-## a text child of that node with the English version of that
-## sitting inside.
+# USAGE: convert_zpt.py $zpt_file.py
+# converts it from using the old i18n:translate="key" to creating
+# a text child of that node with the English version of that
+# sitting inside.
 
 import os
 import convert
 import re
 import babel.messages.pofile
+from xml.dom.minidom import parseString
 
-xml_hack_replacements = {}
+xml_hack_replacements = dict()
+
 
 def key2en(key):
-    filename = os.path.join(convert.get_default_pofile_path(), "icommons-en.po")
+    filename = os.path.join(convert.get_default_pofile_path(),
+                            "icommons-en.po")
     pofile = babel.messages.pofile.read_po(open(filename))
     # pofile._messages is a mapping from string ID to Message object
     # Message objects should have .string gotten from them
     return unicode(pofile._messages[key].string)
 
-from xml.dom.minidom import parseString
-## sample input: <span i18n:translate="country.mk" />
-## sample output: <span i18n:translate="">Macedonia</span>
-def convert_zpt_string(s):
+
+# sample input: <span i18n:translate="country.mk" />
+# sample output: <span i18n:translate="">Macedonia</span>
+def convert_zpt_string(s):  # noqa E302
     try:
         u = unicode(s)
-    except:
+    except Exception:
         u = unicode(s, "utf-8")
     utf8 = u.encode("utf-8")
     dom = parseString(utf8)
@@ -35,21 +38,24 @@ def convert_zpt_string(s):
     # Hand an XML "string" back
     xml_str = unicode(dom.toxml(encoding="utf-8"), "utf-8")
     for replaceme in xml_hack_replacements:
-        xml_str.replace(replaceme.decode("utf-8"), xml_hack_replacements[replaceme].decode("utf-8"))
+        xml_str.replace(replaceme.decode("utf-8"),
+                        xml_hack_replacements[replaceme].decode("utf-8"))
     return xml_str
 
+
 def convert_zpt_dom_elements(elts):
-    """Input: A list of DOM elements where you want <span i18n:translate="bbq"></span>
-    to become <span i18n:translate="">Barbecue</span>
-    Output: None
-    Side-Effect: elts are converted as described in Input"""
+    # noqa; Input: A list of DOM elements where you want <span i18n:translate="bbq"></span>
+    # to become <span i18n:translate="">Barbecue</span>
+    # Output: None
+    # Side-Effect: elts are converted as described in Input
     # For each element, does it have an i18n:translate='' field?
     # If so, then we:
     # 0. Remove all children of the element
     # 1. store that value as the i18n_key
     # 2. remove the i18n:translate attribute
     # 3. look up the i18n_value for that key
-    # 4. Turn that i18n_value into DOM elements we can insert safely into this DOM object
+    # 4. Turn that i18n_value into DOM elements we can
+    #    insert safely into this DOM object
 
     for elt in elts:
         if hasattr(elt, "attributes") and elt.attributes:
@@ -62,14 +68,14 @@ def convert_zpt_dom_elements(elts):
             i18n_key = elt.attributes["i18n:translate"].nodeValue
             if i18n_key:
                 # Step 0
-                elt.childNodes = [] # Step 0
+                elt.childNodes = list()  # Step 0
 
                 # Step 2
                 elt.setAttribute("i18n:translate", "")
 
                 # Step 3
                 i18n_value_as_unicode = unicode(key2en(i18n_key))
-                i18n_value_as_raw_dom_elts = i18nstring2dom_elts(i18n_value_as_unicode)
+                i18n_value_as_raw_dom_elts = i18nstring2dom_elts(i18n_value_as_unicode)  # noqa E501
 
                 # Step 4
                 # Then, we modify the raw parsed i18n DOM elements
@@ -81,13 +87,18 @@ def convert_zpt_dom_elements(elts):
         else:
             convert_zpt_dom_elements(elt.childNodes)
 
+
 def i18nstring2dom_elts(u):
-    global xml_hack_replacements # A lookup table for what Python generates vs. what translation expects
+    # xml_hack_replacements is a lookup table for
+    # what Python generates vs. what translations expects
+    global xml_hack_replacements
 
     u = unicode(u)
-    wrapped = "<xml>%s</xml>" % u.encode("utf-8")
+    wrapped = "<xml>{}</xml>".format(u.unicode("utf-8"))
     s_as_dom_elts = parseString(wrapped)
-    original_de_xmled = de_xmled = s_as_dom_elts.toxml(encoding="utf-8").split("\n", 1)[1]
+    original_de_xmled = de_xmled = s_as_dom_elts.toxml(
+            encoding="utf-8"
+        ).split("\n", 1)[1]
 
     # <evil hacks> :-)
     if "<br />" in wrapped:
@@ -103,12 +114,13 @@ def i18nstring2dom_elts(u):
 
     return s_as_dom_elts.firstChild.childNodes
 
+
 def add_translation_spans_to_dom_elts(elts):
     ''' This modifies the DOM that the elements belong to.
     Using the DOM promotes side-effect-based programming,
     and it would be a little silly to jam SAX into here, too.'''
-    for elt in list(elts): # iterate over a copy because this
-                   # modifies the list
+    for elt in list(elts):  # iterate over a copy because this
+        # modifies the list
         dom = elt.ownerDocument
         if elt.nodeType == elt.TEXT_NODE:
             # Then we must remove the sucker, and put in its place
@@ -139,16 +151,17 @@ def add_translation_spans_to_dom_elts(elts):
             index = parent.childNodes.index(elt)
             # Use the old position as an anchor.
             parent.childNodes[index:index+1] = replacements
-        else: # it's not text
+        else:  # it's not text
             add_translation_spans_to_dom_elts(elt.childNodes)
 
-## NOTE that I'm not going to handle internal translation variables yet (ever?)
-## when fixing those by hand will probably be okay.
+
+# NOTE that I'm not going to handle internal translation variables yet (ever?)
+# when fixing those by hand will probably be okay.
 def main(filename):
     old_string = unicode(open(filename).read(), 'utf-8')
     new_string = convert_zpt_string(old_string)
     assert(type(new_string) == unicode)
-    # Totally lame hacks.  First of all, swipe out the first <?xml> thing
+    # Totally unpleasing hacks.  First of all, swipe out the first <?xml> thing
     if new_string.split("\n")[0] == '<?xml version="1.0" encoding="utf-8"?>':
         new_string = "\n".join(new_string.split("\n")[1:])
     assert not new_string.startswith("<?xml")
@@ -157,6 +170,7 @@ def main(filename):
         new_string += "\n"
     fd = open(filename, "w")
     fd.write(new_string.encode("utf-8"))
+
 
 if __name__ == "__main__":
     import sys
