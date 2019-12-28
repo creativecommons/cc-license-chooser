@@ -49,7 +49,7 @@ foreach ($pre_reqs as $pre_req) {
 }
 
 /* Send out the translations, too. */
-echo file_get_contents('cc-translations.js.' . $gettextlang);
+echo file_get_contents('translations/cc-translations.js.' . $gettextlang);
 
 /* NOTE: I do not include the CSS stylesheet
    and instead I let others style our boxes the way they want. */
@@ -79,9 +79,9 @@ if (array_key_exists('want_a_license', $_GET)) {
 sort($extras);
 $extras_string = implode('.', $extras);
 if ($extras_string) {
-    $template_dot_js = 'template.' . $extras_string . '.js';
+    $template_dot_js = 'templates/template.' . $extras_string . '.js';
 } else {
-    $template_dot_js = 'template.js';
+    $template_dot_js = 'templates/template.js';
 }
 
 /* Then tack on the gettext language. */
