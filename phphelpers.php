@@ -3,7 +3,7 @@ function list_languages() {
   $my_path = dirname(__FILE__);
   
   // Internal-ish lame fact: template.js.* is what defines our languages
-  $base_path = $my_path . '/template.js.';
+  $base_path = $my_path . '/templates/template.js.';
   $all = glob($base_path . '*');
   
   // Strip off filename part

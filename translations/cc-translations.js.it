@@ -21,7 +21,7 @@ function cc_js_t(s) {
  if (s == "We have updated the version of your license to the most recent one available.") { return "We have updated the version of your license to the most recent one available."; } 
  if (s == "Slovenia") { return "Slovenia"; } 
  if (s == "Guatemala") { return "Guatemala"; } 
- if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Il <em>licenziante</em> acconsente che altri copino, distribuiscano, esibiscano ed eseguano l'opera. In cambio i <em>licenziatari</em> non possono usare l'<em>opera</em> per scopi commerciali &mdash; a meno che non abbiano ottenuto il permesso del <em>licenziante</em>."; } 
+ if (s == "The licensor permits others to copy, distribute and transmit the work. In return, licensees may not use the work for commercial purposes — unless they get the licensor's permission.") { return "Il <em>licenziante</em> acconsente che altri copinoo, distribuiscano, esibiscano ed eseguano l'opera. In cambio i <em>licenziatari</em> non possono usare l'<em>opera</em> per scopi commerciali &mdash; a meno che non abbiano ottenuto il permesso del <em>licenziante</em>."; } 
  if (s == "Noncommercial") { return "Non commerciale"; } 
  if (s == "Puerto Rico") { return "Puerto Rico"; } 
  if (s == "Belgium") { return "Belgio"; } 
@@ -53,7 +53,7 @@ function cc_js_t(s) {
  if (s == "If you desire a license governed by the Copyright Law of a specific jurisdiction, please select the appropriate jurisdiction.") { return "Se desideri una licenza adattata a una specifica giurisdizione, scegli la giurisdizione appropriata.\nAd esempio, se desideri che la tua opera sia protetta secondo le leggi sul diritto d'autore vigenti in Giappone, \nscegli la versione giapponese della licenza."; } 
  if (s == "Bulgaria") { return "Bulgaria"; } 
  if (s == "Romania") { return "Romania"; } 
- if (s == "Licensor permits others to make derivative works") { return "Licensor permits others to make derivative works"; } 
+ if (s == "Licensor permits others to make derivative works") { return "Il <em>licenziante</em> acconsente che altri realizzino opere derivate"; } 
  if (s == "Portugal") { return "Portogallo"; } 
  if (s == "Mexico") { return "Mexico"; } 
  if (s == "work") { return "opera"; } 
