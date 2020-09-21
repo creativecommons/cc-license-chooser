@@ -64,9 +64,9 @@ if is_jython:
     import subprocess
 
     assert subprocess.Popen([sys.executable] + ["-c", quote(cmd), "-mqNxd",
-           quote(tmpeggs), "zc.buildout" + VERSION],  # noqa E128: preserving syntactic sugar
+           quote(tmpeggs), "zc.buildout" + VERSION],  # noqa: E128: preserving syntactic sugar
            env=dict(os.environ,
-               PYTHONPATH=  # noqa E251
+               PYTHONPATH=  # noqa: E251
                ws.find(pkg_resources.Requirement.parse("setuptools")).location
                ),
            ).wait() == 0
@@ -76,13 +76,13 @@ else:
         os.P_WAIT, sys.executable, quote(sys.executable),
         "-c", quote(cmd), "-mqNxd", quote(tmpeggs), "zc.buildout" + VERSION,
         dict(os.environ,
-            PYTHONPATH=  # noqa E128, E251: preserving syntactic sugar
+            PYTHONPATH=  # noqa: E128, E251: preserving syntactic sugar
             ws.find(pkg_resources.Requirement.parse("setuptools")).location
             ),
         ) == 0
 
 ws.add_entry(tmpeggs)
 ws.require("zc.buildout" + VERSION)
-import zc.buildout.buildout  # noqa E402: assuming that this is at the end for a reason
+import zc.buildout.buildout  # noqa: E402: assuming that this is at the end for a reason
 zc.buildout.buildout.main(args)
 shutil.rmtree(tmpeggs)
