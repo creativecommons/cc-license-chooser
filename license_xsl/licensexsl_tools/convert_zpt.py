@@ -24,7 +24,7 @@ def key2en(key):
 
 # sample input: <span i18n:translate="country.mk" />
 # sample output: <span i18n:translate="">Macedonia</span>
-def convert_zpt_string(s):  # noqa E302
+def convert_zpt_string(s):  # noqa: E302
     try:
         u = unicode(s)
     except Exception:
@@ -75,7 +75,7 @@ def convert_zpt_dom_elements(elts):
 
                 # Step 3
                 i18n_value_as_unicode = unicode(key2en(i18n_key))
-                i18n_value_as_raw_dom_elts = i18nstring2dom_elts(i18n_value_as_unicode)  # noqa E501
+                i18n_value_as_raw_dom_elts = i18nstring2dom_elts(i18n_value_as_unicode)  # noqa: E501
 
                 # Step 4
                 # Then, we modify the raw parsed i18n DOM elements

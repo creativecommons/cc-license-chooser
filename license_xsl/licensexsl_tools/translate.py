@@ -46,7 +46,7 @@ def fix_tags(input_string):
     # convert & to &amp;
     input_string = re.sub("&(?!amp;)", "&amp;", input_string)
 
-    tag_re = re.compile("<([\w]+)([\w\t =\"']*)>")  # noqa W605: ignoring because in RegEx
+    tag_re = re.compile("<([\w]+)([\w\t =\"']*)>")  # noqa: W605: ignoring because in RegEx
     match = re.match(tag_re, input_string)
 
     if not(match):
@@ -231,7 +231,7 @@ def main():
         # re-read the temp file and parse it for well-formed-ness
         try:
             print "validating XML structure of {}...".format(temp_fn)
-            tree = et.parse(temp_fn)  # noqa F841
+            tree = et.parse(temp_fn)  # noqa: F841
 
         except Exception, e:
             print

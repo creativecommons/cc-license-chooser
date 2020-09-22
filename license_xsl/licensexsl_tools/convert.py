@@ -26,7 +26,7 @@ def get_dirname_of_this_file():
 def get_default_pofile_path():
     return os.path.join(get_dirname_of_this_file(), "../i18n/i18n_po/")
 
-POFILE_PATH=get_default_pofile_path()  # noqa E305
+POFILE_PATH=get_default_pofile_path()  # noqa: E305
 
 
 def key2canonical(key):
@@ -43,7 +43,7 @@ def key2canonical(key):
 Output: a po file string that has the same contents as
 the original PO file, but the keys have been replaced with
 canonical values for those keys."""
-def pofd2converted(pofd):  # noqa E302: ignoring because of docstring 
+def pofd2converted(pofd):  # noqa: E302: ignoring because of docstring 
     r = babel.messages.pofile.read_po(pofd)
     # r._messages is a mapping from string ID to Message object
     # Message objects should have .string gotten from them
@@ -71,7 +71,7 @@ def pofd2converted(pofd):  # noqa E302: ignoring because of docstring
 
 
 pofile_cache = dict()
-def get_PoFile(language, use_cache=True):  # noqa E302
+def get_PoFile(language, use_cache=True):  # noqa: E302
     global pofile_cache
 
     if (not use_cache) or (language not in pofile_cache):
