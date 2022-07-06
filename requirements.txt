@@ -5,7 +5,7 @@ decorator==4.3.0
 enum34==1.1.6
 html==1.16
 ipython-genutils==0.2.0
-lxml==4.6.5
+lxml==4.9.1
 pbr==4.2.0
 pexpect==4.6.0
 ptyprocess==0.6.0
