@@ -9,7 +9,7 @@ lxml==4.9.1
 pbr==4.2.0
 pexpect==4.6.0
 ptyprocess==0.6.0
-Pygments==2.7.4
+Pygments==2.15.0
 pytz==2018.9
 simplegeneric==0.8.1
 SimpleTAL==4.3
